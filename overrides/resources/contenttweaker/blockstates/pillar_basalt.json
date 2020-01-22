@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/basalt/circle_basalt",
+			"down": "contenttweaker:blocks/rocks/basalt/circle_basalt",
+			"south": "contenttweaker:blocks/rocks/basalt/pillar_basalt",
+			"east": "contenttweaker:blocks/rocks/basalt/pillar_basalt",
+			"west": "contenttweaker:blocks/rocks/basalt/pillar_basalt",
+			"north": "contenttweaker:blocks/rocks/basalt/pillar_basalt",
+			"particle": "contenttweaker:blocks/rocks/basalt/pillar_basalt"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/basalt/pillar_basalt"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/basalt/pillar_basalt" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/basalt/pillar_basalt", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/basalt/pillar_basalt", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/basalt/pillar_basalt_side" }
+	}
+}

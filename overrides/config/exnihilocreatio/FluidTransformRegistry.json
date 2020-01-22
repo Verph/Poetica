@@ -1,0 +1,54 @@
+[
+  {
+    "inputFluid": "water",
+    "outputFluid": "witchwater",
+    "duration": 12000,
+    "transformingBlocks": [
+      "minecraft:mycelium:0"
+    ],
+    "blocksToSpawn": [
+      "minecraft:brown_mushroom:0",
+      "minecraft:red_mushroom:0",
+      "ore:listAllmushroom:0"
+    ]
+  },
+  {
+    "inputFluid": "salt_water",
+    "outputFluid": "witchwater",
+    "duration": 12000,
+    "transformingBlocks": [
+      "minecraft:mycelium:0"
+    ],
+    "blocksToSpawn": [
+      "minecraft:brown_mushroom:0",
+      "minecraft:red_mushroom:0",
+      "ore:listAllmushroom"
+    ]
+  },
+  {
+    "inputFluid": "fresh_water",
+    "outputFluid": "witchwater",
+    "duration": 12000,
+    "transformingBlocks": [
+      "minecraft:mycelium:0"
+    ],
+    "blocksToSpawn": [
+      "minecraft:brown_mushroom:0",
+      "minecraft:red_mushroom:0",
+      "ore:listAllmushroom"
+    ]
+  },
+  {
+    "inputFluid": "hot_water",
+    "outputFluid": "witchwater",
+    "duration": 12000,
+    "transformingBlocks": [
+      "minecraft:mycelium:0"
+    ],
+    "blocksToSpawn": [
+      "minecraft:brown_mushroom:0",
+      "minecraft:red_mushroom:0",
+      "ore:listAllmushroom"
+    ]
+  }
+]

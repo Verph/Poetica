@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/gneiss/circle_gneiss",
+        "side": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss"
+    }
+}

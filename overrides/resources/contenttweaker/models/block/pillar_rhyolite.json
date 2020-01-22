@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/rhyolite/circle_rhyolite",
+        "side": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite"
+    }
+}

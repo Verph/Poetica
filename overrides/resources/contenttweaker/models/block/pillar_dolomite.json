@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/dolomite/circle_dolomite",
+        "side": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite"
+    }
+}

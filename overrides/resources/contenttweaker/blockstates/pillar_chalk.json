@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/chalk/circle_chalk",
+			"down": "contenttweaker:blocks/rocks/chalk/circle_chalk",
+			"south": "contenttweaker:blocks/rocks/chalk/pillar_chalk",
+			"east": "contenttweaker:blocks/rocks/chalk/pillar_chalk",
+			"west": "contenttweaker:blocks/rocks/chalk/pillar_chalk",
+			"north": "contenttweaker:blocks/rocks/chalk/pillar_chalk",
+			"particle": "contenttweaker:blocks/rocks/chalk/pillar_chalk"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/chalk/pillar_chalk"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/chalk/pillar_chalk" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/chalk/pillar_chalk", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/chalk/pillar_chalk", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/chalk/pillar_chalk_side" }
+	}
+}

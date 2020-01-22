@@ -1,0 +1,64 @@
+{ 
+    "populate":{ 
+        "Lavender":{ 
+            "distribution":"surface",
+            "generator":{ 
+                "type":"decoration",
+                "block":[ 
+                    { 
+                        "name":"minecraft:red_flower",
+                        "metadata":2
+                    }
+                ],
+                "surface":[
+					"tfc:dry_grass/gneiss",
+					"tfc:dry_grass/marble",
+					"tfc:dry_grass/phyllite",
+					"tfc:dry_grass/quartzite",
+					"tfc:dry_grass/schist",
+					"tfc:dry_grass/slate",
+					"tfc:dry_grass/limestone",
+					"tfc:dry_grass/claystone"
+                ],
+                "cluster-size":64,
+                "see-sky":false,
+                "check-stay":false
+            },
+            "chunk-chance": 1,
+            "cluster-count":64,
+            "min-height":50,
+            "max-height":256,
+            "material":[ 
+                "minecraft:air",
+                "tfc:dry_grass/gneiss",
+                "tfc:dry_grass/marble",
+                "tfc:dry_grass/phyllite",
+                "tfc:dry_grass/quartzite",
+                "tfc:dry_grass/schist",
+                "tfc:dry_grass/slate",
+                "tfc:dry_grass/limestone",
+                "tfc:dry_grass/claystone"
+            ],
+            "follow-terrain":true,
+            "retrogen":false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"tfc:rolling_hills"
+						]
+					}
+				]
+			},
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+            }
+        }
+    }
+}

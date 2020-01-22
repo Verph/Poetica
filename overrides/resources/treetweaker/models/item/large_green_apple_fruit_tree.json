@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "treetweaker:blocks/large_green_apple_fruit_tree"
+    }
+}

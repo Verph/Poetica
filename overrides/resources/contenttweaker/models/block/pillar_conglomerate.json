@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/conglomerate/circle_conglomerate",
+        "side": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate"
+    }
+}

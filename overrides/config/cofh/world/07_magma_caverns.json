@@ -1,0 +1,149 @@
+{
+	"populate": {	
+		"magma_upper": {
+			"distribution": "cave",
+			"generator": {
+				"type": "large-vein",
+				"block": [
+					{
+						"name": "minecraft:magma"
+					}
+				],
+				"material": [
+                    "tfc:raw/andesite",
+                    "tfc:raw/basalt",
+                    "tfc:raw/chalk",
+                    "tfc:raw/chert",
+                    "tfc:raw/claystone",
+                    "tfc:raw/conglomerate",
+                    "tfc:raw/dacite",
+                    "tfc:raw/diorite",
+                    "tfc:raw/dolomite",
+                    "tfc:raw/gabbro",
+                    "tfc:raw/gneiss",
+                    "tfc:raw/granite",
+                    "tfc:raw/limestone",
+                    "tfc:raw/marble",
+                    "tfc:raw/phyllite",
+                    "tfc:raw/quartzite",
+                    "tfc:raw/rhyolite",
+                    "tfc:raw/rocksalt",
+                    "tfc:raw/schist",
+                    "tfc:raw/shale",
+                    "tfc:raw/slate"
+				],
+                "cluster-size": 24,
+				"sparse": "true"
+			},
+            "chunk-chance": 1,
+            "cluster-count":32,
+            "ceiling": false,
+            "ground-level": 20,
+			"material": [
+				"tfc:raw/andesite",
+				"tfc:raw/basalt",
+				"tfc:raw/chalk",
+				"tfc:raw/chert",
+				"tfc:raw/claystone",
+				"tfc:raw/conglomerate",
+				"tfc:raw/dacite",
+				"tfc:raw/diorite",
+				"tfc:raw/dolomite",
+				"tfc:raw/gabbro",
+				"tfc:raw/gneiss",
+				"tfc:raw/granite",
+				"tfc:raw/limestone",
+				"tfc:raw/marble",
+				"tfc:raw/phyllite",
+				"tfc:raw/quartzite",
+				"tfc:raw/rhyolite",
+				"tfc:raw/rocksalt",
+				"tfc:raw/schist",
+				"tfc:raw/shale",
+				"tfc:raw/slate"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		},
+		"magma_lower": {
+			"distribution": "cave",
+			"generator": {
+				"type": "cluster",
+				"block": [
+					{
+						"name": "minecraft:magma"
+					}
+				],
+				"material": [
+                    "tfc:raw/andesite",
+                    "tfc:raw/basalt",
+                    "tfc:raw/chalk",
+                    "tfc:raw/chert",
+                    "tfc:raw/claystone",
+                    "tfc:raw/conglomerate",
+                    "tfc:raw/dacite",
+                    "tfc:raw/diorite",
+                    "tfc:raw/dolomite",
+                    "tfc:raw/gabbro",
+                    "tfc:raw/gneiss",
+                    "tfc:raw/granite",
+                    "tfc:raw/limestone",
+                    "tfc:raw/marble",
+                    "tfc:raw/phyllite",
+                    "tfc:raw/quartzite",
+                    "tfc:raw/rhyolite",
+                    "tfc:raw/rocksalt",
+                    "tfc:raw/schist",
+                    "tfc:raw/shale",
+                    "tfc:raw/slate"
+				],
+                "cluster-size": 16
+			},
+            "chunk-chance": 1,
+            "cluster-count":24,
+            "ceiling": false,
+            "ground-level": 10,
+			"material": [
+				"tfc:raw/andesite",
+				"tfc:raw/basalt",
+				"tfc:raw/chalk",
+				"tfc:raw/chert",
+				"tfc:raw/claystone",
+				"tfc:raw/conglomerate",
+				"tfc:raw/dacite",
+				"tfc:raw/diorite",
+				"tfc:raw/dolomite",
+				"tfc:raw/gabbro",
+				"tfc:raw/gneiss",
+				"tfc:raw/granite",
+				"tfc:raw/limestone",
+				"tfc:raw/marble",
+				"tfc:raw/phyllite",
+				"tfc:raw/quartzite",
+				"tfc:raw/rhyolite",
+				"tfc:raw/rocksalt",
+				"tfc:raw/schist",
+				"tfc:raw/shale",
+				"tfc:raw/slate"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		}
+	}
+}

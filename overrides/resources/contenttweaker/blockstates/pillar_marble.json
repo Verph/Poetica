@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/marble/circle_marble",
+			"down": "contenttweaker:blocks/rocks/marble/circle_marble",
+			"south": "contenttweaker:blocks/rocks/marble/pillar_marble",
+			"east": "contenttweaker:blocks/rocks/marble/pillar_marble",
+			"west": "contenttweaker:blocks/rocks/marble/pillar_marble",
+			"north": "contenttweaker:blocks/rocks/marble/pillar_marble",
+			"particle": "contenttweaker:blocks/rocks/marble/pillar_marble"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/marble/pillar_marble"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/marble/pillar_marble" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/marble/pillar_marble", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/marble/pillar_marble", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/marble/pillar_marble_side" }
+	}
+}

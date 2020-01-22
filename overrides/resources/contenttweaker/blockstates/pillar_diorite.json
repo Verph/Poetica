@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/diorite/circle_diorite",
+			"down": "contenttweaker:blocks/rocks/diorite/circle_diorite",
+			"south": "contenttweaker:blocks/rocks/diorite/pillar_diorite",
+			"east": "contenttweaker:blocks/rocks/diorite/pillar_diorite",
+			"west": "contenttweaker:blocks/rocks/diorite/pillar_diorite",
+			"north": "contenttweaker:blocks/rocks/diorite/pillar_diorite",
+			"particle": "contenttweaker:blocks/rocks/diorite/pillar_diorite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/diorite/pillar_diorite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/diorite/pillar_diorite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/diorite/pillar_diorite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/diorite/pillar_diorite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/diorite/pillar_diorite_side" }
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss"
+    }
+}

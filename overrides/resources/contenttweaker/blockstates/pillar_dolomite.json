@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/dolomite/circle_dolomite",
+			"down": "contenttweaker:blocks/rocks/dolomite/circle_dolomite",
+			"south": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite",
+			"east": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite",
+			"west": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite",
+			"north": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite",
+			"particle": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/dolomite/pillar_dolomite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/dolomite/pillar_dolomite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/dolomite/pillar_dolomite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/dolomite/pillar_dolomite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/dolomite/pillar_dolomite_side" }
+	}
+}

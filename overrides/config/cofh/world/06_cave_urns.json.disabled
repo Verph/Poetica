@@ -1,0 +1,47 @@
+{
+	"populate": {	
+		"urns": {
+			"distribution": "cave",
+			"generator": {
+				"type": "spout",
+				"block": [
+					{
+						"name": "thaumcraft:loot_urn_common",
+						"weight": 75
+					},
+					{
+						"name": "thaumcraft:loot_urn_uncommon",
+						"weight": 20
+					},
+					{
+						"name": "thaumcraft:loot_urn_rare",
+						"weight": 5
+					}
+				],
+				"material": [
+					"minecraft:air"
+				],
+                "radius": 0,
+                "height": 2,
+				"shape": "SQUARE"
+			},
+            "chunk-chance": 6,
+            "cluster-count":10,
+            "ceiling": false,
+            "ground-level": 144,
+			"material": [
+				"minecraft:air"
+			],
+            "biome": "all",
+			"retrogen": false,
+            "biome": "all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		}
+	}
+}

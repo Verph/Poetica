@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/basalt/circle_basalt",
+        "side": "contenttweaker:blocks/rocks/basalt/pillar_basalt"
+    }
+}

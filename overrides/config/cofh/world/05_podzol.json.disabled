@@ -1,0 +1,48 @@
+{
+	"populate": {	
+		"mud_cluster": {
+			"distribution": "surface",
+			"generator": {
+				"type": "large-vein",
+				"block": {
+					"name": "minecraft:dirt",
+					"metadata": 2
+				},
+				"material": [
+                    "tfc:grass/limestone",
+                    "tfc:grass/claystone"
+				],
+				"cluster-size": 96,
+				"sparse": false
+			},
+            "chunk-chance": 1,
+            "cluster-count": 2,
+            "min-height": 140,
+			"max-height": 200,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"tfc:high_hills",
+							"tfc:plains",
+							"tfc:high_hills_edge",
+							"tfc:rolling_hills",
+							"tfc:high_plains"
+						]
+					}
+				]
+			},
+			"retrogen": false,
+            "biome":"all",
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		}
+	}
+}

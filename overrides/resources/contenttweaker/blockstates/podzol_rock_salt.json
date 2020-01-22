@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/podzol_top",
+			"down": "contenttweaker:blocks/rocks/rock_salt/dirt_rock_salt",
+			"south": "contenttweaker:blocks/rocks/rock_salt/podzol_side_rock_salt",
+			"east": "contenttweaker:blocks/rocks/rock_salt/podzol_side_rock_salt",
+			"west": "contenttweaker:blocks/rocks/rock_salt/podzol_side_rock_salt",
+			"north": "contenttweaker:blocks/rocks/rock_salt/podzol_side_rock_salt",
+			"particle": "contenttweaker:blocks/podzol_top"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/rock_salt/podzol_side_rock_salt"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/rock_salt/podzol_side_rock_salt" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/rock_salt/podzol_side_rock_salt", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/rock_salt/podzol_side_rock_salt", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/rock_salt/podzol_side_rock_salt" }
+	}
+}

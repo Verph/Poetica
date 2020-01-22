@@ -1,0 +1,105 @@
+{
+	"populate": {	
+		"mud_deposit": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "contenttweaker:mud_block",
+					"metadata": 0
+				},
+				"material": [
+                    "tfc:grass/andesite",
+                    "tfc:grass/basalt",
+                    "tfc:grass/chalk",
+                    "tfc:grass/chert",
+                    "tfc:grass/claystone",
+                    "tfc:grass/conglomerate",
+                    "tfc:grass/dacite",
+                    "tfc:grass/diorite",
+                    "tfc:grass/dolomite",
+                    "tfc:grass/gabbro",
+                    "tfc:grass/gneiss",
+                    "tfc:grass/granite",
+                    "tfc:grass/limestone",
+                    "tfc:grass/marble",
+                    "tfc:grass/phyllite",
+                    "tfc:grass/quartzite",
+                    "tfc:grass/rhyolite",
+                    "tfc:grass/rocksalt",
+                    "tfc:grass/schist",
+                    "tfc:grass/shale",
+                    "tfc:grass/slate",
+                    "tfc:dry_grass/andesite",
+                    "tfc:dry_grass/basalt",
+                    "tfc:dry_grass/chalk",
+                    "tfc:dry_grass/chert",
+                    "tfc:dry_grass/claystone",
+                    "tfc:dry_grass/conglomerate",
+                    "tfc:dry_grass/dacite",
+                    "tfc:dry_grass/diorite",
+                    "tfc:dry_grass/dolomite",
+                    "tfc:dry_grass/gabbro",
+                    "tfc:dry_grass/gneiss",
+                    "tfc:dry_grass/granite",
+                    "tfc:dry_grass/limestone",
+                    "tfc:dry_grass/marble",
+                    "tfc:dry_grass/phyllite",
+                    "tfc:dry_grass/quartzite",
+                    "tfc:dry_grass/rhyolite",
+                    "tfc:dry_grass/rocksalt",
+                    "tfc:dry_grass/schist",
+                    "tfc:dry_grass/shale",
+                    "tfc:dry_grass/slate",
+                    "tfc:dirt/andesite",
+                    "tfc:dirt/basalt",
+                    "tfc:dirt/chalk",
+                    "tfc:dirt/chert",
+                    "tfc:dirt/claystone",
+                    "tfc:dirt/conglomerate",
+                    "tfc:dirt/dacite",
+                    "tfc:dirt/diorite",
+                    "tfc:dirt/dolomite",
+                    "tfc:dirt/gabbro",
+                    "tfc:dirt/gneiss",
+                    "tfc:dirt/granite",
+                    "tfc:dirt/limestone",
+                    "tfc:dirt/marble",
+                    "tfc:dirt/phyllite",
+                    "tfc:dirt/quartzite",
+                    "tfc:dirt/rhyolite",
+                    "tfc:dirt/rocksalt",
+                    "tfc:dirt/schist",
+                    "tfc:dirt/shale",
+                    "tfc:dirt/slate"
+				],
+				"radius": 5,
+				"height": 2,
+				"slim": true
+			},
+            "chunk-chance": 1,
+            "cluster-count":5,
+            "min-height":140,
+			"max-height": 150,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"tfc:swampland"
+						]
+					}
+				]
+			},
+            "dimension":{ 
+                "restriction":"blacklist",
+                "value":[ 
+                    -1,
+                    1
+                ]
+			}
+		}
+	}
+}

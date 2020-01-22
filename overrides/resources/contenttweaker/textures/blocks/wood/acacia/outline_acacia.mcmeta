@@ -1,0 +1,12 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/wood/acacia/outline_acacia-ctm"
+        ],
+        "extra":{
+        	"ignore_states":"false"
+        }
+    }
+}

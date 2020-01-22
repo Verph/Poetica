@@ -1,0 +1,12 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/wood/white_elm/outline_white_elm-ctm"
+        ],
+        "extra":{
+        	"ignore_states":"false"
+        }
+    }
+}

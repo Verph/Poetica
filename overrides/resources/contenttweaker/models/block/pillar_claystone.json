@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/claystone/circle_claystone",
+        "side": "contenttweaker:blocks/rocks/claystone/pillar_claystone"
+    }
+}

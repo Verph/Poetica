@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/shale/circle_shale",
+			"down": "contenttweaker:blocks/rocks/shale/circle_shale",
+			"south": "contenttweaker:blocks/rocks/shale/pillar_shale",
+			"east": "contenttweaker:blocks/rocks/shale/pillar_shale",
+			"west": "contenttweaker:blocks/rocks/shale/pillar_shale",
+			"north": "contenttweaker:blocks/rocks/shale/pillar_shale",
+			"particle": "contenttweaker:blocks/rocks/shale/pillar_shale"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/shale/pillar_shale"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/shale/pillar_shale" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/shale/pillar_shale", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/shale/pillar_shale", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/shale/pillar_shale_side" }
+	}
+}

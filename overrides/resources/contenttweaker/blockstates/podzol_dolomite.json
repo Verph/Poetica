@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/podzol_top",
+			"down": "contenttweaker:blocks/rocks/dolomite/dirt_dolomite",
+			"south": "contenttweaker:blocks/rocks/dolomite/podzol_side_dolomite",
+			"east": "contenttweaker:blocks/rocks/dolomite/podzol_side_dolomite",
+			"west": "contenttweaker:blocks/rocks/dolomite/podzol_side_dolomite",
+			"north": "contenttweaker:blocks/rocks/dolomite/podzol_side_dolomite",
+			"particle": "contenttweaker:blocks/podzol_top"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/dolomite/podzol_side_dolomite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/dolomite/podzol_side_dolomite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/dolomite/podzol_side_dolomite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/dolomite/podzol_side_dolomite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/dolomite/podzol_side_dolomite" }
+	}
+}

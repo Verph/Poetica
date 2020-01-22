@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/granite/circle_granite",
+			"down": "contenttweaker:blocks/rocks/granite/circle_granite",
+			"south": "contenttweaker:blocks/rocks/granite/pillar_granite",
+			"east": "contenttweaker:blocks/rocks/granite/pillar_granite",
+			"west": "contenttweaker:blocks/rocks/granite/pillar_granite",
+			"north": "contenttweaker:blocks/rocks/granite/pillar_granite",
+			"particle": "contenttweaker:blocks/rocks/granite/pillar_granite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/granite/pillar_granite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/granite/pillar_granite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/granite/pillar_granite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/granite/pillar_granite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/granite/pillar_granite_side" }
+	}
+}

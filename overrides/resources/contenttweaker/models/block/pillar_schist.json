@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/schist/circle_schist",
+        "side": "contenttweaker:blocks/rocks/schist/pillar_schist"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/quartzite/circle_quartzite",
+        "side": "contenttweaker:blocks/rocks/quartzite/pillar_quartzite"
+    }
+}

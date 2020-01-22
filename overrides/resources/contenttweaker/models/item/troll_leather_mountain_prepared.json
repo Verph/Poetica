@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/iceandfire/troll/prepared/troll_leather_mountain_prepared"
+  }
+}

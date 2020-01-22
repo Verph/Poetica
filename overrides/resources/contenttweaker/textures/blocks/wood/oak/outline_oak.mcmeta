@@ -1,0 +1,12 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/wood/oak/outline_oak-ctm"
+        ],
+        "extra":{
+        	"ignore_states":"false"
+        }
+    }
+}

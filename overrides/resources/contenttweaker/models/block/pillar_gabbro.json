@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/gabbro/circle_gabbro",
+        "side": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro"
+    }
+}

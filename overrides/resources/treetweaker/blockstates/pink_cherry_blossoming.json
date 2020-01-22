@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "cross": "treetweaker:blocks/pink_cherry_blossoming"
+        }
+    },
+    "variants": {
+        "normal": {
+            "model": "tinted_cross"
+        },
+        "inventory": {
+            "model": "treetweaker:pink_cherry_blossoming"
+        }
+    }
+}

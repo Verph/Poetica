@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults":
+    {
+        "transform": "forge:default-block",
+        "model": "cube_column",
+        "textures": {
+		  "end": "contenttweaker:blocks/jacaranda_log_top",
+		  "side": "contenttweaker:blocks/jacaranda_log",
+		  "layer0": "contenttweaker:items/jacaranda_log"
+		}
+    },
+    "variants": {    
+        "normal": [{}], "inventory": [{}],
+        "axis": { "x":{"x": 90, "y": 90}, "y":{}, "z":{"x": 90} }
+    }
+}

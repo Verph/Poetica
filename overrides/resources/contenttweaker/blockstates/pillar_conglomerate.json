@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/conglomerate/circle_conglomerate",
+			"down": "contenttweaker:blocks/rocks/conglomerate/circle_conglomerate",
+			"south": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate",
+			"east": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate",
+			"west": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate",
+			"north": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate",
+			"particle": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/conglomerate/pillar_conglomerate"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/conglomerate/pillar_conglomerate" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/conglomerate/pillar_conglomerate", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/conglomerate/pillar_conglomerate", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/conglomerate/pillar_conglomerate_side" }
+	}
+}

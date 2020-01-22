@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/slate/circle_slate",
+			"down": "contenttweaker:blocks/rocks/slate/circle_slate",
+			"south": "contenttweaker:blocks/rocks/slate/pillar_slate",
+			"east": "contenttweaker:blocks/rocks/slate/pillar_slate",
+			"west": "contenttweaker:blocks/rocks/slate/pillar_slate",
+			"north": "contenttweaker:blocks/rocks/slate/pillar_slate",
+			"particle": "contenttweaker:blocks/rocks/slate/pillar_slate"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/slate/pillar_slate"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/slate/pillar_slate" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/slate/pillar_slate", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/slate/pillar_slate", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/slate/pillar_slate_side" }
+	}
+}

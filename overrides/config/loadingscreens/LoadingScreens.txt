@@ -1,0 +1,3 @@
+
+background = addStretchedTexture("top_left", "mainmenu:textures/Forest-Night-Pixel-1.png")
+background.setRelRender(1, 1)

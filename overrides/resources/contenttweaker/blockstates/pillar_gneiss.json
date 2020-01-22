@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/gneiss/circle_gneiss",
+			"down": "contenttweaker:blocks/rocks/gneiss/circle_gneiss",
+			"south": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss",
+			"east": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss",
+			"west": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss",
+			"north": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss",
+			"particle": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/gneiss/pillar_gneiss"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/gneiss/pillar_gneiss" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/gneiss/pillar_gneiss", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/gneiss/pillar_gneiss", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/gneiss/pillar_gneiss_side" }
+	}
+}

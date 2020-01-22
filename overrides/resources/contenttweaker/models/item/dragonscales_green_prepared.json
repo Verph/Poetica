@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/iceandfire/dragon/prepared/scales_green_prepared"
+  }
+}

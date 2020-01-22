@@ -1,0 +1,42 @@
+[
+  {
+    "fluidInBarrel": "lava",
+    "fluidOnTop": "water",
+    "result": "minecraft:obsidian:0"
+  },
+  {
+    "fluidInBarrel": "lava",
+    "fluidOnTop": "salt_water",
+    "result": "minecraft:obsidian:0"
+  },
+  {
+    "fluidInBarrel": "lava",
+    "fluidOnTop": "fresh_water",
+    "result": "minecraft:obsidian:0"
+  },
+  {
+    "fluidInBarrel": "lava",
+    "fluidOnTop": "hot_water",
+    "result": "minecraft:obsidian:0"
+  },
+  {
+    "fluidInBarrel": "water",
+    "fluidOnTop": "lava",
+    "result": "tfc:cobble/basalt"
+  },
+  {
+    "fluidInBarrel": "salt_water",
+    "fluidOnTop": "lava",
+    "result": "tfc:cobble/basalt"
+  },
+  {
+    "fluidInBarrel": "fresh_water",
+    "fluidOnTop": "lava",
+    "result": "tfc:cobble/basalt"
+  },
+  {
+    "fluidInBarrel": "hot_water",
+    "fluidOnTop": "lava",
+    "result": "tfc:cobble/basalt"
+  }
+]

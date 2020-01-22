@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/diorite/circle_diorite",
+        "side": "contenttweaker:blocks/rocks/diorite/pillar_diorite"
+    }
+}

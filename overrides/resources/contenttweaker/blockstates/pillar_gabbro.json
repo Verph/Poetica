@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/gabbro/circle_gabbro",
+			"down": "contenttweaker:blocks/rocks/gabbro/circle_gabbro",
+			"south": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro",
+			"east": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro",
+			"west": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro",
+			"north": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro",
+			"particle": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/gabbro/pillar_gabbro"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/gabbro/pillar_gabbro" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/gabbro/pillar_gabbro", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/gabbro/pillar_gabbro", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/gabbro/pillar_gabbro_side" }
+	}
+}

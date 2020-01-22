@@ -1,0 +1,12 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/wood/blackwood/outline_blackwood-ctm"
+        ],
+        "extra":{
+        	"ignore_states":"false"
+        }
+    }
+}

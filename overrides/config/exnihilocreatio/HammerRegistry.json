@@ -1,0 +1,626 @@
+{
+  "minecraft:concrete:7": [
+    {
+      "item": "minecraft:concrete_powder:7",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:logWood": [
+    {
+      "item": "excompressum:wood_chippings",
+      "amount": 4,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:stone:1": [
+    {
+      "item": "exnihilocreatio:block_granite_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:stone:3": [
+    {
+      "item": "exnihilocreatio:block_diorite_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:stone:5": [
+    {
+      "item": "exnihilocreatio:block_andesite_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:gravel": [
+    {
+      "item": "minecraft:sand:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:sand": [
+    {
+      "item": "exnihilocreatio:block_dust:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:4": [
+    {
+      "item": "minecraft:concrete_powder:4",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:6": [
+    {
+      "item": "minecraft:concrete_powder:6",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:8": [
+    {
+      "item": "minecraft:concrete_powder:8",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:3": [
+    {
+      "item": "minecraft:concrete_powder:3",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:crushedGranite": [
+    {
+      "item": "minecraft:sand:1",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:1": [
+    {
+      "item": "minecraft:concrete_powder:1",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:5": [
+    {
+      "item": "minecraft:concrete_powder:5",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:15": [
+    {
+      "item": "minecraft:concrete_powder:15",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:11": [
+    {
+      "item": "minecraft:concrete_powder:11",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:12": [
+    {
+      "item": "minecraft:concrete_powder:12",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:13": [
+    {
+      "item": "minecraft:concrete_powder:13",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:stone": [
+    {
+      "item": "minecraft:gravel:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:cobblestone": [
+    {
+      "item": "minecraft:gravel:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:netherrack": [
+    {
+      "item": "exnihilocreatio:block_netherrack_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:14": [
+    {
+      "item": "minecraft:concrete_powder:14",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:0": [
+    {
+      "item": "minecraft:concrete_powder:0",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:9": [
+    {
+      "item": "minecraft:concrete_powder:9",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:10": [
+    {
+      "item": "minecraft:concrete_powder:10",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "ore:endstone": [
+    {
+      "item": "exnihilocreatio:block_endstone_crushed:0",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "minecraft:concrete:2": [
+    {
+      "item": "minecraft:concrete_powder:2",
+      "amount": 1,
+      "miningLevel": 1,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  
+  
+  
+  "tfc:cobble/andesite": [
+    {
+      "item": "tfc:gravel/andesite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/andesite": [
+    {
+      "item": "tfc:sand/andesite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/basalt": [
+    {
+      "item": "tfc:gravel/basalt",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/basalt": [
+    {
+      "item": "tfc:sand/basalt",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/dacite": [
+    {
+      "item": "tfc:gravel/dacite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/dacite": [
+    {
+      "item": "tfc:sand/dacite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/rhyolite": [
+    {
+      "item": "tfc:gravel/rhyolite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/rhyolite": [
+    {
+      "item": "tfc:sand/rhyolite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/diorite": [
+    {
+      "item": "tfc:gravel/diorite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/diorite": [
+    {
+      "item": "tfc:sand/diorite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/gabbro": [
+    {
+      "item": "tfc:gravel/gabbro",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/gabbro": [
+    {
+      "item": "tfc:sand/gabbro",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/granite": [
+    {
+      "item": "tfc:gravel/granite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/granite": [
+    {
+      "item": "tfc:sand/granite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/gneiss": [
+    {
+      "item": "tfc:gravel/gneiss",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/gneiss": [
+    {
+      "item": "tfc:sand/gneiss",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/marble": [
+    {
+      "item": "tfc:gravel/marble",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/marble": [
+    {
+      "item": "tfc:sand/marble",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/phyllite": [
+    {
+      "item": "tfc:gravel/phyllite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/phyllite": [
+    {
+      "item": "tfc:sand/phyllite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/quartzite": [
+    {
+      "item": "tfc:gravel/quartzite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/quartzite": [
+    {
+      "item": "tfc:sand/quartzite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/schist": [
+    {
+      "item": "tfc:gravel/schist",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/schist": [
+    {
+      "item": "tfc:sand/schist",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/slate": [
+    {
+      "item": "tfc:gravel/slate",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/slate": [
+    {
+      "item": "tfc:sand/slate",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/chalk": [
+    {
+      "item": "tfc:gravel/chalk",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/chalk": [
+    {
+      "item": "tfc:sand/chalk",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/chert": [
+    {
+      "item": "tfc:gravel/chert",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/chert": [
+    {
+      "item": "tfc:sand/chert",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/claystone": [
+    {
+      "item": "tfc:gravel/claystone",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/claystone": [
+    {
+      "item": "tfc:sand/claystone",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/conglomerate": [
+    {
+      "item": "tfc:gravel/conglomerate",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/conglomerate": [
+    {
+      "item": "tfc:sand/conglomerate",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/dolomite": [
+    {
+      "item": "tfc:gravel/dolomite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/dolomite": [
+    {
+      "item": "tfc:sand/dolomite",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/limestone": [
+    {
+      "item": "tfc:gravel/limestone",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/limestone": [
+    {
+      "item": "tfc:sand/limestone",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/rocksalt": [
+    {
+      "item": "tfc:gravel/rocksalt",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/rocksalt": [
+    {
+      "item": "tfc:sand/rocksalt",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:cobble/shale": [
+    {
+      "item": "tfc:gravel/shale",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ],
+  "tfc:gravel/shale": [
+    {
+      "item": "tfc:sand/shale",
+      "amount": 1,
+      "miningLevel": 0,
+      "chance": 1.0,
+      "fortuneChance": 0.0
+    }
+  ]
+}

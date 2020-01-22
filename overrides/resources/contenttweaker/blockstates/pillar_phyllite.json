@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/phyllite/circle_phyllite",
+			"down": "contenttweaker:blocks/rocks/phyllite/circle_phyllite",
+			"south": "contenttweaker:blocks/rocks/phyllite/pillar_phyllite",
+			"east": "contenttweaker:blocks/rocks/phyllite/pillar_phyllite",
+			"west": "contenttweaker:blocks/rocks/phyllite/pillar_phyllite",
+			"north": "contenttweaker:blocks/rocks/phyllite/pillar_phyllite",
+			"particle": "contenttweaker:blocks/rocks/phyllite/pillar_phyllite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/phyllite/pillar_phyllite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/phyllite/pillar_phyllite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/phyllite/pillar_phyllite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/phyllite/pillar_phyllite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/phyllite/pillar_phyllite_side" }
+	}
+}

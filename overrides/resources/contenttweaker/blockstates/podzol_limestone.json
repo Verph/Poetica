@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/podzol_top",
+			"down": "contenttweaker:blocks/rocks/limestone/dirt_limestone",
+			"south": "contenttweaker:blocks/rocks/limestone/podzol_side_limestone",
+			"east": "contenttweaker:blocks/rocks/limestone/podzol_side_limestone",
+			"west": "contenttweaker:blocks/rocks/limestone/podzol_side_limestone",
+			"north": "contenttweaker:blocks/rocks/limestone/podzol_side_limestone",
+			"particle": "contenttweaker:blocks/podzol_top"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/limestone/podzol_side_limestone"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/limestone/podzol_side_limestone" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/limestone/podzol_side_limestone", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/limestone/podzol_side_limestone", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/limestone/podzol_side_limestone" }
+	}
+}

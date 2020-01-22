@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/podzol_top",
+			"down": "contenttweaker:blocks/rocks/phyllite/dirt_phyllite",
+			"south": "contenttweaker:blocks/rocks/phyllite/podzol_side_phyllite",
+			"east": "contenttweaker:blocks/rocks/phyllite/podzol_side_phyllite",
+			"west": "contenttweaker:blocks/rocks/phyllite/podzol_side_phyllite",
+			"north": "contenttweaker:blocks/rocks/phyllite/podzol_side_phyllite",
+			"particle": "contenttweaker:blocks/podzol_top"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/phyllite/podzol_side_phyllite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/phyllite/podzol_side_phyllite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/phyllite/podzol_side_phyllite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/phyllite/podzol_side_phyllite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/phyllite/podzol_side_phyllite" }
+	}
+}

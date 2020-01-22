@@ -1,0 +1,12 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/wood/sequoia/outline_sequoia-ctm"
+        ],
+        "extra":{
+        	"ignore_states":"false"
+        }
+    }
+}

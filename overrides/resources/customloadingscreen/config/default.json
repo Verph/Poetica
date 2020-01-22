@@ -1,0 +1,21 @@
+{
+    "renders": [
+        "sample/background",
+		"sample/logo",
+		"sample/loading_bar_boss",
+		"sample/loading_bar_boss_percentage",
+		"sample/text_percentage"
+    ],
+    "functions": [
+
+    ],
+    "variables": {
+
+    },
+    "factories": [
+
+    ],
+    "actions": [
+
+    ]
+}

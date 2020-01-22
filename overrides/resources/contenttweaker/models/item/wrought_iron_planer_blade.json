@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "contenttweaker:items/planer_blade/wrought_iron_planer_blade"
+  }
+}

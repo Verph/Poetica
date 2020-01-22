@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/podzol_top",
+			"down": "contenttweaker:blocks/rocks/chert/dirt_chert",
+			"south": "contenttweaker:blocks/rocks/chert/podzol_side_chert",
+			"east": "contenttweaker:blocks/rocks/chert/podzol_side_chert",
+			"west": "contenttweaker:blocks/rocks/chert/podzol_side_chert",
+			"north": "contenttweaker:blocks/rocks/chert/podzol_side_chert",
+			"particle": "contenttweaker:blocks/podzol_top"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/chert/podzol_side_chert"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/chert/podzol_side_chert" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/chert/podzol_side_chert", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/chert/podzol_side_chert", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/chert/podzol_side_chert" }
+	}
+}

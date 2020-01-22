@@ -1,0 +1,22 @@
+[
+  {
+    "inputFluid": "water",
+    "reactant": "exnihilocreatio:item_material:3",
+    "output": "witchwater"
+  },
+  {
+    "inputFluid": "salt_water",
+    "reactant": "exnihilocreatio:item_material:3",
+    "output": "witchwater"
+  },
+  {
+    "inputFluid": "fresh_water",
+    "reactant": "exnihilocreatio:item_material:3",
+    "output": "witchwater"
+  },
+  {
+    "inputFluid": "hot_water",
+    "reactant": "exnihilocreatio:item_material:3",
+    "output": "witchwater"
+  }
+]

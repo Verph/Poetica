@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/podzol_top",
+			"down": "contenttweaker:blocks/rocks/quartzite/dirt_quartzite",
+			"south": "contenttweaker:blocks/rocks/quartzite/podzol_side_quartzite",
+			"east": "contenttweaker:blocks/rocks/quartzite/podzol_side_quartzite",
+			"west": "contenttweaker:blocks/rocks/quartzite/podzol_side_quartzite",
+			"north": "contenttweaker:blocks/rocks/quartzite/podzol_side_quartzite",
+			"particle": "contenttweaker:blocks/podzol_top"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/quartzite/podzol_side_quartzite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/quartzite/podzol_side_quartzite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/quartzite/podzol_side_quartzite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/quartzite/podzol_side_quartzite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/quartzite/podzol_side_quartzite" }
+	}
+}

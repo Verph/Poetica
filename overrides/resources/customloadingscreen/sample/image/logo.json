@@ -1,0 +1,18 @@
+{
+  "parent": "builtin/image",
+  "image": "mainmenu:textures/wordmark_2_chains.png",
+  "position_type": "CENTER",
+  "offset_pos": "CENTER",
+  "position": {
+    "x": "0",
+    "y": "-500",
+    "width": "409",
+    "height": "1080"
+  },
+  "texture": {
+    "x": "0",
+    "y": "0",
+    "width": "409 / 409",
+    "height": "1080 / 1080"
+  }
+}

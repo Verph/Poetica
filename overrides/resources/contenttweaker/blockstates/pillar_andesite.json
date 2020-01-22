@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/andesite/circle_andesite",
+			"down": "contenttweaker:blocks/rocks/andesite/circle_andesite",
+			"south": "contenttweaker:blocks/rocks/andesite/pillar_andesite",
+			"east": "contenttweaker:blocks/rocks/andesite/pillar_andesite",
+			"west": "contenttweaker:blocks/rocks/andesite/pillar_andesite",
+			"north": "contenttweaker:blocks/rocks/andesite/pillar_andesite",
+			"particle": "contenttweaker:blocks/rocks/andesite/pillar_andesite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/andesite/pillar_andesite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/andesite/pillar_andesite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/andesite/pillar_andesite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/andesite/pillar_andesite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/andesite/pillar_andesite_side" }
+	}
+}

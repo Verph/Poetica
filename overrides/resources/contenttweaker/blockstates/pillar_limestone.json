@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/limestone/circle_limestone",
+			"down": "contenttweaker:blocks/rocks/limestone/circle_limestone",
+			"south": "contenttweaker:blocks/rocks/limestone/pillar_limestone",
+			"east": "contenttweaker:blocks/rocks/limestone/pillar_limestone",
+			"west": "contenttweaker:blocks/rocks/limestone/pillar_limestone",
+			"north": "contenttweaker:blocks/rocks/limestone/pillar_limestone",
+			"particle": "contenttweaker:blocks/rocks/limestone/pillar_limestone"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/limestone/pillar_limestone"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/limestone/pillar_limestone" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/limestone/pillar_limestone", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/limestone/pillar_limestone", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/limestone/pillar_limestone_side" }
+	}
+}

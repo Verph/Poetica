@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/dacite/circle_dacite",
+			"down": "contenttweaker:blocks/rocks/dacite/circle_dacite",
+			"south": "contenttweaker:blocks/rocks/dacite/pillar_dacite",
+			"east": "contenttweaker:blocks/rocks/dacite/pillar_dacite",
+			"west": "contenttweaker:blocks/rocks/dacite/pillar_dacite",
+			"north": "contenttweaker:blocks/rocks/dacite/pillar_dacite",
+			"particle": "contenttweaker:blocks/rocks/dacite/pillar_dacite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/dacite/pillar_dacite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/dacite/pillar_dacite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/dacite/pillar_dacite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/dacite/pillar_dacite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/dacite/pillar_dacite_side" }
+	}
+}

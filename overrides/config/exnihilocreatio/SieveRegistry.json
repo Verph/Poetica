@@ -1,0 +1,2270 @@
+{
+  "minecraft:leaves:0": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "ore:tfcLeaves": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:leaves:1": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:leaves2:0": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:leaves:3": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:leaves:2": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "ore:blockDust": [
+    {
+      "drop": "minecraft:dye:15",
+      "chance": 0.2,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:gunpowder:-1",
+      "chance": 0.07,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:redstone:-1",
+      "chance": 0.125,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:redstone:-1",
+      "chance": 0.25,
+      "meshLevel": 4
+    },
+    {
+      "drop": "minecraft:glowstone_dust:-1",
+      "chance": 0.0625,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:blaze_powder:-1",
+      "chance": 0.05,
+      "meshLevel": 3
+    }
+  ],
+  "exnihilocreatio:block_netherrack_crushed:0": [
+    {
+      "drop": "exnihilocreatio:item_ore_ardite:1",
+      "chance": 0.1,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_ardite:1",
+      "chance": 0.2,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_ardite:1",
+      "chance": 0.3,
+      "meshLevel": 4
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_cobalt:1",
+      "chance": 0.1,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_cobalt:1",
+      "chance": 0.2,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_ore_cobalt:1",
+      "chance": 0.3,
+      "meshLevel": 4
+    },
+    {
+      "drop": "minecraft:blaze_powder",
+      "chance": 0.05,
+      "meshLevel": 3
+    }
+  ],
+  "exnihilocreatio:block_endstone_crushed": [
+    {
+      "drop": "minecraft:chorus_fruit",
+      "chance": 0.05,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:chorus_fruit",
+      "chance": 0.085,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:chorus_fruit",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "minecraft:chorus_fruit",
+      "chance": 0.2,
+      "meshLevel": 4
+    },
+    {
+      "drop": "minecraft:chorus_flower",
+      "chance": 0.01,
+      "meshLevel": 4
+    }
+  ],
+  "minecraft:leaves2:1": [
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.025,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.1,
+      "meshLevel": 3
+    },
+    {
+      "drop": "exnihilocreatio:item_material:2",
+      "chance": 0.2,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravelIgneousExtrusive": [
+    {
+      "drop": "minecraft:flint",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:gem/agate:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/native_copper",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/native_copper",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/native_copper",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/native_gold",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/native_gold",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/native_gold",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/hematite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/hematite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/hematite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/bismuthinite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/bismuthinite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/bismuthinite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/sulfur",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/sulfur",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/sulfur",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/cinnabar",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/cinnabar",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/cinnabar",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/olivine",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/olivine",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/olivine",
+      "chance": 0.10,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravelIgneousIntrusive": [
+    {
+      "drop": "minecraft:flint",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:gem/agate:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/native_gold",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/native_gold",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/native_gold",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/native_silver",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/native_silver",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/native_silver",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/cassiterite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/cassiterite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/cassiterite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/garnierite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/garnierite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/garnierite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/graphite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/graphite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/graphite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/kimberlite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/kimberlite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/kimberlite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/microcline",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/microcline",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/microcline",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/pitchblende",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/pitchblende",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/pitchblende",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/cryolite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/cryolite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/cryolite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/serpentine",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/serpentine",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/serpentine",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/olivine",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/olivine",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/olivine",
+      "chance": 0.10,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravelMetamorphic": [
+    {
+      "drop": "minecraft:flint",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:gem/agate:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/native_silver",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/native_silver",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/native_silver",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/galena",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/malachite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/malachite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/malachite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/sphalerite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/sphalerite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/sphalerite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/tetrahedrite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/tetrahedrite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/tetrahedrite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/graphite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/graphite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/graphite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/cinnabar",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/cinnabar",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/cinnabar",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/serpentine",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/serpentine",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/serpentine",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/lapis_lazuli",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/lapis_lazuli",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/lapis_lazuli",
+      "chance": 0.10,
+      "meshLevel": 4
+    }
+  ],
+  "ore:gravelSedimentary": [
+    {
+      "drop": "minecraft:flint",
+      "chance": 0.25,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/lignite",
+      "chance": 0.09,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/bituminous_coal",
+      "chance": 0.1,
+      "meshLevel": 2
+    },
+    {
+      "drop": "minecraft:coal:0",
+      "chance": 0.115,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:gem/agate:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/agate:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/amethyst:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/beryl:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/diamond:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/emerald:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/garnet:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jade:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/jasper:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/opal:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/ruby:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/sapphire:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/topaz:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:3",
+      "chance": 0.005,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:1",
+      "chance": 0.002,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline",
+      "chance": 0.0009,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:2",
+      "chance": 0.0007,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:gem/tourmaline:4",
+      "chance": 0.0004,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/native_platinum",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/native_platinum",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/native_platinum",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/bismuthinite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/bismuthinite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/bismuthinite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/malachite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/malachite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/malachite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/magnetite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/magnetite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/magnetite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/limonite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/limonite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/limonite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/kaolinite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/kaolinite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/kaolinite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/gypsum",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/gypsum",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/gypsum",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/satinspar",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/satinspar",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/satinspar",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/selenite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/selenite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/selenite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/petrified_wood",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/jet",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/jet",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/jet",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/saltpeter",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/saltpeter",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/saltpeter",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/sylvite",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/sylvite",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/sylvite",
+      "chance": 0.10,
+      "meshLevel": 4
+    },
+    {
+      "drop": "tfc:ore/small/borax",
+      "chance": 0.045,
+      "meshLevel": 2
+    },
+    {
+      "drop": "tfc:ore/small/borax",
+      "chance": 0.065,
+      "meshLevel": 3
+    },
+    {
+      "drop": "tfc:ore/small/borax",
+      "chance": 0.10,
+      "meshLevel": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/claystone/circle_claystone",
+			"down": "contenttweaker:blocks/rocks/claystone/circle_claystone",
+			"south": "contenttweaker:blocks/rocks/claystone/pillar_claystone",
+			"east": "contenttweaker:blocks/rocks/claystone/pillar_claystone",
+			"west": "contenttweaker:blocks/rocks/claystone/pillar_claystone",
+			"north": "contenttweaker:blocks/rocks/claystone/pillar_claystone",
+			"particle": "contenttweaker:blocks/rocks/claystone/pillar_claystone"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/claystone/pillar_claystone"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/claystone/pillar_claystone" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/claystone/pillar_claystone", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/claystone/pillar_claystone", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/claystone/pillar_claystone_side" }
+	}
+}

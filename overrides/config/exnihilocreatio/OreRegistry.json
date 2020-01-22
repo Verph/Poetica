@@ -1,0 +1,22 @@
+[
+  {
+    "name": "gold",
+    "color": "ffff00",
+    "result": "tfc:metal/ingot/gold"
+  },
+  {
+    "name": "iron",
+    "color": "bf8040",
+    "result": "tfc:metal/ingot/wrought_iron"
+  },
+  {
+    "name": "ardite",
+    "color": "ff751a",
+    "result": "tconstruct:ingots:1"
+  },
+  {
+    "name": "cobalt",
+    "color": "3333ff",
+    "result": "tconstruct:ingots:0"
+  }
+]

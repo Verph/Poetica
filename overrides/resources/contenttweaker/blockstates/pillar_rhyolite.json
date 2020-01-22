@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/rhyolite/circle_rhyolite",
+			"down": "contenttweaker:blocks/rocks/rhyolite/circle_rhyolite",
+			"south": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite",
+			"east": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite",
+			"west": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite",
+			"north": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite",
+			"particle": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/rhyolite/pillar_rhyolite"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/rhyolite/pillar_rhyolite" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/rhyolite/pillar_rhyolite", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/rhyolite/pillar_rhyolite", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/rhyolite/pillar_rhyolite_side" }
+	}
+}

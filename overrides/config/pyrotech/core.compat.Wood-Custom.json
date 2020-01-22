@@ -1,0 +1,38 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines input and output pairs for auto-generating recipes",
+    "for the Chopping Block.",
+    "",
+    "Entries are in the format (input): (output)",
+    "Entry item strings are in the format: (domain):(path):(meta)"
+  ],
+  "entries": {
+    "betterwithmods:blood_log:0": "minecraft:planks:3",
+    "rustic:log:0": "rustic:planks:0",
+    "rustic:log:1": "rustic:planks:1",
+    "rustic:planks:0": "rustic:olive_slab_item:0",
+    "rustic:planks:1": "rustic:ironwood_slab_item:0",
+    "tfc:wood/planks/acacia:0": "tfc:slab/wood/acacia:0",
+    "tfc:wood/planks/ash:0": "tfc:slab/wood/ash:0",
+    "tfc:wood/planks/aspen:0": "tfc:slab/wood/aspen:0",
+    "tfc:wood/planks/birch:0": "tfc:slab/wood/birch:0",
+    "tfc:wood/planks/blackwood:0": "tfc:slab/wood/blackwood:0",
+    "tfc:wood/planks/chestnut:0": "tfc:slab/wood/chestnut:0",
+    "tfc:wood/planks/douglas_fir:0": "tfc:slab/wood/douglas_fir:0",
+    "tfc:wood/planks/hickory:0": "tfc:slab/wood/hickory:0",
+    "tfc:wood/planks/kapok:0": "tfc:slab/wood/kapok:0",
+    "tfc:wood/planks/maple:0": "tfc:slab/wood/maple:0",
+    "tfc:wood/planks/oak:0": "tfc:slab/wood/oak:0",
+    "tfc:wood/planks/palm:0": "tfc:slab/wood/palm:0",
+    "tfc:wood/planks/pine:0": "tfc:slab/wood/pine:0",
+    "tfc:wood/planks/rosewood:0": "tfc:slab/wood/rosewood:0",
+    "tfc:wood/planks/sequoia:0": "tfc:slab/wood/sequoia:0",
+    "tfc:wood/planks/spruce:0": "tfc:slab/wood/spruce:0",
+    "tfc:wood/planks/sycamore:0": "tfc:slab/wood/sycamore:0",
+    "tfc:wood/planks/white_cedar:0": "tfc:slab/wood/white_cedar:0",
+    "tfc:wood/planks/willow:0": "tfc:slab/wood/willow:0"
+  }
+}

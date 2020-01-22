@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/dacite/circle_dacite",
+        "side": "contenttweaker:blocks/rocks/dacite/pillar_dacite"
+    }
+}

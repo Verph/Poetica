@@ -1,0 +1,12 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "textures":[
+            "contenttweaker:blocks/wood/birch/outline_birch-ctm"
+        ],
+        "extra":{
+        	"ignore_states":"false"
+        }
+    }
+}

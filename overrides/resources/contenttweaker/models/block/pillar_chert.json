@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/rocks/chert/circle_chert",
+        "side": "contenttweaker:blocks/rocks/chert/pillar_chert"
+    }
+}

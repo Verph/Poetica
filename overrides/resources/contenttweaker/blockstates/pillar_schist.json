@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"model": "cube",
+		"textures": {
+			"up": "contenttweaker:blocks/rocks/schist/circle_schist",
+			"down": "contenttweaker:blocks/rocks/schist/circle_schist",
+			"south": "contenttweaker:blocks/rocks/schist/pillar_schist",
+			"east": "contenttweaker:blocks/rocks/schist/pillar_schist",
+			"west": "contenttweaker:blocks/rocks/schist/pillar_schist",
+			"north": "contenttweaker:blocks/rocks/schist/pillar_schist",
+			"particle": "contenttweaker:blocks/rocks/schist/pillar_schist"
+		}
+	},
+	"variants": {
+		"normal": [{"all": "contenttweaker:blocks/rocks/schist/pillar_schist"}],
+		"inventory": [{}],
+		"axis=y":    { "model": "contenttweaker:block/rocks/schist/pillar_schist" },
+        "axis=z":     { "model": "contenttweaker:block/rocks/schist/pillar_schist", "x": 90 },
+        "axis=x":     { "model": "contenttweaker:block/rocks/schist/pillar_schist", "x": 90, "y": 90 },
+        "axis=none":   { "model": "contenttweaker:block/rocks/schist/pillar_schist_side" }
+	}
+}
