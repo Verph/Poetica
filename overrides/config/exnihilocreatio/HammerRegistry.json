@@ -10,7 +10,7 @@
   ],
   "ore:logWood": [
     {
-      "item": "excompressum:wood_chippings",
+      "item": "pyrotech:rock:7",
       "amount": 4,
       "miningLevel": 0,
       "chance": 1.0,
