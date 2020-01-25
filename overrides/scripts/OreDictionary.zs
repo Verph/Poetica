@@ -13,6 +13,28 @@ var rockFlux = <ore:rockFlux>;
 
 //Add
 
+var toolAxe = <ore:toolAxe>;
+    toolAxe.addItems([
+	<tfc:metal/axe/bismuth_bronze>,
+	<tfc:metal/axe/black_bronze>,
+	<tfc:metal/axe/bronze>,
+	<tfc:metal/axe/copper>,
+	<tfc:metal/axe/wrought_iron>,
+	<tfc:metal/axe/steel>,
+	<tfc:metal/axe/black_steel>,
+	<tfc:metal/axe/blue_steel>,
+	<tfc:metal/axe/red_steel>,
+	<tfc:metal/axe/mithril>,
+	<tfc:metal/axe/invar>,
+	<tfc:metal/axe/aluminium>,
+	<tfc:metal/axe/cobalt>,
+	<tfc:metal/axe/manyullyn>,
+	<tfc:metal/axe/osmium>,
+	<tfc:metal/axe/titanium>,
+	<tfc:metal/axe/tungsten>,
+	<tfc:metal/axe/tungsten_steel>
+	]);
+
 var hammer = <ore:hammer>;
     hammer.addItems([
 	<pyrotech:crude_hammer>,
@@ -34,7 +56,8 @@ var fireStarter = <ore:fireStarter>;
 
 var dustAsh = <ore:dustAsh>;
     dustAsh.addItems([
-	<contenttweaker:powder_ash>
+	<contenttweaker:powder_ash>,
+	<pyrotech:material>
 	]);
 
 var moss = <ore:moss>;

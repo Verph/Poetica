@@ -5,6 +5,7 @@
 //=======================================================================================================================================================================
 //Add Shapeless Recipes
 
+	recipes.addShapeless(<minecraft:stick> * 2, [<ore:lumber>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:wooden_twig> * 3, [<ore:logWood>, <ore:hammer>.transformDamage(1)]);
 	
 	recipes.addShapeless(<tfc:metal/nugget/gold>, [<ore:nuggetGold>]);
@@ -454,9 +455,8 @@
 	mods.terrafirmacraft.Heating.addRecipe("poetica:silkworm", <exnihilocreatio:item_material:2>, <exnihilocreatio:item_cooked_silkworm>, 210, 480);
 	
 	//Materials
-	mods.terrafirmacraft.Heating.addRecipe("poetica:ash", <contenttweaker:wooden_twig>, <contenttweaker:powder_ash>, 480, 730);
+	//mods.terrafirmacraft.Heating.addRecipe("poetica:ash", <contenttweaker:wooden_twig>, <contenttweaker:powder_ash>, 480, 730);
 	mods.terrafirmacraft.Heating.addRecipe("poetica:mud_brick_heating", <contenttweaker:mud_ball>, <contenttweaker:mud_brick>, 210, 1000);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:clay_brick_heating", <minecraft:clay>, <minecraft:brick>, 480, 1200);
 	mods.terrafirmacraft.Heating.addRecipe("poetica:terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 480, 1200);
 	//mods.terrafirmacraft.Heating.addRecipe("poetica:bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 480, 1200);
 	
@@ -520,16 +520,6 @@
 
 	//mods.terrafirmacraft.PitKiln.addRecipe("poetica:clay_brick_pit_kiln", <ore:clay>, <minecraft:brick>);
 	//mods.terrafirmacraft.PitKiln.addRecipe("poetica:necrotic_bone_pit_kiln", <minecraft:bone>, <tconstruct:materials:17>);
-
-
-//=======================================================================================================================================================================
-//Add Knapping Recipes
-
-	//Clay Knapping
-	//mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick", <pyrotech:material:24> * 2, "XXXXX", "XXXXX", "     ", "XXXXX", "XXXXX");
-	//mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick", <pyrotech:material:24> * 2, "XX XX", "XX XX", "XX XX", "XX XX", "XX XX");
-	//mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick", <pyrotech:material:24>, "XXXXX", "XXXXX");
-	//mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick", <pyrotech:material:24>, "XX   ", "XX   ", "XX   ", "XX   ", "XX   ");
 
 
 //=======================================================================================================================================================================

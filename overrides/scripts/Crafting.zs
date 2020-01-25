@@ -253,6 +253,7 @@
 	<minecraft:diamond_boots>.displayName = "Broken Diamond Boots";
 	<minecraft:chest>.displayName = "Stone Chest";
 	<minecraft:diamond>.displayName = "Cut Diamond";
+	<tfc:ore/pyrolusite>.displayName = "Pyrolusite";
 	
 	//Trees
 	<quark:variant_leaves:1>.displayName = "Pink Cherry Leaves";

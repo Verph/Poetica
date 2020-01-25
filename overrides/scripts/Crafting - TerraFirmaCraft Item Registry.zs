@@ -1,3 +1,5 @@
+#priority 1
+
 //=======================================================================================================================================================================
 //ItemRegistry
 	
@@ -130,6 +132,14 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:crab_meat_raw>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exoticbirds:birdmeat>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exnihilocreatio:item_material:2>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:food/red_apple>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:food/green_apple>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:food/beet>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:food/carrot>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:plants/porcini>, 0.35, 480, true);
+	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:egg>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:brown_mushroom>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:red_mushroom>, 0.35, 480, true);
 	
 	//Cooked
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
@@ -153,6 +163,12 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:crab_meat_cooked>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exoticbirds:cooked_birdmeat>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exnihilocreatio:item_cooked_silkworm>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:beetroot_roasted>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:egg_roasted>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:apple_baked>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:carrot_roasted>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:mushroom_brown_roasted>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:mushroom_red_roasted>, 0.35, 480, true);
 
 	//Torch
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);
@@ -179,6 +195,7 @@
 	//Twig & Ash
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:wooden_twig>, 0.35, 730, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:powder_ash>, 0.35, 730, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:material>, 0.35, 730, true);
 	
 	//Content Tweaker Metal Items - Size
 	//mods.terrafirmacraft.ItemRegistry.registerItemSize(<contenttweaker:aluminium_double_ingot>, "LARGE", "MEDIUM");
@@ -310,6 +327,7 @@
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:apple>, [1.0, 0.0, 0.0, 0.5, 0.5], 1.0, 0.0, 1.0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chorus_fruit>, [1.0, 0.0, 0.0, 0.5, 0.5], 1.0, 0.0, 1.0);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<pyrotech:apple_baked>, [1.0, 0.0, 0.0, 0.5, 0.5], 1.0, 0.0, 1.0);
 
 	//Fish
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
