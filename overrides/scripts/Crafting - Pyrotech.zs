@@ -66,28 +66,28 @@
 //Add Heating Recipes
 
 	//Materials
-	mods.terrafirmacraft.Heating.addRecipe("poetica:ash", <contenttweaker:wooden_twig>, <pyrotech:material>, 480, 730);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:clay_brick_heating", <pyrotech:material:24>, <minecraft:brick>, 480, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("ash", <contenttweaker:wooden_twig>, <pyrotech:material>, 480, 730);
+	mods.terrafirmacraft.Heating.addRecipe("clay_brick_heating", <pyrotech:material:24>, <minecraft:brick>, 480, 1200);
 
 	//Foods
-	mods.terrafirmacraft.Heating.addRecipe("poetica:red_baked_apple", <tfc:food/red_apple>, <pyrotech:apple_baked>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:green_baked_apple", <tfc:food/green_apple>, <pyrotech:apple_baked>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:roasted_carrot", <tfc:food/carrot>, <pyrotech:carrot_roasted>, 210, 480);
-	//mods.terrafirmacraft.Heating.addRecipe("poetica:roasted_egg", <minecraft:egg>, <pyrotech:egg_roasted>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:brown_mushroom_roasted", <minecraft:brown_mushroom>, <pyrotech:mushroom_brown_roasted>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:porcini_mushroom_roasted", <tfc:plants/porcini>, <pyrotech:mushroom_brown_roasted>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:red_mushroom_roasted", <minecraft:red_mushroom>, <pyrotech:mushroom_red_roasted>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:roasted_beetroot", <tfc:food/beet>, <pyrotech:beetroot_roasted>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("red_baked_apple", <tfc:food/red_apple>, <pyrotech:apple_baked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("green_baked_apple", <tfc:food/green_apple>, <pyrotech:apple_baked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("roasted_carrot", <tfc:food/carrot>, <pyrotech:carrot_roasted>, 210, 480);
+	//mods.terrafirmacraft.Heating.addRecipe("roasted_egg", <minecraft:egg>, <pyrotech:egg_roasted>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("brown_mushroom_roasted", <minecraft:brown_mushroom>, <pyrotech:mushroom_brown_roasted>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("porcini_mushroom_roasted", <tfc:plants/porcini>, <pyrotech:mushroom_brown_roasted>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("red_mushroom_roasted", <minecraft:red_mushroom>, <pyrotech:mushroom_red_roasted>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("roasted_beetroot", <tfc:food/beet>, <pyrotech:beetroot_roasted>, 210, 480);
 
 
 //=======================================================================================================================================================================
 //Add Knapping Recipes
 
 	//Clay Knapping
-	mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick_h_2", <pyrotech:material:24> * 2, "XXXXX", "XXXXX", "     ", "XXXXX", "XXXXX");
-	mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick_v_2", <pyrotech:material:24> * 2, "XX XX", "XX XX", "XX XX", "XX XX", "XX XX");
-	mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick_h_1", <pyrotech:material:24>, "XXXXX", "XXXXX");
-	mods.terrafirmacraft.ClayKnapping.addRecipe("poetica:clay_brick_v_1", <pyrotech:material:24>, "XX", "XX", "XX", "XX", "XX");
+	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_h_2", <pyrotech:material:24> * 2, "XXXXX", "XXXXX", "     ", "XXXXX", "XXXXX");
+	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_v_2", <pyrotech:material:24> * 2, "XX XX", "XX XX", "XX XX", "XX XX", "XX XX");
+	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_h_1", <pyrotech:material:24>, "XXXXX", "XXXXX");
+	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_v_1", <pyrotech:material:24>, "XX", "XX", "XX", "XX", "XX");
 
 
 //=======================================================================================================================================================================

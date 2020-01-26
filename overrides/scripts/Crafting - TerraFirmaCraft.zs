@@ -13,7 +13,7 @@
 	recipes.addShapeless(<tfc:metal/ingot/wrought_iron> * 9, [<ore:blockIron>]);
 	recipes.addShapeless(<contenttweaker:glue> * 8, [<contenttweaker:dixie_glue>]);
 	//recipes.addShapeless(<contenttweaker:vulcanizing_agents> * 4, [<ore:dustGraphitePowder>, <ore:dustKaolinitePowder>, <ore:dustChalkPowder>, <ore:dustSulfur>]);
-	recipes.addShapeless(<tfctech:latex/vulcanizing_agents> * 4, [<ore:dustGraphitePowder>, <ore:dustKaolinitePowder>, <ore:dustChalkPowder>, <ore:dustSulfur>]);
+	recipes.addShapeless(<tfctech:latex/vulcanizing_agents> * 4, [<ore:dustGraphite>, <ore:dustKaolinite>, <ore:dustChalk>, <ore:dustSulfur>]);
 
 	//Gems
 	recipes.addShapeless(<tfc:gem/diamond:2>, [<tfc:gem/diamond>, <ore:chisel>.transformDamage(1), <ore:hammer>.transformDamage(1)]);
@@ -319,6 +319,148 @@
 	recipes.addShaped(<contenttweaker:black_bronze_planer>, [[<ore:stickWood>, <contenttweaker:black_bronze_planer_blade>, <ore:stickWood>], [<ore:lumberAcacia>, <ore:lumberAcacia>, <ore:lumberAcacia>]]);
 	recipes.addShaped(<contenttweaker:bismuth_bronze_planer>, [[<ore:stickWood>, <contenttweaker:bismuth_bronze_planer_blade>, <ore:stickWood>], [<ore:lumberAcacia>, <ore:lumberAcacia>, <ore:lumberAcacia>]]);
 
+	//TFC Metallum Anvils
+	recipes.addShaped(<tfc:metal/anvil/mithril>, [[<ore:ingotDoubleMithril>, <ore:ingotDoubleMithril>, <ore:ingotDoubleMithril>], [null, <ore:ingotDoubleMithril>, null], [<ore:ingotDoubleMithril>, <ore:ingotDoubleMithril>, <ore:ingotDoubleMithril>]]);
+	recipes.addShaped(<tfc:metal/anvil/invar>, [[<ore:ingotDoubleInvar>, <ore:ingotDoubleInvar>, <ore:ingotDoubleInvar>], [null, <ore:ingotDoubleInvar>, null], [<ore:ingotDoubleInvar>, <ore:ingotDoubleInvar>, <ore:ingotDoubleInvar>]]);
+	recipes.addShaped(<tfc:metal/anvil/aluminium>, [[<ore:ingotDoubleAluminium>, <ore:ingotDoubleAluminium>, <ore:ingotDoubleAluminium>], [null, <ore:ingotDoubleAluminium>, null], [<ore:ingotDoubleAluminium>, <ore:ingotDoubleAluminium>, <ore:ingotDoubleAluminium>]]);
+	recipes.addShaped(<tfc:metal/anvil/cobalt>, [[<ore:ingotDoubleCobalt>, <ore:ingotDoubleCobalt>, <ore:ingotDoubleCobalt>], [null, <ore:ingotDoubleCobalt>, null], [<ore:ingotDoubleCobalt>, <ore:ingotDoubleCobalt>, <ore:ingotDoubleCobalt>]]);
+	recipes.addShaped(<tfc:metal/anvil/manyullyn>, [[<ore:ingotDoubleManyullyn>, <ore:ingotDoubleManyullyn>, <ore:ingotDoubleManyullyn>], [null, <ore:ingotDoubleManyullyn>, null], [<ore:ingotDoubleManyullyn>, <ore:ingotDoubleManyullyn>, <ore:ingotDoubleManyullyn>]]);
+	recipes.addShaped(<tfc:metal/anvil/osmium>, [[<ore:ingotDoubleOsmium>, <ore:ingotDoubleOsmium>, <ore:ingotDoubleOsmium>], [null, <ore:ingotDoubleOsmium>, null], [<ore:ingotDoubleOsmium>, <ore:ingotDoubleOsmium>, <ore:ingotDoubleOsmium>]]);
+	recipes.addShaped(<tfc:metal/anvil/titanium>, [[<ore:ingotDoubleTitanium>, <ore:ingotDoubleTitanium>, <ore:ingotDoubleTitanium>], [null, <ore:ingotDoubleTitanium>, null], [<ore:ingotDoubleTitanium>, <ore:ingotDoubleTitanium>, <ore:ingotDoubleTitanium>]]);
+	recipes.addShaped(<tfc:metal/anvil/tungsten>, [[<ore:ingotDoubleTungsten>, <ore:ingotDoubleTungsten>, <ore:ingotDoubleTungsten>], [null, <ore:ingotDoubleTungsten>, null], [<ore:ingotDoubleTungsten>, <ore:ingotDoubleTungsten>, <ore:ingotDoubleTungsten>]]);
+	recipes.addShaped(<tfc:metal/anvil/tungsten_steel>, [[<ore:ingotDoubleTungstenSteel>, <ore:ingotDoubleTungstenSteel>, <ore:ingotDoubleTungstenSteel>], [null, <ore:ingotDoubleTungstenSteel>, null], [<ore:ingotDoubleTungstenSteel>, <ore:ingotDoubleTungstenSteel>, <ore:ingotDoubleTungstenSteel>]]);
+
+	//TFC Metallum Tools
+	recipes.addShaped(<tfc:metal/pick/mithril>, [[<tfc:metal/pick_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/invar>, [[<tfc:metal/pick_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/aluminium>, [[<tfc:metal/pick_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/cobalt>, [[<tfc:metal/pick_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/manyullyn>, [[<tfc:metal/pick_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/osmium>, [[<tfc:metal/pick_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/titanium>, [[<tfc:metal/pick_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/tungsten>, [[<tfc:metal/pick_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/pick/tungsten_steel>, [[<tfc:metal/pick_head/tungsten_steel>], [<ore:stickWood>]]);
+	
+	recipes.addShaped(<tfc:metal/shovel/mithril>, [[<tfc:metal/shovel_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/invar>, [[<tfc:metal/shovel_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/aluminium>, [[<tfc:metal/shovel_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/cobalt>, [[<tfc:metal/shovel_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/manyullyn>, [[<tfc:metal/shovel_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/osmium>, [[<tfc:metal/shovel_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/titanium>, [[<tfc:metal/shovel_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/tungsten>, [[<tfc:metal/shovel_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/shovel/tungsten_steel>, [[<tfc:metal/shovel_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/axe/mithril>, [[<tfc:metal/axe_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/invar>, [[<tfc:metal/axe_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/aluminium>, [[<tfc:metal/axe_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/cobalt>, [[<tfc:metal/axe_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/manyullyn>, [[<tfc:metal/axe_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/osmium>, [[<tfc:metal/axe_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/titanium>, [[<tfc:metal/axe_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/tungsten>, [[<tfc:metal/axe_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/axe/tungsten_steel>, [[<tfc:metal/axe_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/hoe/mithril>, [[<tfc:metal/hoe_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/invar>, [[<tfc:metal/hoe_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/aluminium>, [[<tfc:metal/hoe_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/cobalt>, [[<tfc:metal/hoe_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/manyullyn>, [[<tfc:metal/hoe_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/osmium>, [[<tfc:metal/hoe_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/titanium>, [[<tfc:metal/hoe_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/tungsten>, [[<tfc:metal/hoe_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hoe/tungsten_steel>, [[<tfc:metal/hoe_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/chisel/mithril>, [[<tfc:metal/chisel_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/invar>, [[<tfc:metal/chisel_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/aluminium>, [[<tfc:metal/chisel_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/cobalt>, [[<tfc:metal/chisel_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/manyullyn>, [[<tfc:metal/chisel_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/osmium>, [[<tfc:metal/chisel_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/titanium>, [[<tfc:metal/chisel_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/tungsten>, [[<tfc:metal/chisel_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/chisel/tungsten_steel>, [[<tfc:metal/chisel_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/sword/mithril>, [[<tfc:metal/sword_blade/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/invar>, [[<tfc:metal/sword_blade/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/aluminium>, [[<tfc:metal/sword_blade/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/cobalt>, [[<tfc:metal/sword_blade/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/manyullyn>, [[<tfc:metal/sword_blade/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/osmium>, [[<tfc:metal/sword_blade/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/titanium>, [[<tfc:metal/sword_blade/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/tungsten>, [[<tfc:metal/sword_blade/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/sword/tungsten_steel>, [[<tfc:metal/sword_blade/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/mace/mithril>, [[<tfc:metal/mace_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/invar>, [[<tfc:metal/mace_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/aluminium>, [[<tfc:metal/mace_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/cobalt>, [[<tfc:metal/mace_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/manyullyn>, [[<tfc:metal/mace_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/osmium>, [[<tfc:metal/mace_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/titanium>, [[<tfc:metal/mace_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/tungsten>, [[<tfc:metal/mace_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/mace/tungsten_steel>, [[<tfc:metal/mace_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/saw/mithril>, [[<tfc:metal/saw_blade/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/invar>, [[<tfc:metal/saw_blade/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/aluminium>, [[<tfc:metal/saw_blade/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/cobalt>, [[<tfc:metal/saw_blade/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/manyullyn>, [[<tfc:metal/saw_blade/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/osmium>, [[<tfc:metal/saw_blade/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/titanium>, [[<tfc:metal/saw_blade/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/tungsten>, [[<tfc:metal/saw_blade/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/saw/tungsten_steel>, [[<tfc:metal/saw_blade/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/javelin/mithril>, [[<tfc:metal/javelin_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/invar>, [[<tfc:metal/javelin_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/aluminium>, [[<tfc:metal/javelin_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/cobalt>, [[<tfc:metal/javelin_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/manyullyn>, [[<tfc:metal/javelin_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/osmium>, [[<tfc:metal/javelin_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/titanium>, [[<tfc:metal/javelin_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/tungsten>, [[<tfc:metal/javelin_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/javelin/tungsten_steel>, [[<tfc:metal/javelin_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/hammer/mithril>, [[<tfc:metal/hammer_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/invar>, [[<tfc:metal/hammer_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/aluminium>, [[<tfc:metal/hammer_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/cobalt>, [[<tfc:metal/hammer_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/manyullyn>, [[<tfc:metal/hammer_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/osmium>, [[<tfc:metal/hammer_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/titanium>, [[<tfc:metal/hammer_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/tungsten>, [[<tfc:metal/hammer_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/hammer/tungsten_steel>, [[<tfc:metal/hammer_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/propick/mithril>, [[<tfc:metal/propick_head/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/invar>, [[<tfc:metal/propick_head/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/aluminium>, [[<tfc:metal/propick_head/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/cobalt>, [[<tfc:metal/propick_head/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/manyullyn>, [[<tfc:metal/propick_head/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/osmium>, [[<tfc:metal/propick_head/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/titanium>, [[<tfc:metal/propick_head/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/tungsten>, [[<tfc:metal/propick_head/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/propick/tungsten_steel>, [[<tfc:metal/propick_head/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/knife/mithril>, [[<tfc:metal/knife_blade/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/invar>, [[<tfc:metal/knife_blade/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/aluminium>, [[<tfc:metal/knife_blade/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/cobalt>, [[<tfc:metal/knife_blade/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/manyullyn>, [[<tfc:metal/knife_blade/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/osmium>, [[<tfc:metal/knife_blade/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/titanium>, [[<tfc:metal/knife_blade/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/tungsten>, [[<tfc:metal/knife_blade/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/knife/tungsten_steel>, [[<tfc:metal/knife_blade/tungsten_steel>], [<ore:stickWood>]]);
+
+	recipes.addShaped(<tfc:metal/scythe/mithril>, [[<tfc:metal/scythe_blade/mithril>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/invar>, [[<tfc:metal/scythe_blade/invar>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/aluminium>, [[<tfc:metal/scythe_blade/aluminium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/cobalt>, [[<tfc:metal/scythe_blade/cobalt>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/manyullyn>, [[<tfc:metal/scythe_blade/manyullyn>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/osmium>, [[<tfc:metal/scythe_blade/osmium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/titanium>, [[<tfc:metal/scythe_blade/titanium>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/tungsten>, [[<tfc:metal/scythe_blade/tungsten>], [<ore:stickWood>]]);
+	recipes.addShaped(<tfc:metal/scythe/tungsten_steel>, [[<tfc:metal/scythe_blade/tungsten_steel>], [<ore:stickWood>]]);
+
 
 //=======================================================================================================================================================================
 //Rename Items
@@ -430,39 +572,41 @@
 //Add Heating/Cooking Recipes
 
 	//Food
-	mods.terrafirmacraft.Heating.addRecipe("poetica:fish_0", <minecraft:fish>, <minecraft:cooked_fish>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:fish_1", <minecraft:fish:1>, <minecraft:cooked_fish:1>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:fish_2", <minecraft:fish:2>, <minecraft:cooked_fish>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:fish_3", <minecraft:fish:3>, <minecraft:cooked_fish>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:porkchop", <minecraft:porkchop>, <minecraft:cooked_porkchop>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:beef", <minecraft:beef>, <minecraft:cooked_beef>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:chicken", <minecraft:chicken>, <minecraft:cooked_chicken>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:potato", <minecraft:potato>, <minecraft:baked_potato>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:rabbit", <minecraft:rabbit>, <minecraft:cooked_rabbit>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:mutton", <minecraft:mutton>, <minecraft:cooked_mutton>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:frog_leg", <quark:frog_leg>, <quark:cooked_frog_leg>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:crab_leg", <quark:crab_leg>, <quark:cooked_crab_leg>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:mystery_meat", <betterwithmods:mystery_meat>, <betterwithmods:cooked_mystery_meat>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:bat_wing", <betterwithmods:bat_wing>, <betterwithmods:cooked_bat_wing>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:raw_egg", <betterwithmods:raw_egg>, <betterwithmods:cooked_egg>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:raw_scrambled_egg", <betterwithmods:raw_scrambled_egg>, <betterwithmods:cooked_scrambled_egg>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:raw_omelet", <betterwithmods:raw_omelet>, <betterwithmods:cooked_omelet>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:wolf_chop", <betterwithmods:wolf_chop>, <betterwithmods:cooked_wolf_chop>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:venison_raw", <betteranimalsplus:venisonraw>, <betteranimalsplus:venisoncooked>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:pheasant_raw", <betteranimalsplus:pheasantraw>, <betteranimalsplus:pheasantcooked>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:crab_meat_raw", <betteranimalsplus:crab_meat_raw>, <betteranimalsplus:crab_meat_cooked>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:birdmeat", <exoticbirds:birdmeat>, <exoticbirds:cooked_birdmeat>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:silkworm", <exnihilocreatio:item_material:2>, <exnihilocreatio:item_cooked_silkworm>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("fish_0", <minecraft:fish>, <minecraft:cooked_fish>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("fish_1", <minecraft:fish:1>, <minecraft:cooked_fish:1>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("fish_2", <minecraft:fish:2>, <minecraft:cooked_fish>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("fish_3", <minecraft:fish:3>, <minecraft:cooked_fish>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("porkchop", <minecraft:porkchop>, <minecraft:cooked_porkchop>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("beef", <minecraft:beef>, <minecraft:cooked_beef>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("chicken", <minecraft:chicken>, <minecraft:cooked_chicken>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("potato", <minecraft:potato>, <minecraft:baked_potato>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("rabbit", <minecraft:rabbit>, <minecraft:cooked_rabbit>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("mutton", <minecraft:mutton>, <minecraft:cooked_mutton>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("frog_leg", <quark:frog_leg>, <quark:cooked_frog_leg>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("crab_leg", <quark:crab_leg>, <quark:cooked_crab_leg>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("mystery_meat", <betterwithmods:mystery_meat>, <betterwithmods:cooked_mystery_meat>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("bat_wing", <betterwithmods:bat_wing>, <betterwithmods:cooked_bat_wing>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("raw_egg", <betterwithmods:raw_egg>, <betterwithmods:cooked_egg>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("raw_scrambled_egg", <betterwithmods:raw_scrambled_egg>, <betterwithmods:cooked_scrambled_egg>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("raw_omelet", <betterwithmods:raw_omelet>, <betterwithmods:cooked_omelet>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("wolf_chop", <betterwithmods:wolf_chop>, <betterwithmods:cooked_wolf_chop>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("venison_raw", <betteranimalsplus:venisonraw>, <betteranimalsplus:venisoncooked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("pheasant_raw", <betteranimalsplus:pheasantraw>, <betteranimalsplus:pheasantcooked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("crab_meat_raw", <betteranimalsplus:crab_meat_raw>, <betteranimalsplus:crab_meat_cooked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("turkey_leg", <betteranimalsplus:turkey_leg_raw>, <betteranimalsplus:turkey_leg_cooked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("turkey", <betteranimalsplus:turkey_raw>, <betteranimalsplus:turkey_cooked>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("birdmeat", <exoticbirds:birdmeat>, <exoticbirds:cooked_birdmeat>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("silkworm", <exnihilocreatio:item_material:2>, <exnihilocreatio:item_cooked_silkworm>, 210, 480);
 	
 	//Materials
-	//mods.terrafirmacraft.Heating.addRecipe("poetica:ash", <contenttweaker:wooden_twig>, <contenttweaker:powder_ash>, 480, 730);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:mud_brick_heating", <contenttweaker:mud_ball>, <contenttweaker:mud_brick>, 210, 1000);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 480, 1200);
-	//mods.terrafirmacraft.Heating.addRecipe("poetica:bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 480, 1200);
+	//mods.terrafirmacraft.Heating.addRecipe("ash", <contenttweaker:wooden_twig>, <contenttweaker:powder_ash>, 480, 730);
+	mods.terrafirmacraft.Heating.addRecipe("mud_brick_heating", <contenttweaker:mud_ball>, <contenttweaker:mud_brick>, 210, 1000);
+	mods.terrafirmacraft.Heating.addRecipe("terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 480, 1200);
+	//mods.terrafirmacraft.Heating.addRecipe("bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 480, 1200);
 	
-	//mods.terrafirmacraft.Heating.addRecipe("poetica:dixie_glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
+	mods.terrafirmacraft.Heating.addRecipe("dixie_glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
 	
-	//mods.terrafirmacraft.Heating.addRecipe("poetica:rubber", <contenttweaker:rubber_mix>, <contenttweaker:rubber>, 250, 250);
+	//mods.terrafirmacraft.Heating.addRecipe("rubber", <contenttweaker:rubber_mix>, <contenttweaker:rubber>, 250, 250);
 	
 	//mods.terrafirmacraft.Heating.addRecipe("Acacia Firewood Torch", <contenttweaker:firewood_acacia>, <tfc:torch> * 4, 40, 600);
 	//mods.terrafirmacraft.Heating.addRecipe("Ash Firewood Torch", <contenttweaker:firewood_ash>, <tfc:torch> * 4, 40, 600);
@@ -489,124 +633,124 @@
 	//mods.terrafirmacraft.Heating.addRecipe("Olive Firewood Torch", <contenttweaker:firewood_olive>, <tfc:torch> * 4, 40, 600);
 	//mods.terrafirmacraft.Heating.addRecipe("Ironwood Firewood Torch", <contenttweaker:firewood_ironwood>, <tfc:torch> * 4, 40, 600);
 	
-	mods.terrafirmacraft.Heating.addRecipe("poetica:acacia_firewood_torch", <contenttweaker:firewood_acacia>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:ash_firewood_torch", <contenttweaker:firewood_ash>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:aspen_firewood_torch", <contenttweaker:firewood_aspen>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:birch_firewood_torch", <contenttweaker:firewood_birch>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:blackwood_firewood_torch", <contenttweaker:firewood_blackwood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:chestnut_firewood_torch", <contenttweaker:firewood_chestnut>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:douglas_fir_firewood_torch", <contenttweaker:firewood_douglas_fir>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:hickory_firewood_torch", <contenttweaker:firewood_hickory>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:kapok_firewood_torch", <contenttweaker:firewood_kapok>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:maple_firewood_torch", <contenttweaker:firewood_maple>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:oak_firewood_torch", <contenttweaker:firewood_oak>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:palm_firewood_torch", <contenttweaker:firewood_palm>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:pine_firewood_torch", <contenttweaker:firewood_pine>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:rosewood_firewood_torch", <contenttweaker:firewood_rosewood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:sequoia_firewood_torch", <contenttweaker:firewood_sequoia>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:spruce_firewood_torch", <contenttweaker:firewood_spruce>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:sycamore_firewood_torch", <contenttweaker:firewood_sycamore>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:white_cedar_firewood_torch", <contenttweaker:firewood_white_cedar>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:white_elm_firewood_torch", <contenttweaker:firewood_white_elm>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:willow_firewood_torch", <contenttweaker:firewood_willow>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:greatwood_firewood_torch", <contenttweaker:firewood_greatwood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:silverwood_firewood_torch", <contenttweaker:firewood_silverwood>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:olive_firewood_torch", <contenttweaker:firewood_olive>, <minecraft:torch> * 4, 40, 600);
-	mods.terrafirmacraft.Heating.addRecipe("poetica:ironwood_firewood_torch", <contenttweaker:firewood_ironwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("acacia_firewood_torch", <contenttweaker:firewood_acacia>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("ash_firewood_torch", <contenttweaker:firewood_ash>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("aspen_firewood_torch", <contenttweaker:firewood_aspen>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("birch_firewood_torch", <contenttweaker:firewood_birch>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("blackwood_firewood_torch", <contenttweaker:firewood_blackwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("chestnut_firewood_torch", <contenttweaker:firewood_chestnut>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("douglas_fir_firewood_torch", <contenttweaker:firewood_douglas_fir>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("hickory_firewood_torch", <contenttweaker:firewood_hickory>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("kapok_firewood_torch", <contenttweaker:firewood_kapok>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("maple_firewood_torch", <contenttweaker:firewood_maple>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("oak_firewood_torch", <contenttweaker:firewood_oak>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("palm_firewood_torch", <contenttweaker:firewood_palm>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("pine_firewood_torch", <contenttweaker:firewood_pine>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("rosewood_firewood_torch", <contenttweaker:firewood_rosewood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("sequoia_firewood_torch", <contenttweaker:firewood_sequoia>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("spruce_firewood_torch", <contenttweaker:firewood_spruce>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("sycamore_firewood_torch", <contenttweaker:firewood_sycamore>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("white_cedar_firewood_torch", <contenttweaker:firewood_white_cedar>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("white_elm_firewood_torch", <contenttweaker:firewood_white_elm>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("willow_firewood_torch", <contenttweaker:firewood_willow>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("greatwood_firewood_torch", <contenttweaker:firewood_greatwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("silverwood_firewood_torch", <contenttweaker:firewood_silverwood>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("olive_firewood_torch", <contenttweaker:firewood_olive>, <minecraft:torch> * 4, 40, 600);
+	mods.terrafirmacraft.Heating.addRecipe("ironwood_firewood_torch", <contenttweaker:firewood_ironwood>, <minecraft:torch> * 4, 40, 600);
 
 
 //=======================================================================================================================================================================
 //Add Pit Kiln Recipes
 
-	//mods.terrafirmacraft.PitKiln.addRecipe("poetica:clay_brick_pit_kiln", <ore:clay>, <minecraft:brick>);
-	//mods.terrafirmacraft.PitKiln.addRecipe("poetica:necrotic_bone_pit_kiln", <minecraft:bone>, <tconstruct:materials:17>);
+	//mods.terrafirmacraft.PitKiln.addRecipe("clay_brick_pit_kiln", <ore:clay>, <minecraft:brick>);
+	//mods.terrafirmacraft.PitKiln.addRecipe("necrotic_bone_pit_kiln", <minecraft:bone>, <tconstruct:materials:17>);
 
 
 //=======================================================================================================================================================================
 //Add Barrel Recipes
 
-	//mods.terrafirmacraft.Barrel.addRecipe("poetica:rubber_latex", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
-	//mods.terrafirmacraft.Barrel.addRecipe("poetica:rubber_oil", <contenttweaker:vulcanizing_agents>, <liquid:oil> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("poetica:base_potash_liquor", <ore:dustAsh>, <liquid:fresh_water> * 500, null, <liquid:base_potash_liquor> * 500, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("poetica:cellulose_fibers", <ore:sugarcane>, <liquid:base_potash_liquor> * 150, <contenttweaker:cellulose_fibers>, <liquid:waste> * 150, 24);
-	mods.terrafirmacraft.Barrel.addRecipe("poetica:cellulose_fibers_wood_dust", <ore:dustWood>, <liquid:base_potash_liquor> * 150, <contenttweaker:cellulose_fibers>, <liquid:waste> * 150, 24);
-	mods.terrafirmacraft.Barrel.addRecipe("poetica:spider_eye", <minecraft:spider_eye>, <liquid:vinegar> * 25, <minecraft:fermented_spider_eye>, null, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("poetica:pulp_sugarcane", <ore:sugarcane>, <liquid:fresh_water> * 125, <pyrotech:material:25>, null, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("poetica:pulp_wood_chips", <pyrotech:rock:7>, <liquid:fresh_water> * 500, <pyrotech:material:25>, null, 8);
+	//mods.terrafirmacraft.Barrel.addRecipe("rubber_latex", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+	//mods.terrafirmacraft.Barrel.addRecipe("rubber_oil", <contenttweaker:vulcanizing_agents>, <liquid:oil> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("base_potash_liquor", <ore:dustAsh>, <liquid:fresh_water> * 500, null, <liquid:base_potash_liquor> * 500, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("cellulose_fibers", <ore:sugarcane>, <liquid:base_potash_liquor> * 150, <contenttweaker:cellulose_fibers>, <liquid:waste> * 150, 24);
+	mods.terrafirmacraft.Barrel.addRecipe("cellulose_fibers_wood_dust", <ore:dustWood>, <liquid:base_potash_liquor> * 150, <contenttweaker:cellulose_fibers>, <liquid:waste> * 150, 24);
+	mods.terrafirmacraft.Barrel.addRecipe("spider_eye", <minecraft:spider_eye>, <liquid:vinegar> * 25, <minecraft:fermented_spider_eye>, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("pulp_sugarcane", <ore:sugarcane>, <liquid:fresh_water> * 125, <pyrotech:material:25>, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("pulp_wood_chips", <pyrotech:rock:7>, <liquid:fresh_water> * 500, <pyrotech:material:25>, null, 8);
 
 //=======================================================================================================================================================================
 //Add Quern Recipes
 	
 	//Glowstone Dust
-	mods.terrafirmacraft.Quern.addRecipe("poetica:selenite_glowstone", <tfc:ore/selenite>, <minecraft:glowstone_dust> * 8);
+	mods.terrafirmacraft.Quern.addRecipe("selenite_glowstone", <tfc:ore/selenite>, <minecraft:glowstone_dust> * 8);
 	
 	//Chalk Powder
-	mods.terrafirmacraft.Quern.addRecipe("poetica:chalk_powder", <ore:rockChalk>, <contenttweaker:powder_chalk> * 4);
+	mods.terrafirmacraft.Quern.addRecipe("chalk_powder", <ore:rockChalk>, <contenttweaker:powder_chalk> * 4);
 
 	//Dyes
-	mods.terrafirmacraft.Quern.addRecipe("poetica:allium", <tfc:plants/allium>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:athyrium_fern", <tfc:plants/athyrium_fern>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:blue_orchid", <tfc:plants/blue_orchid>, <quark:root_dye> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:black_orchid", <tfc:plants/black_orchid>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:butterfly_milkweed", <tfc:plants/butterfly_milkweed>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:calendula", <tfc:plants/calendula>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:canna", <tfc:plants/canna>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:dandelion", <tfc:plants/dandelion>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:field_horsetail", <tfc:plants/field_horsetail>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:goldenrod", <tfc:plants/goldenrod>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:grape_hyacinth", <tfc:plants/grape_hyacinth>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:houstonia", <tfc:plants/houstonia>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:labrador_tea", <tfc:plants/labrador_tea>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:lady_fern", <tfc:plants/lady_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:meads_milkweed", <tfc:plants/meads_milkweed>, <minecraft:dye:10> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:nasturtium", <tfc:plants/nasturtium>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:oxeye_daisy", <tfc:plants/oxeye_daisy>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:poppy", <tfc:plants/poppy>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:primrose", <tfc:plants/primrose>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:pulsatilla", <tfc:plants/pulsatilla>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:sacred_datura", <tfc:plants/sacred_datura>, <minecraft:dye:9> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:snapdragon_pink", <tfc:plants/snapdragon_pink>, <minecraft:dye:9> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:snapdragon_red", <tfc:plants/snapdragon_red>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:snapdragon_white", <tfc:plants/snapdragon_white>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:snapdragon_yellow", <tfc:plants/snapdragon_yellow>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:strelitzia", <tfc:plants/strelitzia>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:sword_fern", <tfc:plants/sword_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tropical_milkweed", <tfc:plants/tropical_milkweed>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tulip_orange", <tfc:plants/tulip_orange>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tulip_pink", <tfc:plants/tulip_pink>, <minecraft:dye:9> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tulip_red", <tfc:plants/tulip_red>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tulip_white", <tfc:plants/tulip_white>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:perovskia", <tfc:plants/perovskia>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:sagebrush", <tfc:plants/sagebrush>, <minecraft:dye:11> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:barrel_cactus", <tfc:plants/barrel_cactus>, <minecraft:dye:2> * 3);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:yucca", <tfc:plants/yucca>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:ostrich_fern", <tfc:plants/ostrich_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:sapphire_tower", <tfc:plants/sapphire_tower>, <minecraft:dye:12> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tree_fern", <tfc:plants/tree_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:morning_glory", <tfc:plants/morning_glory>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:moss", <tfc:plants/moss>, <minecraft:dye:10> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:reindeer_lichen", <tfc:plants/reindeer_lichen>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:spanish_moss", <tfc:plants/spanish_moss>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:guzmania", <tfc:plants/guzmania>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:vriesea", <tfc:plants/vriesea>, <minecraft:dye:1> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:licorice_fern", <tfc:plants/licorice_fern>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:rough_horsetail", <tfc:plants/rough_horsetail>, <minecraft:dye:3>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:bloody_lily", <tfc:plants/blood_lily>, <minecraft:dye:13> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:foxglove", <tfc:plants/foxglove>, <minecraft:dye:5> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:rose", <tfc:plants/rose>, <minecraft:dye:1> * 3);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:toquilla_palm", <tfc:plants/toquilla_palm>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:trillium", <tfc:plants/trillium>, <quark:root_dye:2> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:pampas_grass", <tfc:plants/pampas_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:ryegrass", <tfc:plants/ryegrass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:switchgrass", <tfc:plants/switchgrass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:fountain_grass", <tfc:plants/fountain_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:orchard_grass", <tfc:plants/orchard_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:scutch_grass", <tfc:plants/scutch_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:tall_fescue_grass", <tfc:plants/tall_fescue_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:timothy_grass", <tfc:plants/timothy_grass>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:duckweed", <tfc:plants/duckweed>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:lotus", <tfc:plants/lotus>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:pistia", <tfc:plants/pistia>, <minecraft:dye:2>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:sargassum", <tfc:plants/sargassum>, <minecraft:dye:3>);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:water_canna", <tfc:plants/water_canna>, <minecraft:dye:14> * 2);
-	mods.terrafirmacraft.Quern.addRecipe("poetica:water_lily", <tfc:plants/water_lily>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("allium", <tfc:plants/allium>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("athyrium_fern", <tfc:plants/athyrium_fern>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("blue_orchid", <tfc:plants/blue_orchid>, <quark:root_dye> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("black_orchid", <tfc:plants/black_orchid>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("butterfly_milkweed", <tfc:plants/butterfly_milkweed>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("calendula", <tfc:plants/calendula>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("canna", <tfc:plants/canna>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("dandelion", <tfc:plants/dandelion>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("field_horsetail", <tfc:plants/field_horsetail>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("goldenrod", <tfc:plants/goldenrod>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("grape_hyacinth", <tfc:plants/grape_hyacinth>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("houstonia", <tfc:plants/houstonia>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("labrador_tea", <tfc:plants/labrador_tea>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("lady_fern", <tfc:plants/lady_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("meads_milkweed", <tfc:plants/meads_milkweed>, <minecraft:dye:10> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("nasturtium", <tfc:plants/nasturtium>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("oxeye_daisy", <tfc:plants/oxeye_daisy>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("poppy", <tfc:plants/poppy>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("primrose", <tfc:plants/primrose>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("pulsatilla", <tfc:plants/pulsatilla>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("sacred_datura", <tfc:plants/sacred_datura>, <minecraft:dye:9> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("snapdragon_pink", <tfc:plants/snapdragon_pink>, <minecraft:dye:9> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("snapdragon_red", <tfc:plants/snapdragon_red>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("snapdragon_white", <tfc:plants/snapdragon_white>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("snapdragon_yellow", <tfc:plants/snapdragon_yellow>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("strelitzia", <tfc:plants/strelitzia>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("sword_fern", <tfc:plants/sword_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tropical_milkweed", <tfc:plants/tropical_milkweed>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tulip_orange", <tfc:plants/tulip_orange>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tulip_pink", <tfc:plants/tulip_pink>, <minecraft:dye:9> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tulip_red", <tfc:plants/tulip_red>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tulip_white", <tfc:plants/tulip_white>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("perovskia", <tfc:plants/perovskia>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("sagebrush", <tfc:plants/sagebrush>, <minecraft:dye:11> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("barrel_cactus", <tfc:plants/barrel_cactus>, <minecraft:dye:2> * 3);
+	mods.terrafirmacraft.Quern.addRecipe("yucca", <tfc:plants/yucca>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("ostrich_fern", <tfc:plants/ostrich_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("sapphire_tower", <tfc:plants/sapphire_tower>, <minecraft:dye:12> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("tree_fern", <tfc:plants/tree_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("morning_glory", <tfc:plants/morning_glory>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("moss", <tfc:plants/moss>, <minecraft:dye:10> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("reindeer_lichen", <tfc:plants/reindeer_lichen>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("spanish_moss", <tfc:plants/spanish_moss>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("guzmania", <tfc:plants/guzmania>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("vriesea", <tfc:plants/vriesea>, <minecraft:dye:1> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("licorice_fern", <tfc:plants/licorice_fern>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("rough_horsetail", <tfc:plants/rough_horsetail>, <minecraft:dye:3>);
+	mods.terrafirmacraft.Quern.addRecipe("bloody_lily", <tfc:plants/blood_lily>, <minecraft:dye:13> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("foxglove", <tfc:plants/foxglove>, <minecraft:dye:5> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("rose", <tfc:plants/rose>, <minecraft:dye:1> * 3);
+	mods.terrafirmacraft.Quern.addRecipe("toquilla_palm", <tfc:plants/toquilla_palm>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("trillium", <tfc:plants/trillium>, <quark:root_dye:2> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("pampas_grass", <tfc:plants/pampas_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("ryegrass", <tfc:plants/ryegrass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("switchgrass", <tfc:plants/switchgrass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("fountain_grass", <tfc:plants/fountain_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("orchard_grass", <tfc:plants/orchard_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("scutch_grass", <tfc:plants/scutch_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("tall_fescue_grass", <tfc:plants/tall_fescue_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("timothy_grass", <tfc:plants/timothy_grass>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("duckweed", <tfc:plants/duckweed>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("lotus", <tfc:plants/lotus>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("pistia", <tfc:plants/pistia>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("sargassum", <tfc:plants/sargassum>, <minecraft:dye:3>);
+	mods.terrafirmacraft.Quern.addRecipe("water_canna", <tfc:plants/water_canna>, <minecraft:dye:14> * 2);
+	mods.terrafirmacraft.Quern.addRecipe("water_lily", <tfc:plants/water_lily>, <minecraft:dye:2>);

@@ -140,6 +140,8 @@
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:egg>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:brown_mushroom>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:red_mushroom>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_leg_raw>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_raw>, 0.35, 480, true);
 	
 	//Cooked
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
@@ -169,6 +171,8 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:carrot_roasted>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:mushroom_brown_roasted>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:mushroom_red_roasted>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_leg_cooked>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_cooked>, 0.35, 480, true);
 
 	//Torch
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);

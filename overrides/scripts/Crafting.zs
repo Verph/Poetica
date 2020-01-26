@@ -55,32 +55,31 @@
 //Replace Items
 
 	//Vanilla
-	recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>);
-	recipes.replaceAllOccurences(<minecraft:gold_nugget>, <ore:nuggetGold>);
-	recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>);
-	recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotGold>);
-	recipes.replaceAllOccurences(<minecraft:diamond>, <ore:gemDiamond>);
-	recipes.replaceAllOccurences(<minecraft:trapdoor>, <ore:woodTrapdoor>);
-	recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>);
-	recipes.replaceAllOccurences(<minecraft:crafting_table>, <ore:workbench>);
-	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOak>);
-	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruce);
-	recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirch>);
-	recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodKapok>);
-	recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcacia>);
-	recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodHickory>);
-	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
-	recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
-	recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater>);
-	recipes.replaceAllOccurences(<minecraft:stonebrick>, <ore:stoneBrick>);
-	
-	//Wood
+	//recipes.replaceAllOccurences(<minecraft:iron_nugget>, <ore:nuggetIron>);
+	//recipes.replaceAllOccurences(<minecraft:gold_nugget>, <ore:nuggetGold>);
+	//recipes.replaceAllOccurences(<minecraft:iron_ingot>, <ore:ingotIron>);
+	//recipes.replaceAllOccurences(<minecraft:gold_ingot>, <ore:ingotGold>);
+	//recipes.replaceAllOccurences(<minecraft:diamond>, <ore:gemDiamond>);
+	//recipes.replaceAllOccurences(<minecraft:trapdoor>, <ore:woodTrapdoor>);
+	//recipes.replaceAllOccurences(<minecraft:chest>, <ore:chestWood>);
+	//recipes.replaceAllOccurences(<minecraft:crafting_table>, <ore:workbench>);
+	//recipes.replaceAllOccurences(<minecraft:string>, <ore:string>);
+	//recipes.replaceAllOccurences(<minecraft:water_bucket>, <ore:listAllwater>);
+	//recipes.replaceAllOccurences(<minecraft:stonebrick>, <ore:stoneBrick>);
+
 	recipes.replaceAllOccurences(<minecraft:log>, <ore:logOakSimilar>);
 	recipes.replaceAllOccurences(<minecraft:log:1>, <ore:logSpruceSimilar>);
 	recipes.replaceAllOccurences(<minecraft:log:2>, <ore:logBirchSimilar>);
 	recipes.replaceAllOccurences(<minecraft:log:3>, <ore:logJungleSimilar>);
 	recipes.replaceAllOccurences(<minecraft:log2>, <ore:logAcaciaSimilar>);
 	recipes.replaceAllOccurences(<minecraft:log2:1>, <ore:logDarkOakSimilar>);
+	
+	//recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOak>);
+	//recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruce);
+	//recipes.replaceAllOccurences(<minecraft:planks:2>, <ore:plankWoodBirch>);
+	//recipes.replaceAllOccurences(<minecraft:planks:3>, <ore:plankWoodKapok>);
+	//recipes.replaceAllOccurences(<minecraft:planks:4>, <ore:plankWoodAcacia>);
+	//recipes.replaceAllOccurences(<minecraft:planks:5>, <ore:plankWoodHickory>);
 	
 	recipes.replaceAllOccurences(<minecraft:planks>, <ore:plankWoodOakSimilar>);
 	recipes.replaceAllOccurences(<minecraft:planks:1>, <ore:plankWoodSpruceSimilar>);
@@ -270,8 +269,8 @@
 	<minecraft:red_flower:2>.displayName = "Lavender";
 	
 	//Charcoal
-	<minecraft:coal:1>.addTooltip(format.white("Hold shift to read how to make the different charcoal forges."));
-	<minecraft:coal:1>.addShiftTooltip(format.white("To place TerraFirmaCraft charcoal piles, right-click the sides of a block."), format.white("To make Tinkers' Forging charcoal piles, right-click the bottom of a block."));
+	//<minecraft:coal:1>.addTooltip(format.white("Hold shift to read how to make the different charcoal forges."));
+	//<minecraft:coal:1>.addShiftTooltip(format.white("To place TerraFirmaCraft charcoal piles, right-click the sides of a block."), format.white("To make Tinkers' Forging charcoal piles, right-click the bottom of a block."));
 
 
 
