@@ -18,6 +18,762 @@
       },
       {
         "class": "ItemSword"
+      },
+      {
+		"item": "tfc:metal/pick/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/pick/black_bronze"
+      },
+      {
+		"item": "tfc:metal/pick/bronze"
+      },
+      {
+		"item": "tfc:metal/pick/copper"
+      },
+      {
+		"item": "tfc:metal/pick/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/pick/mithril"
+      },
+      {
+		"item": "tfc:metal/pick/invar"
+      },
+      {
+		"item": "tfc:metal/pick/aluminium"
+      },
+      {
+		"item": "tfc:metal/pick/steel"
+      },
+      {
+		"item": "tfc:metal/pick/black_steel"
+      },
+      {
+		"item": "tfc:metal/pick/blue_steel"
+      },
+      {
+		"item": "tfc:metal/pick/red_steel"
+      },
+      {
+		"item": "tfc:metal/pick/cobalt"
+      },
+      {
+		"item": "tfc:metal/pick/manyullyn"
+      },
+      {
+		"item": "tfc:metal/pick/osmium"
+      },
+      {
+		"item": "tfc:metal/pick/titanium"
+      },
+      {
+		"item": "tfc:metal/pick/tungsten"
+      },
+      {
+		"item": "tfc:metal/pick/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/shovel/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/shovel/black_bronze"
+      },
+      {
+		"item": "tfc:metal/shovel/bronze"
+      },
+      {
+		"item": "tfc:metal/shovel/copper"
+      },
+      {
+		"item": "tfc:metal/shovel/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/shovel/mithril"
+      },
+      {
+		"item": "tfc:metal/shovel/invar"
+      },
+      {
+		"item": "tfc:metal/shovel/aluminium"
+      },
+      {
+		"item": "tfc:metal/shovel/steel"
+      },
+      {
+		"item": "tfc:metal/shovel/black_steel"
+      },
+      {
+		"item": "tfc:metal/shovel/blue_steel"
+      },
+      {
+		"item": "tfc:metal/shovel/red_steel"
+      },
+      {
+		"item": "tfc:metal/shovel/cobalt"
+      },
+      {
+		"item": "tfc:metal/shovel/manyullyn"
+      },
+      {
+		"item": "tfc:metal/shovel/osmium"
+      },
+      {
+		"item": "tfc:metal/shovel/titanium"
+      },
+      {
+		"item": "tfc:metal/shovel/tungsten"
+      },
+      {
+		"item": "tfc:metal/shovel/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/axe/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/axe/black_bronze"
+      },
+      {
+		"item": "tfc:metal/axe/bronze"
+      },
+      {
+		"item": "tfc:metal/axe/copper"
+      },
+      {
+		"item": "tfc:metal/axe/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/axe/mithril"
+      },
+      {
+		"item": "tfc:metal/axe/invar"
+      },
+      {
+		"item": "tfc:metal/axe/aluminium"
+      },
+      {
+		"item": "tfc:metal/axe/steel"
+      },
+      {
+		"item": "tfc:metal/axe/black_steel"
+      },
+      {
+		"item": "tfc:metal/axe/blue_steel"
+      },
+      {
+		"item": "tfc:metal/axe/red_steel"
+      },
+      {
+		"item": "tfc:metal/axe/cobalt"
+      },
+      {
+		"item": "tfc:metal/axe/manyullyn"
+      },
+      {
+		"item": "tfc:metal/axe/osmium"
+      },
+      {
+		"item": "tfc:metal/axe/titanium"
+      },
+      {
+		"item": "tfc:metal/axe/tungsten"
+      },
+      {
+		"item": "tfc:metal/axe/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/hoe/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/hoe/black_bronze"
+      },
+      {
+		"item": "tfc:metal/hoe/bronze"
+      },
+      {
+		"item": "tfc:metal/hoe/copper"
+      },
+      {
+		"item": "tfc:metal/hoe/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/hoe/mithril"
+      },
+      {
+		"item": "tfc:metal/hoe/invar"
+      },
+      {
+		"item": "tfc:metal/hoe/aluminium"
+      },
+      {
+		"item": "tfc:metal/hoe/steel"
+      },
+      {
+		"item": "tfc:metal/hoe/black_steel"
+      },
+      {
+		"item": "tfc:metal/hoe/blue_steel"
+      },
+      {
+		"item": "tfc:metal/hoe/red_steel"
+      },
+      {
+		"item": "tfc:metal/hoe/cobalt"
+      },
+      {
+		"item": "tfc:metal/hoe/manyullyn"
+      },
+      {
+		"item": "tfc:metal/hoe/osmium"
+      },
+      {
+		"item": "tfc:metal/hoe/titanium"
+      },
+      {
+		"item": "tfc:metal/hoe/tungsten"
+      },
+      {
+		"item": "tfc:metal/hoe/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/chisel/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/chisel/black_bronze"
+      },
+      {
+		"item": "tfc:metal/chisel/bronze"
+      },
+      {
+		"item": "tfc:metal/chisel/copper"
+      },
+      {
+		"item": "tfc:metal/chisel/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/chisel/mithril"
+      },
+      {
+		"item": "tfc:metal/chisel/invar"
+      },
+      {
+		"item": "tfc:metal/chisel/aluminium"
+      },
+      {
+		"item": "tfc:metal/chisel/steel"
+      },
+      {
+		"item": "tfc:metal/chisel/black_steel"
+      },
+      {
+		"item": "tfc:metal/chisel/blue_steel"
+      },
+      {
+		"item": "tfc:metal/chisel/red_steel"
+      },
+      {
+		"item": "tfc:metal/chisel/cobalt"
+      },
+      {
+		"item": "tfc:metal/chisel/manyullyn"
+      },
+      {
+		"item": "tfc:metal/chisel/osmium"
+      },
+      {
+		"item": "tfc:metal/chisel/titanium"
+      },
+      {
+		"item": "tfc:metal/chisel/tungsten"
+      },
+      {
+		"item": "tfc:metal/chisel/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/sword/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/sword/black_bronze"
+      },
+      {
+		"item": "tfc:metal/sword/bronze"
+      },
+      {
+		"item": "tfc:metal/sword/copper"
+      },
+      {
+		"item": "tfc:metal/sword/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/sword/mithril"
+      },
+      {
+		"item": "tfc:metal/sword/invar"
+      },
+      {
+		"item": "tfc:metal/sword/aluminium"
+      },
+      {
+		"item": "tfc:metal/sword/steel"
+      },
+      {
+		"item": "tfc:metal/sword/black_steel"
+      },
+      {
+		"item": "tfc:metal/sword/blue_steel"
+      },
+      {
+		"item": "tfc:metal/sword/red_steel"
+      },
+      {
+		"item": "tfc:metal/sword/cobalt"
+      },
+      {
+		"item": "tfc:metal/sword/manyullyn"
+      },
+      {
+		"item": "tfc:metal/sword/osmium"
+      },
+      {
+		"item": "tfc:metal/sword/titanium"
+      },
+      {
+		"item": "tfc:metal/sword/tungsten"
+      },
+      {
+		"item": "tfc:metal/sword/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/mace/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/mace/black_bronze"
+      },
+      {
+		"item": "tfc:metal/mace/bronze"
+      },
+      {
+		"item": "tfc:metal/mace/copper"
+      },
+      {
+		"item": "tfc:metal/mace/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/mace/mithril"
+      },
+      {
+		"item": "tfc:metal/mace/invar"
+      },
+      {
+		"item": "tfc:metal/mace/aluminium"
+      },
+      {
+		"item": "tfc:metal/mace/steel"
+      },
+      {
+		"item": "tfc:metal/mace/black_steel"
+      },
+      {
+		"item": "tfc:metal/mace/blue_steel"
+      },
+      {
+		"item": "tfc:metal/mace/red_steel"
+      },
+      {
+		"item": "tfc:metal/mace/cobalt"
+      },
+      {
+		"item": "tfc:metal/mace/manyullyn"
+      },
+      {
+		"item": "tfc:metal/mace/osmium"
+      },
+      {
+		"item": "tfc:metal/mace/titanium"
+      },
+      {
+		"item": "tfc:metal/mace/tungsten"
+      },
+      {
+		"item": "tfc:metal/mace/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/saw/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/saw/black_bronze"
+      },
+      {
+		"item": "tfc:metal/saw/bronze"
+      },
+      {
+		"item": "tfc:metal/saw/copper"
+      },
+      {
+		"item": "tfc:metal/saw/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/saw/mithril"
+      },
+      {
+		"item": "tfc:metal/saw/invar"
+      },
+      {
+		"item": "tfc:metal/saw/aluminium"
+      },
+      {
+		"item": "tfc:metal/saw/steel"
+      },
+      {
+		"item": "tfc:metal/saw/black_steel"
+      },
+      {
+		"item": "tfc:metal/saw/blue_steel"
+      },
+      {
+		"item": "tfc:metal/saw/red_steel"
+      },
+      {
+		"item": "tfc:metal/saw/cobalt"
+      },
+      {
+		"item": "tfc:metal/saw/manyullyn"
+      },
+      {
+		"item": "tfc:metal/saw/osmium"
+      },
+      {
+		"item": "tfc:metal/saw/titanium"
+      },
+      {
+		"item": "tfc:metal/saw/tungsten"
+      },
+      {
+		"item": "tfc:metal/saw/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/javelin/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/javelin/black_bronze"
+      },
+      {
+		"item": "tfc:metal/javelin/bronze"
+      },
+      {
+		"item": "tfc:metal/javelin/copper"
+      },
+      {
+		"item": "tfc:metal/javelin/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/javelin/mithril"
+      },
+      {
+		"item": "tfc:metal/javelin/invar"
+      },
+      {
+		"item": "tfc:metal/javelin/aluminium"
+      },
+      {
+		"item": "tfc:metal/javelin/steel"
+      },
+      {
+		"item": "tfc:metal/javelin/black_steel"
+      },
+      {
+		"item": "tfc:metal/javelin/blue_steel"
+      },
+      {
+		"item": "tfc:metal/javelin/red_steel"
+      },
+      {
+		"item": "tfc:metal/javelin/cobalt"
+      },
+      {
+		"item": "tfc:metal/javelin/manyullyn"
+      },
+      {
+		"item": "tfc:metal/javelin/osmium"
+      },
+      {
+		"item": "tfc:metal/javelin/titanium"
+      },
+      {
+		"item": "tfc:metal/javelin/tungsten"
+      },
+      {
+		"item": "tfc:metal/javelin/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/hammer/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/hammer/black_bronze"
+      },
+      {
+		"item": "tfc:metal/hammer/bronze"
+      },
+      {
+		"item": "tfc:metal/hammer/copper"
+      },
+      {
+		"item": "tfc:metal/hammer/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/hammer/mithril"
+      },
+      {
+		"item": "tfc:metal/hammer/invar"
+      },
+      {
+		"item": "tfc:metal/hammer/aluminium"
+      },
+      {
+		"item": "tfc:metal/hammer/steel"
+      },
+      {
+		"item": "tfc:metal/hammer/black_steel"
+      },
+      {
+		"item": "tfc:metal/hammer/blue_steel"
+      },
+      {
+		"item": "tfc:metal/hammer/red_steel"
+      },
+      {
+		"item": "tfc:metal/hammer/cobalt"
+      },
+      {
+		"item": "tfc:metal/hammer/manyullyn"
+      },
+      {
+		"item": "tfc:metal/hammer/osmium"
+      },
+      {
+		"item": "tfc:metal/hammer/titanium"
+      },
+      {
+		"item": "tfc:metal/hammer/tungsten"
+      },
+      {
+		"item": "tfc:metal/hammer/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/propick/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/propick/black_bronze"
+      },
+      {
+		"item": "tfc:metal/propick/bronze"
+      },
+      {
+		"item": "tfc:metal/propick/copper"
+      },
+      {
+		"item": "tfc:metal/propick/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/propick/mithril"
+      },
+      {
+		"item": "tfc:metal/propick/invar"
+      },
+      {
+		"item": "tfc:metal/propick/aluminium"
+      },
+      {
+		"item": "tfc:metal/propick/steel"
+      },
+      {
+		"item": "tfc:metal/propick/black_steel"
+      },
+      {
+		"item": "tfc:metal/propick/blue_steel"
+      },
+      {
+		"item": "tfc:metal/propick/red_steel"
+      },
+      {
+		"item": "tfc:metal/propick/cobalt"
+      },
+      {
+		"item": "tfc:metal/propick/manyullyn"
+      },
+      {
+		"item": "tfc:metal/propick/osmium"
+      },
+      {
+		"item": "tfc:metal/propick/titanium"
+      },
+      {
+		"item": "tfc:metal/propick/tungsten"
+      },
+      {
+		"item": "tfc:metal/propick/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/knife/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/knife/black_bronze"
+      },
+      {
+		"item": "tfc:metal/knife/bronze"
+      },
+      {
+		"item": "tfc:metal/knife/copper"
+      },
+      {
+		"item": "tfc:metal/knife/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/knife/mithril"
+      },
+      {
+		"item": "tfc:metal/knife/invar"
+      },
+      {
+		"item": "tfc:metal/knife/aluminium"
+      },
+      {
+		"item": "tfc:metal/knife/steel"
+      },
+      {
+		"item": "tfc:metal/knife/black_steel"
+      },
+      {
+		"item": "tfc:metal/knife/blue_steel"
+      },
+      {
+		"item": "tfc:metal/knife/red_steel"
+      },
+      {
+		"item": "tfc:metal/knife/cobalt"
+      },
+      {
+		"item": "tfc:metal/knife/manyullyn"
+      },
+      {
+		"item": "tfc:metal/knife/osmium"
+      },
+      {
+		"item": "tfc:metal/knife/titanium"
+      },
+      {
+		"item": "tfc:metal/knife/tungsten"
+      },
+      {
+		"item": "tfc:metal/knife/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/scythe/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/scythe/black_bronze"
+      },
+      {
+		"item": "tfc:metal/scythe/bronze"
+      },
+      {
+		"item": "tfc:metal/scythe/copper"
+      },
+      {
+		"item": "tfc:metal/scythe/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/scythe/mithril"
+      },
+      {
+		"item": "tfc:metal/scythe/invar"
+      },
+      {
+		"item": "tfc:metal/scythe/aluminium"
+      },
+      {
+		"item": "tfc:metal/scythe/steel"
+      },
+      {
+		"item": "tfc:metal/scythe/black_steel"
+      },
+      {
+		"item": "tfc:metal/scythe/blue_steel"
+      },
+      {
+		"item": "tfc:metal/scythe/red_steel"
+      },
+      {
+		"item": "tfc:metal/scythe/cobalt"
+      },
+      {
+		"item": "tfc:metal/scythe/manyullyn"
+      },
+      {
+		"item": "tfc:metal/scythe/osmium"
+      },
+      {
+		"item": "tfc:metal/scythe/titanium"
+      },
+      {
+		"item": "tfc:metal/scythe/tungsten"
+      },
+      {
+		"item": "tfc:metal/scythe/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/shears/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/shears/black_bronze"
+      },
+      {
+		"item": "tfc:metal/shears/bronze"
+      },
+      {
+		"item": "tfc:metal/shears/copper"
+      },
+      {
+		"item": "tfc:metal/shears/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/shears/mithril"
+      },
+      {
+		"item": "tfc:metal/shears/invar"
+      },
+      {
+		"item": "tfc:metal/shears/aluminium"
+      },
+      {
+		"item": "tfc:metal/shears/steel"
+      },
+      {
+		"item": "tfc:metal/shears/black_steel"
+      },
+      {
+		"item": "tfc:metal/shears/blue_steel"
+      },
+      {
+		"item": "tfc:metal/shears/red_steel"
+      },
+      {
+		"item": "tfc:metal/shears/cobalt"
+      },
+      {
+		"item": "tfc:metal/shears/manyullyn"
+      },
+      {
+		"item": "tfc:metal/shears/osmium"
+      },
+      {
+		"item": "tfc:metal/shears/titanium"
+      },
+      {
+		"item": "tfc:metal/shears/tungsten"
+      },
+      {
+		"item": "tfc:metal/shears/tungsten_steel"
       }
     ],
     "blacklist": [

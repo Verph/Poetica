@@ -142,6 +142,13 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:red_mushroom>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_leg_raw>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_raw>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:1>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:2>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:4>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:rotten_flesh>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:tallow>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:beeswax>, 0.35, 480, true);
 	
 	//Cooked
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
@@ -173,6 +180,10 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:mushroom_red_roasted>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_leg_cooked>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_cooked>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cake>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:pumpkin_pie>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cookie>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:apple_pie>, 0.35, 480, true);
 
 	//Torch
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);
@@ -185,12 +196,14 @@
 	//Bones
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:bone>, 0.14, 930, true);
 
-	//Clay
+	//Material
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:material:24>, 0.14, 930, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay_ball>, 0.14, 930, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:brick>, 0.14, 930, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:clay>, 0.14, 930, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:hardened_clay>, 0.14, 930, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:material:5>, 0.14, 930, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:material:9>, 0.14, 930, true);
 	
 	//Mud
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:mud_ball>, 0.14, 730, true);

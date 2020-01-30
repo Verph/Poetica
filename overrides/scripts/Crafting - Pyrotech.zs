@@ -21,25 +21,49 @@
 
 	recipes.remove(<pyrotech:material:24>);
 	recipes.remove(<pyrotech:stone_bricks>);
-	recipes.remove(<pyrotech:crude_hammer>);
+	
 	recipes.remove(<pyrotech:crude_axe>);
 	recipes.remove(<pyrotech:crude_hoe>);
 	recipes.remove(<pyrotech:crude_pickaxe>);
 	recipes.remove(<pyrotech:crude_shovel>);
 	recipes.remove(<pyrotech:crude_fishing_rod>);
-	recipes.remove(<pyrotech:bone_hammer>);
+	
 	recipes.remove(<pyrotech:bone_axe>);
 	recipes.remove(<pyrotech:bone_hoe>);
 	recipes.remove(<pyrotech:bone_pickaxe>);
 	recipes.remove(<pyrotech:bone_shovel>);
+	recipes.remove(<pyrotech:bone_sword>);
+	
+	recipes.remove(<pyrotech:flint_axe>);
+	recipes.remove(<pyrotech:flint_hoe>);
 	recipes.remove(<pyrotech:flint_pickaxe>);
+	recipes.remove(<pyrotech:flint_shovel>);
+	recipes.remove(<pyrotech:flint_sword>);
+	
+	recipes.remove(<pyrotech:obsidian_axe>);
+	recipes.remove(<pyrotech:obsidian_hoe>);
 	recipes.remove(<pyrotech:obsidian_pickaxe>);
+	recipes.remove(<pyrotech:obsidian_shovel>);
+	recipes.remove(<pyrotech:obsidian_sword>);
+	
+	recipes.remove(<pyrotech:crude_hammer>);
+	recipes.remove(<pyrotech:stone_hammer>);
+	recipes.remove(<pyrotech:bone_hammer>);
 	recipes.remove(<pyrotech:flint_hammer>);
 	recipes.remove(<pyrotech:iron_hammer>);
 	recipes.remove(<pyrotech:gold_hammer>);
 	recipes.remove(<pyrotech:diamond_hammer>);
 	recipes.remove(<pyrotech:obsidian_hammer>);
-	recipes.remove(<pyrotech:obsidian_hammer>);
+	
+	recipes.remove(<pyrotech:unfired_clay_shears>);
+	recipes.remove(<pyrotech:clay_shears>);
+	recipes.remove(<pyrotech:stone_shears>);
+	recipes.remove(<pyrotech:gold_shears>);
+	recipes.remove(<pyrotech:diamond_shears>);
+	
+	recipes.remove(<pyrotech:anvil_granite>);
+	recipes.remove(<pyrotech:anvil_iron_plated>);
+	recipes.remove(<pyrotech:compacting_bin>);
 
 
 //=======================================================================================================================================================================
@@ -57,9 +81,22 @@
 	recipes.addShaped(<pyrotech:stone_bricks> * 2, [[<pyrotech:material:16>, <ore:mortar>, <pyrotech:material:16>], [<ore:mortar>, <pyrotech:material:16>, <ore:mortar>], [<pyrotech:material:16>, <ore:mortar>, <pyrotech:material:16>]]);
 	recipes.addShaped(<pyrotech:material:2>, [[<tfc:straw>, <tfc:straw>], [<ore:twine>]]);
 	recipes.addShaped(<pyrotech:material:14> * 3, [[<tfc:straw>, <tfc:straw>], [<tfc:straw>]]);
-	
+	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadIgneousIntrusive>], [<ore:knifeHeadIgneousIntrusive>, <ore:stickWood>]]);
+	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadIgneousExtrusive>], [<ore:knifeHeadIgneousExtrusive>, <ore:stickWood>]]);
+	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadSedimentary>], [<ore:knifeHeadSedimentary>, <ore:stickWood>]]);
+	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadMetamorphic>], [<ore:knifeHeadMetamorphic>, <ore:stickWood>]]);
 	recipes.addShaped(<pyrotech:anvil_granite>, [[<ore:stonePolished>], [<ore:slabStone>]]);
-	recipes.addShaped(<pyrotech:anvil_granite>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>], [<ore:slabStone>, <ore:slabStone>, <ore:slabStone>]]);
+	recipes.addShaped(<pyrotech:anvil_iron_plated>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>], [<ore:slabStone>, <ore:slabStone>, <ore:slabStone>]]);
+
+	//Machines
+	recipes.addShaped(<pyrotech:compacting_bin>, [[<ore:slabStone>, null, <ore:slabStone>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:slabStone>, <ore:slabWood>, <ore:slabStone>]]);
+
+
+//=======================================================================================================================================================================
+//Add Anvil Recipes
+
+	//Masonry Brick
+	//mods.terrafirmacraft.Anvil.addRecipe("masonry_brick", <ore:slabStone>, <pyrotech:material:16> * 2, 0, "general", "HIT_ANY", "HIT_ANY", "HIT_ANY");
 
 
 //=======================================================================================================================================================================
@@ -68,6 +105,7 @@
 	//Materials
 	mods.terrafirmacraft.Heating.addRecipe("ash", <contenttweaker:wooden_twig>, <pyrotech:material>, 480, 730);
 	mods.terrafirmacraft.Heating.addRecipe("clay_brick_heating", <pyrotech:material:24>, <minecraft:brick>, 480, 1200);
+	mods.terrafirmacraft.Heating.addRecipe("refractory_brick_heating", <pyrotech:material:9>, <pyrotech:material:5>, 480, 1200);
 
 	//Foods
 	mods.terrafirmacraft.Heating.addRecipe("red_baked_apple", <tfc:food/red_apple>, <pyrotech:apple_baked>, 210, 480);
@@ -87,7 +125,7 @@
 	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_h_2", <pyrotech:material:24> * 2, "XXXXX", "XXXXX", "     ", "XXXXX", "XXXXX");
 	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_v_2", <pyrotech:material:24> * 2, "XX XX", "XX XX", "XX XX", "XX XX", "XX XX");
 	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_h_1", <pyrotech:material:24>, "XXXXX", "XXXXX");
-	mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_v_1", <pyrotech:material:24>, "XX", "XX", "XX", "XX", "XX");
+	//mods.terrafirmacraft.ClayKnapping.addRecipe("clay_brick_v_1", <pyrotech:material:24>, "XX", "XX", "XX", "XX", "XX");
 
 
 //=======================================================================================================================================================================
@@ -371,6 +409,8 @@
 	CompactingBin.addRecipe("gravel_schist", <tfc:gravel/schist>, <ore:rockSchist>, 8);
 	CompactingBin.addRecipe("gravel_gneiss", <tfc:gravel/gneiss>, <ore:rockGneiss>, 8);
 	CompactingBin.addRecipe("gravel_marble", <tfc:gravel/marble>, <ore:rockMarble>, 8);
+	
+	CompactingBin.addRecipe("sandstone", <minecraft:sandstone>, <ore:sand>, 4);
 
 
 //=======================================================================================================================================================================
@@ -400,6 +440,8 @@
 	MechanicalCompactor.addRecipe("mechanical_gravel_schist", <tfc:gravel/schist>, <ore:rockSchist>, 8);
 	MechanicalCompactor.addRecipe("mechanical_gravel_gneiss", <tfc:gravel/gneiss>, <ore:rockGneiss>, 8);
 	MechanicalCompactor.addRecipe("mechanical_gravel_marble", <tfc:gravel/marble>, <ore:rockMarble>, 8);
+	
+	CompactingBin.addRecipe("mechanical_sandstone", <minecraft:sandstone>, <ore:sand>, 4);
 
 
 //=======================================================================================================================================================================
@@ -469,7 +511,8 @@
 //=======================================================================================================================================================================
 //Add Soaking Pot Recipes
 
-	SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:fresh_water>, <pyrotech:material:22>, 7 * 60 * 20);
+	SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:fresh_water> * 100, <pyrotech:material:22>, 7 * 60 * 20);
+	SoakingPot.addRecipe("prismarine_shard", <minecraft:prismarine_shard>, <liquid:salt_water> * 100, <tfc:ore/petrified_wood>, 60 * 20);
 
 
 

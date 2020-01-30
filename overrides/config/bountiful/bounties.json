@@ -1,0 +1,1784 @@
+[
+  {
+    "content": "tfc:brick/granite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/diorite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/gabbro",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/shale",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/claystone",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/rocksalt",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/limestone",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/conglomerate",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/dolomite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/chert",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/chalk",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/rhyolite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/basalt",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/andesite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/dacite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/quartzite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/slate",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/phyllite",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/schist",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/gneiss",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:brick/marble",
+    "amount": {
+      "min": 16,
+      "max": 128
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:brick",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/agate",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/agate:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/agate:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/agate:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/agate:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/amethyst",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/amethyst:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/amethyst:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/amethyst:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/amethyst:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/beryl",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/beryl:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/beryl:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/beryl:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/beryl:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/diamond",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/diamond:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/diamond:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/diamond:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/diamond:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/emerald",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/emerald:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/emerald:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/emerald:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/emerald:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/garnet",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/garnet:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/garnet:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/garnet:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/garnet:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jade",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jade:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jade:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jade:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jade:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jasper",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jasper:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jasper:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jasper:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/jasper:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/opal",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/opal:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/opal:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/opal:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/opal:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/ruby",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/ruby:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/ruby:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/ruby:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/ruby:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/sapphire",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/sapphire:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/sapphire:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/sapphire:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/sapphire:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/topaz",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/topaz:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/topaz:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/topaz:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/topaz:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/tourmaline",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/tourmaline:1",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/tourmaline:2",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/tourmaline:3",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 100
+  },
+  {
+    "content": "tfc:gem/tourmaline:4",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:fish",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:fish:1",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:fish:2",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:fish:3",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/fish",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/blackberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/blueberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/bunch_berry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/cloud_berry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/cranberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/elderberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/gooseberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/raspberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/snow_berry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/strawberry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/wintergreen_berry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/banana",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/cherry",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/lemon",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/olive",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/orange",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/peach",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/plum",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/green_apple",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/red_apple",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 70,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:book",
+    "amount": {
+      "min": 2,
+      "max": 16
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:cactus",
+    "amount": {
+      "min": 2,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:diamond",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 1600,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:dispenser",
+    "amount": {
+      "min": 1,
+      "max": 6
+    },
+    "unitWorth": 200,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/bismuth",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/bismuth_bronze",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 150,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/black_bronze",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 200,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/brass",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/bronze",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 220,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/copper",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 150,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/gold",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 250,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/lead",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/nickel",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/rose_gold",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 200,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/silver",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 220,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/tin",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/zinc",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/sterling_silver",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 180,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/wrought_iron",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 240,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/pig_iron",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 190,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/steel",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 260,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/platinum",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 240,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/black_steel",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 280,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/blue_steel",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 320,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/red_steel",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 320,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/antimony",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 110,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/constantan",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/electrum",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/mithril",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 150,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/invar",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 250,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/aluminium",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 150,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/aluminium_brass",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/ardite",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 170,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/cobalt",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 260,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/manyullyn",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 270,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/osmium",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 340,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/titanium",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 300,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/tungsten",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 330,
+    "weight": 100
+  },
+  {
+    "content": "tfc:metal/ingot/tungsten_steel",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 360,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/barley_bread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/cornbread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/oat_bread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/rice_bread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/rye_bread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/wheat_bread",
+    "amount": {
+      "min": 1,
+      "max": 12
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:rotten_flesh",
+    "amount": {
+      "min": 1,
+      "max": 24
+    },
+    "unitWorth": 55,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:slime_ball",
+    "amount": {
+      "min": 1,
+      "max": 32
+    },
+    "unitWorth": 60,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:spider_eye",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 75,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:string",
+    "amount": {
+      "min": 1,
+      "max": 24
+    },
+    "unitWorth": 35,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:sugar",
+    "amount": {
+      "min": 1,
+      "max": 32
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:crop/product/burlap_cloth",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 80,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/barley",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/maize",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/oat",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/rice",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/rye",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:food/wheat",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/acacia",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/ash",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/aspen",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/birch",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/blackwood",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/chestnut",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/douglas_fir",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/hickory",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/kapok",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/maple",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/oak",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/palm",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/pine",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/rosewood",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/sequoia",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/spruce",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/sycamore",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/white_cedar",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/willow",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:wood/log/hevea",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "tfc:peat",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "tfc:mortar",
+    "amount": {
+      "min": 1,
+      "max": 16
+    },
+    "unitWorth": 25,
+    "weight": 100
+  },
+  {
+    "content": "minecraft:leather",
+    "amount": {
+      "min": 1,
+      "max": 10
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "entity:tfc:beartfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:minecraft:zombie",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 120,
+    "weight": 300
+  },
+  {
+    "content": "entity:minecraft:spider",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 130,
+    "weight": 300
+  },
+  {
+    "content": "entity:minecraft:creeper",
+    "amount": {
+      "min": 1,
+      "max": 8
+    },
+    "unitWorth": 130,
+    "weight": 300
+  },
+  {
+    "content": "entity:minecraft:skeleton",
+    "amount": {
+      "min": 1,
+      "max": 6
+    },
+    "unitWorth": 140,
+    "weight": 250
+  },
+  {
+    "content": "entity:minecraft:enderman",
+    "amount": {
+      "min": 1,
+      "max": 6
+    },
+    "unitWorth": 160,
+    "weight": 250
+  }
+]

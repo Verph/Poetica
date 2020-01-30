@@ -1,6 +1,7 @@
 //=======================================================================================================================================================================
 //Remove Recipes
 
+	mods.terrafirmacraft.Quern.removeRecipe(<tfc:powder/lapis_lazuli>);
 
 //=======================================================================================================================================================================
 //Add Shapeless Recipes
@@ -597,6 +598,11 @@
 	mods.terrafirmacraft.Heating.addRecipe("turkey", <betteranimalsplus:turkey_raw>, <betteranimalsplus:turkey_cooked>, 210, 480);
 	mods.terrafirmacraft.Heating.addRecipe("birdmeat", <exoticbirds:birdmeat>, <exoticbirds:cooked_birdmeat>, 210, 480);
 	mods.terrafirmacraft.Heating.addRecipe("silkworm", <exnihilocreatio:item_material:2>, <exnihilocreatio:item_cooked_silkworm>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("cake_batter", <betterwithmods:raw_pastry>, <minecraft:cake>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("pumpkin_pie", <betterwithmods:raw_pastry:1>, <minecraft:pumpkin_pie>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("cookie_dough", <betterwithmods:raw_pastry:2>, <minecraft:cookie>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("apple_pie", <betterwithmods:raw_pastry:4>, <betterwithmods:apple_pie>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("tallow", <minecraft:rotten_flesh>, <rustic:tallow>, 210, 480);
 	
 	//Materials
 	//mods.terrafirmacraft.Heating.addRecipe("ash", <contenttweaker:wooden_twig>, <contenttweaker:powder_ash>, 480, 730);
@@ -677,9 +683,15 @@
 	mods.terrafirmacraft.Barrel.addRecipe("spider_eye", <minecraft:spider_eye>, <liquid:vinegar> * 25, <minecraft:fermented_spider_eye>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("pulp_sugarcane", <ore:sugarcane>, <liquid:fresh_water> * 125, <pyrotech:material:25>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("pulp_wood_chips", <pyrotech:rock:7>, <liquid:fresh_water> * 500, <pyrotech:material:25>, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("slaked_lime", <pyrotech:material:22>, <liquid:fresh_water> * 100, <pyrotech:material:8>, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("prismarine_shard", <tfc:ore/petrified_wood>, <liquid:salt_water> * 100, <minecraft:prismarine_shard>, null, 8);
+
 
 //=======================================================================================================================================================================
 //Add Quern Recipes
+	
+	//Lapis Dust
+	mods.terrafirmacraft.Quern.addRecipe("lapis_lazuli_powder", <tfc:ore/lapis_lazuli>, <tfc:powder/lapis_lazuli> * 4);
 	
 	//Glowstone Dust
 	mods.terrafirmacraft.Quern.addRecipe("selenite_glowstone", <tfc:ore/selenite>, <minecraft:glowstone_dust> * 8);

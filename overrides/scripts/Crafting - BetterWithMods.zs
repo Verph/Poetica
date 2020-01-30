@@ -9,7 +9,6 @@
 	mods.betterwithmods.Saw.removeAll();
 
 	//Remove
-	recipes.remove(<betterwithmods:axle_generator>);
 	recipes.remove(<betterwithmods:single_machine>);
 	recipes.remove(<betterwithmods:infernal_enchanter>);
 	recipes.remove(<betterwithmods:wicker>);
@@ -19,13 +18,46 @@
 	recipes.remove(<betterwithmods:cooking_pot:1>);
 	recipes.remove(<betterwithmods:material:8>);
 	recipes.remove(<betterwithmods:axle_generator>);
-	//recipes.remove(<betterwithmods:axle_generator:1>);
-	//recipes.remove(<betterwithmods:axle_generator:2>);
+	recipes.remove(<betterwithmods:axle_generator:1>);
+	recipes.remove(<betterwithmods:axle_generator:2>);
 	recipes.remove(<betterwithmods:bamboo_chime:*>);
 	recipes.remove(<betterwithmods:metal_chime:*>);
+	recipes.remove(<betterwithmods:unfired_pottery:4>);
+	recipes.remove(<betterwithmods:unfired_pottery:5>);
+	recipes.remove(<betterwithmods:raw_pastry>);
+	recipes.remove(<betterwithmods:raw_pastry:1>);
+	recipes.remove(<betterwithmods:raw_pastry:2>);
+	recipes.remove(<betterwithmods:raw_pastry:4>);
+	recipes.remove(<betterwithmods:candle>);
+	recipes.remove(<betterwithmods:candle:1>);
+	recipes.remove(<betterwithmods:candle:2>);
+	recipes.remove(<betterwithmods:candle:3>);
+	recipes.remove(<betterwithmods:candle:4>);
+	recipes.remove(<betterwithmods:candle:5>);
+	recipes.remove(<betterwithmods:candle:6>);
+	recipes.remove(<betterwithmods:candle:7>);
+	recipes.remove(<betterwithmods:candle:8>);
+	recipes.remove(<betterwithmods:candle:9>);
+	recipes.remove(<betterwithmods:candle:10>);
+	recipes.remove(<betterwithmods:candle:11>);
+	recipes.remove(<betterwithmods:candle:12>);
+	recipes.remove(<betterwithmods:candle:13>);
+	recipes.remove(<betterwithmods:candle:14>);
+	recipes.remove(<betterwithmods:candle:15>);
+
 
 //=======================================================================================================================================================================
 //Add Recipes
+
+	//Foods
+	recipes.addShaped(<betterwithmods:raw_pastry>, [[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>], [<minecraft:milk_bucket>.giveBack(<minecraft:bucket>), <ore:egg>, <minecraft:milk_bucket>.giveBack(<minecraft:bucket>)], [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry>, [[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>], [<betteranimalsplus:goatmilk>.giveBack(<minecraft:bucket>), <ore:egg>, <betteranimalsplus:goatmilk>.giveBack(<minecraft:bucket>)], [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry>, [[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>], [<tfc:wooden_bucket>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).giveBack(<tfc:wooden_bucket>), <ore:egg>, <tfc:wooden_bucket>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).giveBack(<tfc:wooden_bucket>)], [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry>, [[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>], [<tfc:metal/bucket/blue_steel>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).giveBack(<tfc:metal/bucket/blue_steel>), <ore:egg>, <tfc:metal/bucket/blue_steel>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).giveBack(<tfc:metal/bucket/blue_steel>)], [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry>, [[<minecraft:sugar>, <minecraft:sugar>, <minecraft:sugar>], [<tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).giveBack(<tfc:metal/bucket/red_steel>), <ore:egg>, <tfc:metal/bucket/red_steel>.withTag({Fluid: {FluidName: "milk", Amount: 1000}}).giveBack(<tfc:metal/bucket/red_steel>)], [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry:1>, [[<minecraft:pumpkin>, <minecraft:sugar>], [<ore:egg>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry:2>, [[<ore:foodFlour>, <minecraft:dye:3>, <ore:foodFlour>]]);
+	recipes.addShaped(<betterwithmods:raw_pastry:4>, [[<ore:apple>, <minecraft:sugar>], [<ore:egg>, <ore:foodFlour>]]);
 
 	//Leather Straps
 	recipes.addShapeless(<betterwithmods:material:8> * 4, [<ore:leather>, <ore:shears>.transformDamage(1)]);
@@ -36,7 +68,6 @@
 	recipes.addShaped(<betterwithmods:axle_generator:2>, [[<betterwithmods:material:11>, <betterwithmods:material:11>, <betterwithmods:material:11>], [<betterwithmods:material:11>, <betterwithmods:axle_generator:1>, <betterwithmods:material:11>], [<betterwithmods:material:11>, <betterwithmods:material:11>, <betterwithmods:material:11>]]);
 
 	//Other
-	recipes.addShaped(<betterwithmods:axle_generator>, [[null, <betterwithmods:material:11>, null], [<betterwithmods:material:11>, <ore:logWood>, <betterwithmods:material:11>], [null, <betterwithmods:material:11>, null]]);
 	recipes.addShaped(<betterwithmods:single_machine>, [[<ore:stone>, <ore:gearWood>, <ore:stone>], [<ore:stone>, <ore:handstone>, <ore:stone>], [<ore:stone>, <tfc:quern>, <ore:stone>]]);
 	recipes.addShaped(<betterwithmods:steel_axle>, [[<ore:plateSteel>], [<betterwithmods:rope>], [<ore:plateSteel>]]);
 	recipes.addShaped(<betterwithmods:steel_gearbox>, [[<ore:plateSteel>, <ore:gearSoulforgedSteel>, <ore:plateSteel>], [<ore:gearSoulforgedSteel>, <ore:latchRedstone>, <ore:gearSoulforgedSteel>], [<ore:plateSteel>, <ore:gearSoulforgedSteel>, <ore:plateSteel>]]);

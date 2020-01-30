@@ -10,16 +10,16 @@
 	recipes.remove(<chisel:offsettool>);
 	recipes.remove(<minecraft:chest>);
 	recipes.remove(<minecraft:leather>);
-	recipes.remove(<quark:dark_oak_button>);
-	recipes.remove(<quark:acacia_button>);
-	recipes.remove(<quark:jungle_button>);
-	recipes.remove(<quark:birch_button>);
-	recipes.remove(<quark:spruce_button>);
-	recipes.remove(<quark:dark_oak_trapdoor>);
-	recipes.remove(<quark:acacia_trapdoor>);
-	recipes.remove(<quark:jungle_trapdoor>);
-	recipes.remove(<quark:birch_trapdoor>);
-	recipes.remove(<quark:spruce_trapdoor>);
+	//recipes.remove(<quark:dark_oak_button>);
+	//recipes.remove(<quark:acacia_button>);
+	//recipes.remove(<quark:jungle_button>);
+	//recipes.remove(<quark:birch_button>);
+	//recipes.remove(<quark:spruce_button>);
+	//recipes.remove(<quark:dark_oak_trapdoor>);
+	//recipes.remove(<quark:acacia_trapdoor>);
+	//recipes.remove(<quark:jungle_trapdoor>);
+	//recipes.remove(<quark:birch_trapdoor>);
+	//recipes.remove(<quark:spruce_trapdoor>);
 	recipes.remove(<minecraft:trapdoor>);
 	recipes.remove(<minecraft:stone_button>);
 	recipes.remove(<minecraft:planks>);
@@ -49,6 +49,14 @@
 	recipes.remove(<betterstorage:cardboard_chestplate>);
 	recipes.remove(<betterstorage:cardboard_leggings>);
 	recipes.remove(<betterstorage:cardboard_boots>);
+	recipes.remove(<minecraft:stone_shovel>);
+	recipes.remove(<minecraft:stone_pickaxe>);
+	recipes.remove(<minecraft:stone_axe>);
+	recipes.remove(<minecraft:stone_hoe>);
+	recipes.remove(<minecraft:stone_sword>);
+	recipes.remove(<minecraft:ladder>);
+	recipes.remove(<qualitytools:reforging_station>);
+	recipes.remove(<chiselsandbits:bit_bag>);
 
 
 //=======================================================================================================================================================================
@@ -106,26 +114,28 @@
 //=======================================================================================================================================================================
 //Add Recipes
 
-	//Magma Cream
+	//Shapeless
 	recipes.addShapeless(<minecraft:magma_cream>, [<ore:slimeball>, <ore:dustBlaze>]);
-
-	//Glistering Melon
-	recipes.addShaped(<minecraft:speckled_melon>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:cropMelon>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
-	
-	//Other Recipes
-	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 	recipes.addShapeless(<minecraft:mossy_cobblestone>, [<ore:cobblestone>, <ore:moss>]);
-	
 	recipes.addShapeless(<contenttweaker:lumber_ironwood> * 8, [<rustic:log:1>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:lumber_ironwood> * 4, [<rustic:planks:1>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:lumber_olive> * 8, [<rustic:log>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:lumber_olive> * 4, [<rustic:planks>, <ore:saw>.transformDamage(1)]);
-	recipes.addShaped(<rustic:planks:1>, [[<ore:lumberIronwood>, <ore:lumberIronwood>], [<ore:lumberIronwood>, <ore:lumberIronwood>]]);
-	recipes.addShaped(<rustic:planks>, [[<ore:lumberOlive>, <ore:lumberOlive>], [<ore:lumberOlive>, <ore:lumberOlive>]]);
-	
-	//Buildcraft Framing Sheet
 	recipes.addShapeless(<bibliocraft:framingsheet> * 2, [<ore:plankWood>, <bibliocraft:framingsaw>.transformDamage(1)]);
 
+	//Shaped
+	recipes.addShaped(<chiselsandbits:bit_bag>, [[<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <chiselsandbits:block_bit>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>]]);
+	recipes.addShaped(<qualitytools:reforging_station>, [[<ore:slabStone>, <ore:anvil>, <ore:slabStone>], [<ore:obsidian>, <ore:workbench>, <ore:obsidian>]]);
+	recipes.addShaped(<minecraft:prismarine>, [[<ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>]]);
+	recipes.addShaped(<minecraft:prismarine:1>, [[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
+	recipes.addShaped(<minecraft:prismarine:1>, [[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:dyeBlack>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
+	recipes.addShaped(<minecraft:prismarine_crystals> * 2, [[null, <ore:gemPrismarine>, null], [<ore:gemPrismarine>, <ore:gem>, <ore:gemPrismarine>], [null, <ore:gemPrismarine>, null]]);
+	recipes.addShaped(<minecraft:ladder>, [[<ore:stickWood>, <ore:string>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
+	recipes.addShaped(<minecraft:nether_brick>, [[<ore:ingotBrickNether>, <ore:ingotBrickNether>], [<ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
+	recipes.addShaped(<minecraft:speckled_melon>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:cropMelon>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
+	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
+	recipes.addShaped(<rustic:planks:1>, [[<ore:lumberIronwood>, <ore:lumberIronwood>], [<ore:lumberIronwood>, <ore:lumberIronwood>]]);
+	recipes.addShaped(<rustic:planks>, [[<ore:lumberOlive>, <ore:lumberOlive>], [<ore:lumberOlive>, <ore:lumberOlive>]]);
 	recipes.addShaped(<chisel:offsettool>, [[<ore:chiselHead>, <ore:enderpearl>], [<ore:enderpearl>, <ore:stickWood>]]);
 	recipes.addShaped(<chisel:chisel_diamond>, [[<ore:chiselHead>, <ore:gem>], [<ore:gem>, <ore:stickWood>]]);
 	recipes.addShaped(<chisel:chisel_iron>, [[<ore:chiselHead>, null], [null, <ore:stickWood>]]);
@@ -253,17 +263,6 @@
 	<minecraft:chest>.displayName = "Stone Chest";
 	<minecraft:diamond>.displayName = "Cut Diamond";
 	<tfc:ore/pyrolusite>.displayName = "Pyrolusite";
-	
-	//Trees
-	<quark:variant_leaves:1>.displayName = "Pink Cherry Leaves";
-	<quark:variant_sapling:1>.displayName = "Pink Cherry Sapling";
-	<minecraft:log:3>.displayName = "White Elm Log";
-	<minecraft:log2>.displayName = "Pink Cherry Log";
-	<minecraft:log2:1>.displayName = "Hickory Log";
-	<minecraft:leaves:3>.displayName = "White Elm Leaves";
-	<minecraft:leaves2:1>.displayName = "Hickory Leaves";
-	<minecraft:sapling:3>.displayName = "White Elm Sapling";
-	<minecraft:sapling:5>.displayName = "Hickory Sapling";
 	
 	//Flowers
 	<minecraft:red_flower:2>.displayName = "Lavender";

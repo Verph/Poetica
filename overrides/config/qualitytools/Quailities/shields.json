@@ -9,6 +9,60 @@
     "whitelist": [
       {
         "class": "ItemShield"
+      },
+      {
+		"item": "tfc:metal/shield/bismuth_bronze"
+      },
+      {
+		"item": "tfc:metal/shield/black_bronze"
+      },
+      {
+		"item": "tfc:metal/shield/bronze"
+      },
+      {
+		"item": "tfc:metal/shield/copper"
+      },
+      {
+		"item": "tfc:metal/shield/wrought_iron"
+      },
+      {
+		"item": "tfc:metal/shield/mithril"
+      },
+      {
+		"item": "tfc:metal/shield/invar"
+      },
+      {
+		"item": "tfc:metal/shield/aluminium"
+      },
+      {
+		"item": "tfc:metal/shield/steel"
+      },
+      {
+		"item": "tfc:metal/shield/black_steel"
+      },
+      {
+		"item": "tfc:metal/shield/blue_steel"
+      },
+      {
+		"item": "tfc:metal/shield/red_steel"
+      },
+      {
+		"item": "tfc:metal/shield/cobalt"
+      },
+      {
+		"item": "tfc:metal/shield/manyullyn"
+      },
+      {
+		"item": "tfc:metal/shield/osmium"
+      },
+      {
+		"item": "tfc:metal/shield/titanium"
+      },
+      {
+		"item": "tfc:metal/shield/tungsten"
+      },
+      {
+		"item": "tfc:metal/shield/tungsten_steel"
       }
     ],
     "blacklist": [
