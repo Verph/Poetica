@@ -45,7 +45,6 @@
         "minecraft:tile.oreGold"
       ],
       "output": [
-        "minecraft:gold_nugget:0",
         "tfc:metal/nugget/gold:0"
       ]
     },
@@ -56,8 +55,151 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "minecraft:iron_nugget:0",
         "tfc:metal/nugget/wrought_iron:0"
+      ]
+    },
+    "orePlatinumRich": {
+      "slagColor": "A4ADB8",
+      "langKey": [
+        "tfc:item.tfc.ore.native_platinum.rich"
+      ],
+      "output": [
+        "tfc:metal/nugget/platinum:0"
+      ]
+    },
+    "orePlatinumNormal": {
+      "slagColor": "A4ADB8",
+      "langKey": [
+        "tfc:item.tfc.ore.native_platinum"
+      ],
+      "output": [
+        "tfc:metal/nugget/platinum:0"
+      ]
+    },
+    "orePlatinumPoor": {
+      "slagColor": "A4ADB8",
+      "langKey": [
+        "tfc:item.tfc.ore.native_platinum.poor"
+      ],
+      "output": [
+        "tfc:metal/nugget/platinum:0"
+      ]
+    },
+    "orePlatinumSmall": {
+      "slagColor": "A4ADB8",
+      "langKey": [
+        "tfc:item.tfc.ore.small.native_platinum"
+      ],
+      "output": [
+        "tfc:metal/nugget/platinum:0"
+      ]
+    },
+    "oreOsmiumRich": {
+      "slagColor": "8889AA",
+      "langKey": [
+        "tfc:item.tfc.ore.native_osmium.rich"
+      ],
+      "output": [
+        "tfc:metal/nugget/osmium:0"
+      ]
+    },
+    "oreOsmiumNormal": {
+      "slagColor": "8889AA",
+      "langKey": [
+        "tfc:item.tfc.ore.native_osmium"
+      ],
+      "output": [
+        "tfc:metal/nugget/osmium:0"
+      ]
+    },
+    "oreOsmiumPoor": {
+      "slagColor": "8889AA",
+      "langKey": [
+        "tfc:item.tfc.ore.native_osmium.poor"
+      ],
+      "output": [
+        "tfc:metal/nugget/osmium:0"
+      ]
+    },
+    "oreOsmiumSmall": {
+      "slagColor": "8889AA",
+      "langKey": [
+        "tfc:item.tfc.ore.small.native_osmium"
+      ],
+      "output": [
+        "tfc:metal/nugget/osmium:0"
+      ]
+    },
+    "oreTitaniumRich": {
+      "slagColor": "B4B6BE",
+      "langKey": [
+        "tfc:item.tfc.ore.native_titanium.rich"
+      ],
+      "output": [
+        "tfc:metal/nugget/titanium:0"
+      ]
+    },
+    "oreTitaniumNormal": {
+      "slagColor": "B4B6BE",
+      "langKey": [
+        "tfc:item.tfc.ore.native_titanium"
+      ],
+      "output": [
+        "tfc:metal/nugget/titanium:0"
+      ]
+    },
+    "oreTitaniumPoor": {
+      "slagColor": "B4B6BE",
+      "langKey": [
+        "tfc:item.tfc.ore.native_titanium.poor"
+      ],
+      "output": [
+        "tfc:metal/nugget/titanium:0"
+      ]
+    },
+    "oreTitaniumSmall": {
+      "slagColor": "B4B6BE",
+      "langKey": [
+        "tfc:item.tfc.ore.small.native_titanium"
+      ],
+      "output": [
+        "tfc:metal/nugget/titanium:0"
+      ]
+    },
+    "oreTungstenRich": {
+      "slagColor": "2F3339",
+      "langKey": [
+        "tfc:item.tfc.ore.wolframite.rich"
+      ],
+      "output": [
+        "tfc:metal/nugget/tungsten:0"
+      ]
+    },
+    "oreTungstenNormal": {
+      "slagColor": "2F3339",
+      "langKey": [
+        "tfc:item.tfc.ore.wolframite"
+      ],
+      "output": [
+        "tfc:metal/nugget/tungsten:0"
+      ]
+    },
+    "oreTungstenPoor": {
+      "slagColor": "2F3339",
+      "langKey": [
+        "tfc:item.tfc.ore.wolframite.poor"
+      ],
+      "output": [
+        "tfc:metal/nugget/tungsten:0"
+      ]
+    },
+    "oreTungstenSmall": {
+      "slagColor": "2F3339",
+      "langKey": [
+        "tfc:item.tfc.ore.small.wolframite"
+      ],
+      "output": [
+        "tfc:metal/nugget/tungsten:0"
       ]
     }
   }

@@ -14,6 +14,8 @@
 	import mods.pyrotech.GraniteAnvil;
 	import mods.pyrotech.IroncladAnvil;
 	import mods.pyrotech.SoakingPot;
+	import mods.pyrotech.PitKiln;
+	import mods.pyrotech.Bloomery;
 
 
 //=======================================================================================================================================================================
@@ -21,6 +23,7 @@
 
 	recipes.remove(<pyrotech:material:24>);
 	recipes.remove(<pyrotech:stone_bricks>);
+	recipes.remove(<pyrotech:bloomery>);
 	
 	recipes.remove(<pyrotech:crude_axe>);
 	recipes.remove(<pyrotech:crude_hoe>);
@@ -78,6 +81,7 @@
 	//Add Shapeless
 
 	//Add Shaped
+	recipes.addShaped(<pyrotech:bloomery>, [[<pyrotech:refractory_brick_block>, null, <pyrotech:refractory_brick_block>], [<pyrotech:refractory_brick_block>, <tfc:bloomery>, <pyrotech:refractory_brick_block>], [<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>]]);
 	recipes.addShaped(<pyrotech:stone_bricks> * 2, [[<pyrotech:material:16>, <ore:mortar>, <pyrotech:material:16>], [<ore:mortar>, <pyrotech:material:16>, <ore:mortar>], [<pyrotech:material:16>, <ore:mortar>, <pyrotech:material:16>]]);
 	recipes.addShaped(<pyrotech:material:2>, [[<tfc:straw>, <tfc:straw>], [<ore:twine>]]);
 	recipes.addShaped(<pyrotech:material:14> * 3, [[<tfc:straw>, <tfc:straw>], [<tfc:straw>]]);
@@ -254,7 +258,18 @@
 	BrickSawmill.addRecipe("brick_lumber_ironwood_2", <contenttweaker:lumber_ironwood> * 16, <rustic:log:1>, 160, <pyrotech:sawmill_blade_iron:*>.or(<pyrotech:sawmill_blade_diamond:*>), 2);
 
 //=======================================================================================================================================================================
+//Add Pit Kiln Recipes
+
+	//Remove Recipes
+	PitKiln.removeRecipes(<minecraft:stone>);
+
+
+//=======================================================================================================================================================================
 //Add Stone Kiln Recipes
+
+	//Remove Recipes
+	StoneKiln.removeRecipes(<minecraft:stone>);
+	StoneKiln.removeRecipes(<minecraft:cobblestone>);
 
 	//Bricks
 	StoneKiln.addRecipe("stone_kiln_nether_brick", <minecraft:netherbrick>, <betterwithmods:material:35>, 8400, 0.08, [<pyrotech:material:6>, <pyrotech:material:7>, <pyrotech:material>]);
@@ -302,6 +317,10 @@
 
 //=======================================================================================================================================================================
 //Add Brick Kiln Recipes
+
+	//Remove Recipes
+	BrickKiln.removeRecipes(<minecraft:stone>);
+	BrickKiln.removeRecipes(<minecraft:cobblestone>);
 
 	//Bricks
 	BrickKiln.addRecipe("brick_kiln_nether_brick", <minecraft:netherbrick>, <betterwithmods:material:35>, 8400, 0.02, [<pyrotech:material:6>, <pyrotech:material:7>, <pyrotech:material>]);
@@ -490,16 +509,20 @@
 
 //=======================================================================================================================================================================
 //Add Granite Anvil Recipes
-
-	GraniteAnvil.addRecipe("granite_anvil_crushed_limestone", <pyrotech:material:28>, <ore:rockLimestone>, 3, "hammer");
-	GraniteAnvil.addRecipe("granite_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabStoneBrick>, 4, "hammer");
+	
+	GraniteAnvil.addRecipe("granite_anvil_crushed_limestone", <pyrotech:material:28>, <ore:rockLimestone>, 4, "hammer");
+	GraniteAnvil.addRecipe("granite_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabStoneBrick>, 5, "pickaxe");
+	GraniteAnvil.addRecipe("granite_anvil_iron_shard", <pyrotech:material:19> * 9, <ore:ingotIron>, 9, "pickaxe");
+	GraniteAnvil.addRecipe("granite_anvil_gold_shard", <pyrotech:material:34> * 9, <ore:ingotGold>, 8, "pickaxe");
 
 
 //=======================================================================================================================================================================
-//Add Iron Anvil Recipes
+//Iron Anvil Recipes
 
-	IroncladAnvil.addRecipe("iron_anvil_crushed_limestone", <pyrotech:material:28>, <ore:rockLimestone>, 3, "hammer");
-	IroncladAnvil.addRecipe("iron_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabStoneBrick>, 4, "hammer");
+	IroncladAnvil.addRecipe("iron_anvil_crushed_limestone", <pyrotech:material:28>, <ore:rockLimestone>, 4, "hammer");
+	IroncladAnvil.addRecipe("iron_anvil_masonry_brick", <pyrotech:material:16> * 2, <ore:slabStoneBrick>, 5, "pickaxe");
+	IroncladAnvil.addRecipe("iron_anvil_iron_shard", <pyrotech:material:19> * 9, <ore:ingotIron>, 9, "pickaxe");
+	IroncladAnvil.addRecipe("iron_anvil_gold_shard", <pyrotech:material:34> * 9, <ore:ingotGold>, 8, "pickaxe");
 
 
 //=======================================================================================================================================================================
@@ -515,5 +538,256 @@
 	SoakingPot.addRecipe("prismarine_shard", <minecraft:prismarine_shard>, <liquid:salt_water> * 100, <tfc:ore/petrified_wood>, 60 * 20);
 
 
+//=======================================================================================================================================================================
+//Remove Bloomery Recipes
 
-	
+	Bloomery.removeAllBloomeryRecipes();
+	Bloomery.removeAllWitherForgeRecipes();
+
+
+//=======================================================================================================================================================================
+//Add Bloomery Recipes
+
+// recipe for a platinum bloom from a rich platinum ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_rich_platinum_ore",   // recipe name
+        <tfc:metal/ingot/platinum>, // output
+        <ore:orePlatinumRich> * 3    // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_platinumrich>, 1)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .addFailureItem(<pyrotech:generated_slag_platinumrich>, 1)
+    .register();
+
+// recipe for a platinum bloom from a normal platinum ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_normal_platinum_ore",   // recipe name
+        <tfc:metal/ingot/platinum>, // output
+        <ore:orePlatinumNormal> * 4   // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_platinumnormal>, 2)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .addFailureItem(<pyrotech:generated_slag_platinumnormal>, 1)
+    .register();
+
+// recipe for a platinum bloom from a poor platinum ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_poor_platinum_ore",   // recipe name
+        <tfc:metal/ingot/platinum>, // output
+        <ore:orePlatinumPoor> * 7     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_platinumpoor>, 4)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .addFailureItem(<pyrotech:generated_slag_platinumpoor>, 1)
+    .register();
+
+// recipe for a platinum bloom from a small platinum ingot
+Bloomery.createBloomeryBuilder(
+        "bloom_from_small_platinum_ingot",   // recipe name
+        <tfc:metal/ingot/platinum>, // output
+        <ore:orePlatinumSmall> * 10     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_platinumsmall>, 5)
+    .addFailureItem(<pyrotech:slag>, 2)
+    .addFailureItem(<pyrotech:generated_slag_platinumsmall>, 1)
+    .register();
+
+
+// recipe for a osmium bloom from a rich osmium ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_rich_osmium_ore",   // recipe name
+        <tfc:metal/ingot/osmium>, // output
+        <ore:oreOsmiumRich> * 3     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_osmiumrich>, 1)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_osmiumrich>, 1)
+    .register();
+
+// recipe for a osmium bloom from a normal osmium ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_normal_osmium_ore",   // recipe name
+        <tfc:metal/ingot/osmium>, // output
+        <ore:oreOsmiumNormal> * 4     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_osmiumnormal>, 2)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_osmiumnormal>, 1)
+    .register();
+
+// recipe for a osmium bloom from a poor osmium ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_poor_osmium_ore",   // recipe name
+        <tfc:metal/ingot/osmium>, // output
+        <ore:oreOsmiumPoor> * 7     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_osmiumpoor>, 4)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_osmiumpoor>, 1)
+    .register();
+
+// recipe for a osmium bloom from a small osmium ingot
+Bloomery.createBloomeryBuilder(
+        "bloom_from_small_osmium_ingot",   // recipe name
+        <tfc:metal/ingot/osmium>, // output
+        <ore:oreOsmiumSmall> * 10     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_osmiumsmall>, 5)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_osmiumsmall>, 1)
+    .register();
+
+
+// recipe for a titanium bloom from a rich titanium ore
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_rich_titanium_ore",   // recipe name
+//        <tfc:metal/ingot/titanium>, // output
+//        <ore:oreTitaniumRich> * 3     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_titaniumrich>, 1)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_titaniumrich>, 1)
+//    .register();
+
+// recipe for a titanium bloom from a normal titanium ore
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_normal_titanium_ore",   // recipe name
+//        <tfc:metal/ingot/titanium>, // output
+//        <ore:oreTitaniumNormal> * 4     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_titaniumnormal>, 2)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_titaniumnormal>, 1)
+//    .register();
+
+// recipe for a titanium bloom from a poor titanium ore
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_poor_titanium_ore",   // recipe name
+//        <tfc:metal/ingot/titanium>, // output
+//        <ore:oreTitaniumPoor> * 7     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_titaniumpoor>, 4)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_titaniumpoor>, 1)
+//    .register();
+
+// recipe for a titanium bloom from a small titanium ingot
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_small_titanium_ingot",   // recipe name
+//        <tfc:metal/ingot/titanium>, // output
+//        <ore:oreTitaniumSmall> * 10     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_titaniumsmall>, 5)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_titaniumsmall>, 1)
+//    .register();
+
+
+// recipe for a tungsten bloom from a rich tungsten ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_rich_tungsten_ore",   // recipe name
+        <tfc:metal/ingot/tungsten>, // output
+        <ore:oreTungstenRich> * 3     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_tungstenrich>, 1)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_tungstenrich>, 1)
+    .register();
+
+// recipe for a tungsten bloom from a normal tungsten ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_normal_tungsten_ore",   // recipe name
+        <tfc:metal/ingot/tungsten>, // output
+        <ore:oreTungstenNormal> * 4     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_tungstennormal>, 2)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_tungstennormal>, 1)
+    .register();
+
+// recipe for a tungsten bloom from a poor tungsten ore
+Bloomery.createBloomeryBuilder(
+        "bloom_from_poor_tungsten_ore",   // recipe name
+        <tfc:metal/ingot/tungsten>, // output
+        <ore:oreTungstenPoor> * 7     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_tungstenpoor>, 4)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_tungstenpoor>, 1)
+    .register();
+
+// recipe for a tungsten bloom from a small tungsten ingot
+Bloomery.createBloomeryBuilder(
+        "bloom_from_small_tungsten_ingot",   // recipe name
+        <tfc:metal/ingot/tungsten>, // output
+        <ore:oreTungstenSmall> * 10     // input
+    )
+    .setAnvilTiers(["granite", "ironclad"])
+    .setBurnTimeTicks(57600)
+    .setFailureChance(0.25)
+    .setBloomYield(1, 1)
+    .setSlagItem(<pyrotech:generated_slag_tungstensmall>, 5)
+    .addFailureItem(<pyrotech:slag>, 1)
+    .addFailureItem(<pyrotech:generated_slag_tungstensmall>, 1)
+    .register();
+

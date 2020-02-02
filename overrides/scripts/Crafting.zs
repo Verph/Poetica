@@ -2,6 +2,7 @@
 //Vanilla Recipes
 	
 	//Remove
+	recipes.remove(<minecraft:furnace>);
 	recipes.remove(<horsepower:hand_grindstone>);
 	recipes.remove(<horsepower:grindstone>);
 	recipes.remove(<minecraft:lead>);
@@ -57,6 +58,8 @@
 	recipes.remove(<minecraft:ladder>);
 	recipes.remove(<qualitytools:reforging_station>);
 	recipes.remove(<chiselsandbits:bit_bag>);
+	recipes.remove(<minecraft:cobblestone>);
+	furnace.remove(<minecraft:cobblestone>, <minecraft:gravel>);
 
 
 //=======================================================================================================================================================================
@@ -271,7 +274,27 @@
 	//<minecraft:coal:1>.addTooltip(format.white("Hold shift to read how to make the different charcoal forges."));
 	//<minecraft:coal:1>.addShiftTooltip(format.white("To place TerraFirmaCraft charcoal piles, right-click the sides of a block."), format.white("To make Tinkers' Forging charcoal piles, right-click the bottom of a block."));
 
-
+	//Trees
+	<treetweaker:ash>.addTooltip(format.white("Can only be planted on schist grass"));
+	<treetweaker:aspen>.addTooltip(format.white("Can only be planted on phyllite grass"));
+	<treetweaker:birch>.addTooltip(format.white("Can only be planted on shale grass"));
+	<treetweaker:blackwood>.addTooltip(format.white("Can only be planted on quartzite grass"));
+	<treetweaker:chestnut>.addTooltip(format.white("Can only be planted on marble grass"));
+	<treetweaker:hickory>.addTooltip(format.white("Can only be planted on conglomerate grass"));
+	<treetweaker:maple>.addTooltip(format.white("Can only be planted on gneiss grass"));
+	<treetweaker:oak>.addTooltip(format.white("Can only be planted on gabbro grass"));
+	<treetweaker:pine>.addTooltip(format.white("Can only be planted on dacite grass"));
+	<treetweaker:spruce>.addTooltip(format.white("Can only be planted on dacite grass"));
+	<treetweaker:rosewood>.addTooltip(format.white("Can only be planted on claystone grass"));
+	<treetweaker:sycamore>.addTooltip(format.white("Can only be planted on dolomite grass"));
+	<treetweaker:white_cedar>.addTooltip(format.white("Can only be planted on limestone grass"));
+	
+	//Fruit trees
+	<treetweaker:large_olive_fruit_tree>.addTooltip(format.white("Can only be planted on slate grass"));
+	<treetweaker:large_cherry_fruit_tree>.addTooltip(format.white("Can only be planted on rhyolite grass"));
+	<treetweaker:large_plum_fruit_tree>.addTooltip(format.white("Can only be planted on andesite grass"));
+	<treetweaker:large_green_apple_fruit_tree>.addTooltip(format.white("Can only be planted on granite grass"));
+	<treetweaker:large_red_apple_fruit_tree>.addTooltip(format.white("Can only be planted on granite grass"));
 
 
 
