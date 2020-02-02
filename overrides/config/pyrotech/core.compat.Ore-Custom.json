@@ -130,42 +130,6 @@
         "tfc:metal/nugget/osmium:0"
       ]
     },
-    "oreTitaniumRich": {
-      "slagColor": "B4B6BE",
-      "langKey": [
-        "tfc:item.tfc.ore.native_titanium.rich"
-      ],
-      "output": [
-        "tfc:metal/nugget/titanium:0"
-      ]
-    },
-    "oreTitaniumNormal": {
-      "slagColor": "B4B6BE",
-      "langKey": [
-        "tfc:item.tfc.ore.native_titanium"
-      ],
-      "output": [
-        "tfc:metal/nugget/titanium:0"
-      ]
-    },
-    "oreTitaniumPoor": {
-      "slagColor": "B4B6BE",
-      "langKey": [
-        "tfc:item.tfc.ore.native_titanium.poor"
-      ],
-      "output": [
-        "tfc:metal/nugget/titanium:0"
-      ]
-    },
-    "oreTitaniumSmall": {
-      "slagColor": "B4B6BE",
-      "langKey": [
-        "tfc:item.tfc.ore.small.native_titanium"
-      ],
-      "output": [
-        "tfc:metal/nugget/titanium:0"
-      ]
-    },
     "oreTungstenRich": {
       "slagColor": "2F3339",
       "langKey": [

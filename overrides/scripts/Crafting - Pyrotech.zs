@@ -610,64 +610,64 @@ Bloomery.createBloomeryBuilder(
 
 
 // recipe for a osmium bloom from a rich osmium ore
-Bloomery.createBloomeryBuilder(
-        "bloom_from_rich_osmium_ore",   // recipe name
-        <tfc:metal/ingot/osmium>, // output
-        <ore:oreOsmiumRich> * 3     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_osmiumrich>, 1)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_osmiumrich>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_rich_osmium_ore",   // recipe name
+//        <tfc:metal/ingot/osmium>, // output
+//        <ore:oreOsmiumRich> * 3     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_osmiumrich>, 1)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_osmiumrich>, 1)
+//    .register();
 
 // recipe for a osmium bloom from a normal osmium ore
-Bloomery.createBloomeryBuilder(
-        "bloom_from_normal_osmium_ore",   // recipe name
-        <tfc:metal/ingot/osmium>, // output
-        <ore:oreOsmiumNormal> * 4     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_osmiumnormal>, 2)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_osmiumnormal>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_normal_osmium_ore",   // recipe name
+//        <tfc:metal/ingot/osmium>, // output
+//        <ore:oreOsmiumNormal> * 4     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_osmiumnormal>, 2)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_osmiumnormal>, 1)
+//    .register();
 
 // recipe for a osmium bloom from a poor osmium ore
-Bloomery.createBloomeryBuilder(
-        "bloom_from_poor_osmium_ore",   // recipe name
-        <tfc:metal/ingot/osmium>, // output
-        <ore:oreOsmiumPoor> * 7     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_osmiumpoor>, 4)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_osmiumpoor>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_poor_osmium_ore",   // recipe name
+//        <tfc:metal/ingot/osmium>, // output
+//        <ore:oreOsmiumPoor> * 7     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_osmiumpoor>, 4)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_osmiumpoor>, 1)
+//    .register();
 
 // recipe for a osmium bloom from a small osmium ingot
-Bloomery.createBloomeryBuilder(
-        "bloom_from_small_osmium_ingot",   // recipe name
-        <tfc:metal/ingot/osmium>, // output
-        <ore:oreOsmiumSmall> * 10     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_osmiumsmall>, 5)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_osmiumsmall>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_small_osmium_ingot",   // recipe name
+//        <tfc:metal/ingot/osmium>, // output
+//        <ore:oreOsmiumSmall> * 10     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_osmiumsmall>, 5)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_osmiumsmall>, 1)
+//    .register();
 
 
 // recipe for a titanium bloom from a rich titanium ore
@@ -732,62 +732,62 @@ Bloomery.createBloomeryBuilder(
 
 
 // recipe for a tungsten bloom from a rich tungsten ore
-Bloomery.createBloomeryBuilder(
-        "bloom_from_rich_tungsten_ore",   // recipe name
-        <tfc:metal/ingot/tungsten>, // output
-        <ore:oreTungstenRich> * 3     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_tungstenrich>, 1)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_tungstenrich>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_rich_tungsten_ore",   // recipe name
+//        <tfc:metal/ingot/tungsten>, // output
+//        <ore:oreTungstenRich> * 3     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_tungstenrich>, 1)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_tungstenrich>, 1)
+//    .register();
 
 // recipe for a tungsten bloom from a normal tungsten ore
-Bloomery.createBloomeryBuilder(
-        "bloom_from_normal_tungsten_ore",   // recipe name
-        <tfc:metal/ingot/tungsten>, // output
-        <ore:oreTungstenNormal> * 4     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_tungstennormal>, 2)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_tungstennormal>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_normal_tungsten_ore",   // recipe name
+//        <tfc:metal/ingot/tungsten>, // output
+//        <ore:oreTungstenNormal> * 4     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_tungstennormal>, 2)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_tungstennormal>, 1)
+//    .register();
 
 // recipe for a tungsten bloom from a poor tungsten ore
-Bloomery.createBloomeryBuilder(
-        "bloom_from_poor_tungsten_ore",   // recipe name
-        <tfc:metal/ingot/tungsten>, // output
-        <ore:oreTungstenPoor> * 7     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_tungstenpoor>, 4)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_tungstenpoor>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_poor_tungsten_ore",   // recipe name
+//        <tfc:metal/ingot/tungsten>, // output
+//        <ore:oreTungstenPoor> * 7     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_tungstenpoor>, 4)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_tungstenpoor>, 1)
+//    .register();
 
 // recipe for a tungsten bloom from a small tungsten ingot
-Bloomery.createBloomeryBuilder(
-        "bloom_from_small_tungsten_ingot",   // recipe name
-        <tfc:metal/ingot/tungsten>, // output
-        <ore:oreTungstenSmall> * 10     // input
-    )
-    .setAnvilTiers(["granite", "ironclad"])
-    .setBurnTimeTicks(57600)
-    .setFailureChance(0.25)
-    .setBloomYield(1, 1)
-    .setSlagItem(<pyrotech:generated_slag_tungstensmall>, 5)
-    .addFailureItem(<pyrotech:slag>, 1)
-    .addFailureItem(<pyrotech:generated_slag_tungstensmall>, 1)
-    .register();
+//Bloomery.createBloomeryBuilder(
+//        "bloom_from_small_tungsten_ingot",   // recipe name
+//        <tfc:metal/ingot/tungsten>, // output
+//        <ore:oreTungstenSmall> * 10     // input
+//    )
+//    .setAnvilTiers(["granite", "ironclad"])
+//    .setBurnTimeTicks(57600)
+//    .setFailureChance(0.25)
+//    .setBloomYield(1, 1)
+//    .setSlagItem(<pyrotech:generated_slag_tungstensmall>, 5)
+//    .addFailureItem(<pyrotech:slag>, 1)
+//    .addFailureItem(<pyrotech:generated_slag_tungstensmall>, 1)
+//    .register();
 
