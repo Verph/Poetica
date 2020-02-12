@@ -8,7 +8,7 @@
           ]
         }
       },
-      "replaceStrategy": "REPLACE_ITEMS_IF_SELECTED",
+      "replaceStrategy": "REPLACE_ALL",
       "drops": [
         {
           "item": {

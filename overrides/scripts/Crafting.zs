@@ -265,14 +265,13 @@
 	<minecraft:diamond_boots>.displayName = "Broken Diamond Boots";
 	<minecraft:chest>.displayName = "Stone Chest";
 	<minecraft:diamond>.displayName = "Cut Diamond";
-	<tfc:ore/pyrolusite>.displayName = "Pyrolusite";
 	
 	//Flowers
 	<minecraft:red_flower:2>.displayName = "Lavender";
 	
 	//Charcoal
-	//<minecraft:coal:1>.addTooltip(format.white("Hold shift to read how to make the different charcoal forges."));
-	//<minecraft:coal:1>.addShiftTooltip(format.white("To place TerraFirmaCraft charcoal piles, right-click the sides of a block."), format.white("To make Tinkers' Forging charcoal piles, right-click the bottom of a block."));
+	<minecraft:coal:1>.addTooltip(format.white("Hold shift to read how to make the different charcoal forges."));
+	<minecraft:coal:1>.addShiftTooltip(format.gold("To place TerraFirmaCraft charcoal piles, right-click the sides of a block."), format.gold("To make Tinkers' Forging charcoal piles, right-click the bottom of a block."));
 
 	//Trees
 	<treetweaker:ash>.addTooltip(format.white("Can only be planted on schist grass"));

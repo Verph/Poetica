@@ -537,6 +537,8 @@
 	//<tfc:ore/serpentine/schist>.displayName = "Schist Polarite";
 	//<tfc:ore/serpentine/gneiss>.displayName = "Gneiss Polarite";
 	//<tfc:ore/serpentine/marble>.displayName = "Marble Polarite";
+	
+	<tfc:ore/pyrolusite>.displayName = "Rutile";
 
 
 //=======================================================================================================================================================================
@@ -685,6 +687,7 @@
 	mods.terrafirmacraft.Barrel.addRecipe("pulp_wood_chips", <pyrotech:rock:7>, <liquid:fresh_water> * 500, <pyrotech:material:25>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("slaked_lime", <pyrotech:material:22>, <liquid:fresh_water> * 100, <pyrotech:material:8>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("prismarine_shard", <tfc:ore/petrified_wood>, <liquid:salt_water> * 100, <minecraft:prismarine_shard>, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("dicyanoacetylene", <ore:dustGraphite>, <liquid:salt_water> * 10, null, <liquid:dicyanoacetylene> * 10, 8);
 
 
 //=======================================================================================================================================================================

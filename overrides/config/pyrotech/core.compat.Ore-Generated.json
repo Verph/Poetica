@@ -23,18 +23,22 @@
     "oreArdite": {
       "slagColor": "e85e17",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.ardite"
+        "exnihilocreatio:item.exnihilocreatio.ore.ardite",
+        "tconstruct:tile.tconstruct.ore.ardite"
       ],
       "output": [
+        "tconstruct:nuggets:1",
         "tfc:metal/nugget/ardite:0"
       ]
     },
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
-        "exnihilocreatio:item.exnihilocreatio.ore.cobalt"
+        "exnihilocreatio:item.exnihilocreatio.ore.cobalt",
+        "tconstruct:tile.tconstruct.ore.cobalt"
       ],
       "output": [
+        "tconstruct:nuggets:0",
         "tfc:metal/nugget/cobalt:0"
       ]
     },

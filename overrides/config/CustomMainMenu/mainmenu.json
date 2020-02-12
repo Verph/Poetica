@@ -11,7 +11,7 @@
 			"imageWidth" : 95,
 			"imageHeight" : 30,
             "alignment" : "center",
-            "texture" : "mainmenu:textures/Poetica-btn.png",
+            "texture" : "mainmenu:textures/poetica_btn.png",
             "normalTextColor" : 0,
             "hoverTextColor" : 16777215,
             "tooltip" : "Click me!",
@@ -169,8 +169,8 @@
 		
         "background":
         {
-            "image" : "mainmenu:textures/Forest-Night-Pixel-2.png",
-            "mode" : "fill"
+            "image" : "mainmenu:textures/forest_night_pixel_1.png",
+            "mode" : "stretch"
         }
     }
 }

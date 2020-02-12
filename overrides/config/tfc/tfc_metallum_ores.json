@@ -134,8 +134,7 @@
     "base_rocks": [
       "tfc:igneous_extrusive",
       "tfc:igneous_intrusive",
-      "tfc:metamorphic",
-      "tfc:sedimentary"
+      "tfc:metamorphic"
     ]
   },
   "magnesite": {

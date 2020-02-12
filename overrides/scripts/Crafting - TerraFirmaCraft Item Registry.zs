@@ -204,6 +204,8 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:hardened_clay>, 0.14, 930, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:material:5>, 0.14, 930, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<pyrotech:material:9>, 0.14, 930, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tconstruct:soil>, 0.14, 930, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tconstruct:materials>, 0.14, 930, true);
 	
 	//Mud
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:mud_ball>, 0.14, 730, true);

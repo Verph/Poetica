@@ -199,6 +199,49 @@ var barrel = <ore:barrel>;
 	<tfc:wood/barrel/hevea>
 	]);
 
+var flower = <ore:flower>;
+    flower.addItems([
+	<tfc:plants/allium>,
+	<tfc:plants/black_orchid>,
+	<tfc:plants/blood_lily>,
+	<tfc:plants/blue_orchid>,
+	<tfc:plants/butterfly_milkweed>,
+	<tfc:plants/calendula>,
+	<tfc:plants/canna>,
+	<tfc:plants/dandelion>,
+	<tfc:plants/foxglove>,
+	<tfc:plants/goldenrod>,
+	<tfc:plants/grape_hyacinth>,
+	<tfc:plants/guzmania>,
+	<tfc:plants/houstonia>,
+	<tfc:plants/labrador_tea>,
+	<tfc:plants/meads_milkweed>,
+	<tfc:plants/morning_glory>,
+	<tfc:plants/nasturtium>,
+	<tfc:plants/oxeye_daisy>,
+	<tfc:plants/perovskia>,
+	<tfc:plants/poppy>,
+	<tfc:plants/primrose>,
+	<tfc:plants/pulsatilla>,
+	<tfc:plants/rose>,
+	<tfc:plants/sacred_datura>,
+	<tfc:plants/sapphire_tower>,
+	<tfc:plants/snapdragon_pink>,
+	<tfc:plants/snapdragon_red>,
+	<tfc:plants/snapdragon_white>,
+	<tfc:plants/snapdragon_yellow>,
+	<tfc:plants/strelitzia>,
+	<tfc:plants/trillium>,
+	<tfc:plants/tropical_milkweed>,
+	<tfc:plants/tulip_orange>,
+	<tfc:plants/tulip_pink>,
+	<tfc:plants/tulip_red>,
+	<tfc:plants/tulip_white>,
+	<tfc:plants/vriesea>,
+	<tfc:plants/yucca>,
+	<tfc:plants/water_canna>
+	]);
+
 var stoneBrick = <ore:stoneBrick>;
     stoneBrick.addItems([
 	<minecraft:stonebrick>
@@ -407,6 +450,11 @@ var oreUranium = <ore:oreUranium>;
 var nuggetIron = <ore:nuggetIron>;
     nuggetIron.addItems([
 	<tfc:metal/nugget/wrought_iron>
+	]);
+
+var ingotTungstensteel = <ore:ingotTungstensteel>;
+    ingotTungstensteel.addItems([
+	<tfc:metal/ingot/tungsten_steel>
 	]);
 
 var ingotPigiron = <ore:ingotPigiron>;
@@ -1164,7 +1212,8 @@ var blockDust = <ore:blockDust>;
 
 var blockIce = <ore:blockIce>;
     blockIce.addItems([
-		<tfc:sea_ice>
+		<tfc:sea_ice>,
+		<minecraft:ice>
 	]);
 
 var brickSedimentary = <ore:brickSedimentary>;
