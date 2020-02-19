@@ -9,8 +9,8 @@
 	recipes.remove(<tconstruct:tinker_tank_controller>);
 	recipes.remove(<tconstruct:seared_furnace_controller>);
 	recipes.remove(<tconstruct:smeltery_controller>);
-	recipes.remove(<tinkersforging:hammer/wood>);
-	recipes.remove(<tinkersforging:forge>);
+	//recipes.remove(<tinkersforging:hammer/wood>);
+	//recipes.remove(<tinkersforging:forge>);
 	recipes.remove(<conarm:travel_sack>);
 	
 	//Drying Leather
@@ -98,7 +98,7 @@
 
 	//Shaped Recipes
 	recipes.addShaped(<conarm:travel_sack>, [[<ore:string>, <ore:leather>, <ore:string>], [<ore:rawHide>, <ore:chest>, <ore:rawHide>], [<ore:leather>, <ore:leather>, <ore:leather>]]);
-	recipes.addShaped(<tinkersforging:forge>, [[<ore:mortar>, <tfc:ceramics/fired/fire_brick>, <ore:mortar>], [<tfc:ceramics/fired/fire_brick>, null, <tfc:ceramics/fired/fire_brick>], [<tfc:ceramics/fired/fire_brick>, <tfc:bloomery>, <tfc:ceramics/fired/fire_brick>]]);
+	//recipes.addShaped(<tinkersforging:forge>, [[<ore:mortar>, <tfc:ceramics/fired/fire_brick>, <ore:mortar>], [<tfc:ceramics/fired/fire_brick>, null, <tfc:ceramics/fired/fire_brick>], [<tfc:ceramics/fired/fire_brick>, <tfc:bloomery>, <tfc:ceramics/fired/fire_brick>]]);
 
 	//Smeltery Controllers
 	recipes.addShaped(<tconstruct:tinker_tank_controller>, [[<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>], [<ore:blockSeared>, <minecraft:bucket>, <ore:blockSeared>], [<ore:blockSeared>, <tfc:crucible>, <ore:blockSeared>]]);
@@ -505,6 +505,15 @@
 	mods.tconstruct.Melting.addRecipe(<liquid:pigiron> * 144, <ore:dustPigIron>, 1535);
 	mods.tconstruct.Melting.addRecipe(<liquid:pigiron> * 16, <ore:nuggetPigIron>, 1535);
 
+	//Wrought Iron
+
+	mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 70, <ore:oreWroughtIronRich>, 1535);
+	mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 50, <ore:oreWroughtIronNormal>, 1535);
+	mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 30, <ore:oreWroughtIronPoor>, 1535);
+	mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 20, <ore:oreWroughtIronSmall>, 1535);
+	mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 10, <ore:dustHematite>, 1535);
+	mods.tconstruct.Melting.addRecipe(<liquid:wrought_iron> * 10, <ore:dustLimonite>, 1535);
+
 	//Iron
 
 	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 2016, <tfc:metal/anvil/wrought_iron>, 1535);
@@ -516,11 +525,11 @@
 	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 144, <ore:dustWroughtIron>, 1535);
 	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 16, <ore:nuggetWroughtIron>, 1535);
 	
-	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 70, <ore:oreWroughtIronRich>, 1535);
-	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 50, <ore:oreWroughtIronNormal>, 1535);
-	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 30, <ore:oreWroughtIronPoor>, 1535);
-	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 20, <ore:oreWroughtIronSmall>, 1535);
-	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 10, <ore:dustHematite>, 1535);
+	//mods.tconstruct.Melting.addRecipe(<liquid:iron> * 70, <ore:oreWroughtIronRich>, 1535);
+	//mods.tconstruct.Melting.addRecipe(<liquid:iron> * 50, <ore:oreWroughtIronNormal>, 1535);
+	//mods.tconstruct.Melting.addRecipe(<liquid:iron> * 30, <ore:oreWroughtIronPoor>, 1535);
+	//mods.tconstruct.Melting.addRecipe(<liquid:iron> * 20, <ore:oreWroughtIronSmall>, 1535);
+	//mods.tconstruct.Melting.addRecipe(<liquid:iron> * 10, <ore:dustHematite>, 1535);
 	
 //	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 70, <ore:oreMagnetiteRich>, 1535);
 //	mods.tconstruct.Melting.addRecipe(<liquid:iron> * 50, <ore:oreMagnetiteNormal>, 1535);
