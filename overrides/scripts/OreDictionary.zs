@@ -123,6 +123,11 @@ var fireStarter = <ore:fireStarter>;
 	<pyrotech:matchstick>
 	]);
 
+var shardGlass = <ore:shardGlass>;
+    shardGlass.addItems([
+	<pyrotech:material:32>
+	]);
+
 var dustAsh = <ore:dustAsh>;
     dustAsh.addItems([
 	<contenttweaker:powder_ash>,
@@ -273,6 +278,11 @@ var dyeBlack = <ore:dyeBlack>;
 	<tfc:powder/coke>
 	]);
 
+var dyeBrown = <ore:dyeBrown>;
+    dyeBrown.addItems([
+	<ca:coffee_ground>
+	]);
+
 var glue = <ore:glue>;
     glue.addItems([
 	<contenttweaker:glue>
@@ -296,6 +306,34 @@ var fiberHemp = <ore:fiberHemp>;
 var fabricHemp = <ore:fabricHemp>;
     fabricHemp.addItems([
 	<tfc:crop/product/burlap_cloth>
+	]);
+
+var cropAgave = <ore:cropAgave>;
+    cropAgave.addItems([
+	<contenttweaker:agave>
+	]);
+
+var cropMadderRoot = <ore:cropMadderRoot>;
+    cropMadderRoot.addItems([
+	<contenttweaker:madder_root>
+	]);
+
+var cropWeldRoot = <ore:cropWeldRoot>;
+    cropWeldRoot.addItems([
+	<contenttweaker:weld_root>
+	]);
+
+var cropWoad = <ore:cropWoad>;
+    cropWoad.addItems([
+	<contenttweaker:woad_leaves>
+	]);
+
+var listAllseed = <ore:listAllseed>;
+    listAllseed.addItems([
+	<minecraft:wheat_seeds>,
+	<minecraft:beetroot_seeds>,
+	<rustic:tomato_seeds>,
+	<betterwithmods:hemp>
 	]);
 	
 var latex = <ore:latex>;
@@ -663,6 +701,16 @@ var tfcLeaves = <ore:tfcLeaves>;
 		<tfc:wood/leaves/white_cedar>,
 		<tfc:wood/leaves/willow>,
 		<tfc:wood/leaves/kapok>
+	]);
+
+var treeLeaves = <ore:treeLeaves>;
+    treeLeaves.addItems([
+		<ca:coffee_leaves>
+	]);
+
+var treeSapling = <ore:treeSapling>;
+    treeSapling.addItems([
+		<ca:coffee_sapling>
 	]);
 
 var chest = <ore:chest>;

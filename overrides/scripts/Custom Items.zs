@@ -6,6 +6,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.ItemFood;
 import mods.contenttweaker.IItemDestroySpeed;
+import mods.contenttweaker.CreativeTab;
 
 
 //Jacaranda Lumber
@@ -20,6 +21,56 @@ import mods.contenttweaker.IItemDestroySpeed;
 //persimmon.maxStackSize = 64;
 //persimmon.setCreativeTab(<creativetab:decorations>);
 //persimmon.register();
+
+
+//=====================================================================================================================================================================
+//Plants & Materials
+
+var weld_root = VanillaFactory.createItem("weld_root");
+weld_root.maxStackSize = 64;
+weld_root.setCreativeTab(<creativetab:misc>);
+weld_root.register();
+
+var woad_leaves = VanillaFactory.createItem("woad_leaves");
+woad_leaves.maxStackSize = 64;
+woad_leaves.setCreativeTab(<creativetab:misc>);
+woad_leaves.register();
+
+var madder_root = VanillaFactory.createItem("madder_root");
+madder_root.maxStackSize = 64;
+madder_root.setCreativeTab(<creativetab:misc>);
+madder_root.register();
+
+var agave = VanillaFactory.createItemFood("agave", 1.5);
+agave.alwaysEdible = false;
+agave.maxStackSize = 64;
+agave.setCreativeTab(<creativetab:misc>);
+agave.register();
+
+var cotton_boll = VanillaFactory.createItem("cotton_boll");
+cotton_boll.maxStackSize = 64;
+cotton_boll.setCreativeTab(<creativetab:misc>);
+cotton_boll.register();
+
+var cotton_cloth = VanillaFactory.createItem("cotton_cloth");
+cotton_cloth.maxStackSize = 64;
+cotton_cloth.setCreativeTab(<creativetab:misc>);
+cotton_cloth.register();
+
+var cotton_yarn = VanillaFactory.createItem("cotton_yarn");
+cotton_yarn.maxStackSize = 64;
+cotton_yarn.setCreativeTab(<creativetab:misc>);
+cotton_yarn.register();
+
+var flax = VanillaFactory.createItem("flax");
+flax.maxStackSize = 64;
+flax.setCreativeTab(<creativetab:misc>);
+flax.register();
+
+var flax_fibers = VanillaFactory.createItem("flax_fibers");
+flax_fibers.maxStackSize = 64;
+flax_fibers.setCreativeTab(<creativetab:misc>);
+flax_fibers.register();
 
 
 //=====================================================================================================================================================================

@@ -769,6 +769,10 @@
 //=======================================================================================================================================================================
 //Add Casting to Table Recipes	
 
+	//Glass
+	mods.tconstruct.Casting.addTableRecipe(<minecraft:glass>, <tfctech:ceramics/mold/glass_block>, <liquid:glass>, 1000, true, 120);
+	mods.tconstruct.Casting.addTableRecipe(<minecraft:glass_pane>, <tfctech:ceramics/mold/glass_pane>, <liquid:glass>, 375, true, 40);
+
 	//Pickaxe
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/pick_head/bismuth_bronze>, <tfc:ceramics/fired/mold/pick_head>, <liquid:bismuth_bronze>, 100, true, 40);
 	mods.tconstruct.Casting.addTableRecipe(<tfc:metal/pick_head/black_bronze>, <tfc:ceramics/fired/mold/pick_head>, <liquid:black_bronze>, 100, true, 40);

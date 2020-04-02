@@ -11,17 +11,22 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Poetica",
-  "version": "0.7.2",
+  "version": "0.8",
   "author": "Verph",
   "files": [
     {
       "projectID": 352028,
-      "fileID": 2843732,
+      "fileID": 2915786,
       "required": true
     },
     {
       "projectID": 246760,
-      "fileID": 2752301,
+      "fileID": 2910875,
+      "required": true
+    },
+    {
+      "projectID": 253449,
+      "fileID": 2568751,
       "required": true
     },
     {
@@ -31,7 +36,7 @@
     },
     {
       "projectID": 242872,
-      "fileID": 2736248,
+      "fileID": 2905184,
       "required": true
     },
     {
@@ -236,7 +241,7 @@
     },
     {
       "projectID": 235279,
-      "fileID": 2813538,
+      "fileID": 2915375,
       "required": true
     },
     {
@@ -251,7 +256,7 @@
     },
     {
       "projectID": 277064,
-      "fileID": 2865499,
+      "fileID": 2912859,
       "required": true
     },
     {
@@ -266,7 +271,7 @@
     },
     {
       "projectID": 267602,
-      "fileID": 2832564,
+      "fileID": 2915363,
       "required": true
     },
     {
@@ -291,7 +296,7 @@
     },
     {
       "projectID": 243121,
-      "fileID": 2759240,
+      "fileID": 2889332,
       "required": true
     },
     {
@@ -311,7 +316,7 @@
     },
     {
       "projectID": 255389,
-      "fileID": 2813247,
+      "fileID": 2915200,
       "required": true
     },
     {
@@ -326,7 +331,7 @@
     },
     {
       "projectID": 254284,
-      "fileID": 2709223,
+      "fileID": 2905238,
       "required": true
     },
     {
@@ -356,7 +361,7 @@
     },
     {
       "projectID": 306676,
-      "fileID": 2883265,
+      "fileID": 2916013,
       "required": true
     },
     {
@@ -371,7 +376,7 @@
     },
     {
       "projectID": 340660,
-      "fileID": 2884718,
+      "fileID": 2889404,
       "required": true
     },
     {
@@ -391,7 +396,7 @@
     },
     {
       "projectID": 284973,
-      "fileID": 2778545,
+      "fileID": 2890417,
       "required": true
     },
     {
@@ -486,7 +491,7 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2832410,
+      "fileID": 2891572,
       "required": true
     },
     {
@@ -511,7 +516,7 @@
     },
     {
       "projectID": 237749,
-      "fileID": 2854078,
+      "fileID": 2902920,
       "required": true
     },
     {
@@ -530,6 +535,11 @@
       "required": true
     },
     {
+      "projectID": 257814,
+      "fileID": 2910976,
+      "required": true
+    },
+    {
       "projectID": 292908,
       "fileID": 2594423,
       "required": true
@@ -537,6 +547,11 @@
     {
       "projectID": 60089,
       "fileID": 2671937,
+      "required": true
+    },
+    {
+      "projectID": 363657,
+      "fileID": 2915496,
       "required": true
     },
     {
@@ -556,7 +571,7 @@
     },
     {
       "projectID": 339156,
-      "fileID": 2856716,
+      "fileID": 2911872,
       "required": true
     },
     {
@@ -571,12 +586,12 @@
     },
     {
       "projectID": 302973,
-      "fileID": 2884361,
+      "fileID": 2912635,
       "required": true
     },
     {
       "projectID": 349214,
-      "fileID": 2815769,
+      "fileID": 2918283,
       "required": true
     },
     {
@@ -596,17 +611,17 @@
     },
     {
       "projectID": 222789,
-      "fileID": 2729027,
+      "fileID": 2892340,
       "required": true
     },
     {
       "projectID": 74072,
-      "fileID": 2877575,
+      "fileID": 2902483,
       "required": true
     },
     {
       "projectID": 303557,
-      "fileID": 2866624,
+      "fileID": 2918029,
       "required": true
     },
     {

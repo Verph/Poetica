@@ -200,24 +200,6 @@
     }
   },
   {
-    "content": "tfc:crop/seeds/pumpkin",
-    "unitWorth": 50,
-    "weight": 5,
-    "amount": {
-      "min": 1,
-      "max": 8
-    }
-  },
-  {
-    "content": "tfc:crop/seeds/melon",
-    "unitWorth": 50,
-    "weight": 5,
-    "amount": {
-      "min": 1,
-      "max": 8
-    }
-  },
-  {
     "content": "tfc:wood/sapling/acacia",
     "unitWorth": 100,
     "weight": 5,

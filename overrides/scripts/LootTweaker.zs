@@ -59,6 +59,7 @@ goat.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)],
 goat.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)], []);
 
 
+/*
 //=========================================================================================================
 //Add fish to the BetterAnimalsPlus Lamprey
 
@@ -76,6 +77,7 @@ lamprey.removeEntry("minecraft:fish");
 
 //Drop 1-2 fish
 lamprey.addItemEntryHelper(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 2)], []);
+*/
 
 
 //=========================================================================================================

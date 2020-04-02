@@ -7,6 +7,17 @@ tile.contenttweaker.lavender.name=Lavender
 item.contenttweaker.jacaranda_lumber.name=Jacaranda Lumber
 item.contenttweaker.persimmon.name=Persimmon
 
+#Plants & Materials
+item.contenttweaker.weld_root.name=Weld Root
+item.contenttweaker.woad_leaves.name=Woad Leaves
+item.contenttweaker.madder_root.name=Madder Root
+item.contenttweaker.agave.name=Agave
+item.contenttweaker.cotton_boll.name=Cotton Boll
+item.contenttweaker.cotton_cloth.name=Cotton Cloth
+item.contenttweaker.cotton_yarn.name=Cotton Yarn
+item.contenttweaker.flax.name=Flax
+item.contenttweaker.flax_fibers.name=Flax Fibers
+
 #Cellulose
 item.contenttweaker.wooden_twig.name=Wooden Twig
 item.contenttweaker.powder_ash.name=Firepit Ash

@@ -377,8 +377,8 @@ var listAllseeds = <ore:listAllseeds>;
 	<tfc:crop/seeds/tomato>,
 	<tfc:crop/seeds/yellow_bell_pepper>,
 	<tfc:crop/seeds/jute>,
-	<tfc:crop/seeds/pumpkin>,
-	<tfc:crop/seeds/melon>
+	//<tfc:crop/seeds/pumpkin>,
+	//<tfc:crop/seeds/melon>
 	]);
 
 
@@ -478,6 +478,7 @@ var seedJute = <ore:seedJute>;
 	<tfc:crop/seeds/jute>
 	]);
 
+	/*
 var seedPumpkin = <ore:seedPumpkin>;
     seedPumpkin.addItems([
 	<tfc:crop/seeds/pumpkin>
@@ -487,7 +488,7 @@ var seedMelon = <ore:seedMelon>;
     seedMelon.addItems([
 	<tfc:crop/seeds/melon>
 	]);
-	
+	*/
 	
 //=======================================================================================================================================================================
 //Meats
@@ -501,6 +502,17 @@ var foodCrabraw = <ore:foodCrabraw>;
 var foodCrabcooked = <ore:foodCrabcooked>;
     foodCrabcooked.addItems([
 	<betteranimalsplus:crab_meat_cooked>
+	]);
+
+//Eel Meat
+var foodEelraw = <ore:foodCrabraw>;
+    foodEelraw.addItems([
+	<betteranimalsplus:eel_meat_raw>
+	]);
+	
+var foodEelcooked = <ore:foodCrabcooked>;
+    foodEelcooked.addItems([
+	<betteranimalsplus:eel_meat_cooked>
 	]);
 
 
@@ -705,7 +717,11 @@ var categoryMeat = <ore:categoryMeat>;
 	<minecraft:cooked_fish:1>,
 	<minecraft:rabbit>,
 	<betteranimalsplus:venisonraw>,
-	<betteranimalsplus:pheasantraw>
+	<betteranimalsplus:pheasantraw>,
+	<betteranimalsplus:turkey_raw>,
+	<betteranimalsplus:turkey_cooked>,
+	<betteranimalsplus:eel_meat_raw>,
+	<betteranimalsplus:eel_meat_cooked>
 	]);
 
 	

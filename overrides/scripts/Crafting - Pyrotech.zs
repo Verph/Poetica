@@ -16,6 +16,7 @@
 	import mods.pyrotech.SoakingPot;
 	import mods.pyrotech.PitKiln;
 	import mods.pyrotech.Bloomery;
+	import mods.pyrotech.DryingRack;
 
 
 //=======================================================================================================================================================================
@@ -68,6 +69,10 @@
 	recipes.remove(<pyrotech:anvil_iron_plated>);
 	recipes.remove(<pyrotech:compacting_bin>);
 	recipes.remove(<pyrotech:stone_kiln>);
+	
+	recipes.remove(<pyrotech:sawmill_blade_stone>);
+	recipes.remove(<pyrotech:sawmill_blade_flint>);
+	recipes.remove(<pyrotech:sawmill_blade_bone>);
 
 
 //=======================================================================================================================================================================
@@ -91,10 +96,14 @@
 	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadIgneousExtrusive>], [<ore:knifeHeadIgneousExtrusive>, <ore:stickWood>]]);
 	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadSedimentary>], [<ore:knifeHeadSedimentary>, <ore:stickWood>]]);
 	recipes.addShaped(<pyrotech:stone_shears>, [[<ore:twine>, <ore:knifeHeadMetamorphic>], [<ore:knifeHeadMetamorphic>, <ore:stickWood>]]);
-	recipes.addShaped(<pyrotech:anvil_granite>, [[<ore:stonePolished>], [<ore:slabStone>]]);
+	recipes.addShaped(<pyrotech:anvil_granite>, [[<ore:smoothIgneousIntrusive>], [<ore:slabStone>]]);
+	recipes.addShaped(<pyrotech:anvil_granite>, [[<ore:smoothIgneousExtrusive>], [<ore:slabStone>]]);
 	recipes.addShaped(<pyrotech:anvil_iron_plated>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:stonePolished>, <ore:stonePolished>, <ore:stonePolished>], [<ore:slabStone>, <ore:slabStone>, <ore:slabStone>]]);
 	recipes.addShaped(<pyrotech:compacting_bin>, [[<ore:slabStone>, null, <ore:slabStone>], [<ore:plankWood>, null, <ore:plankWood>], [<ore:slabStone>, <ore:slabWood>, <ore:slabStone>]]);
 	recipes.addShaped(<pyrotech:stone_kiln>, [[<pyrotech:stone_bricks>, <pyrotech:material:16>, <pyrotech:stone_bricks>], [<pyrotech:stone_bricks>, <ore:thatch>, <pyrotech:stone_bricks>], [<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]]);
+	recipes.addShaped(<pyrotech:sawmill_blade_stone>, [[<ore:rock>, <ore:rock>, <ore:rock>], [<ore:rock>, <ore:stickStone>, <ore:rock>], [<ore:rock>, <ore:rock>, <ore:rock>]]);
+	recipes.addShaped(<pyrotech:sawmill_blade_flint>, [[<pyrotech:material:10>, <pyrotech:material:10>, <pyrotech:material:10>], [<pyrotech:material:10>, <ore:stickStone>, <pyrotech:material:10>], [<pyrotech:material:10>, <pyrotech:material:10>, <pyrotech:material:10>]]);
+	recipes.addShaped(<pyrotech:sawmill_blade_bone>, [[<pyrotech:material:11>, <pyrotech:material:11>, <pyrotech:material:11>], [<pyrotech:material:11>, <ore:stickStone>, <pyrotech:material:11>], [<pyrotech:material:11>, <pyrotech:material:11>, <pyrotech:material:11>]]);
 
 
 //=======================================================================================================================================================================
@@ -513,10 +522,19 @@
 //=======================================================================================================================================================================
 //Remove Anvil Recipes
 
+	//Granite Anvil
 	GraniteAnvil.removeRecipes(<tfc:metal/nugget/wrought_iron>);
 	GraniteAnvil.removeRecipes(<tfc:metal/nugget/gold>);
 	GraniteAnvil.removeRecipes(<pyrotech:material:19>);
 	GraniteAnvil.removeRecipes(<pyrotech:material:34>);
+	GraniteAnvil.removeRecipes(<pyrotech:rock:5>);
+	
+	//Ironclad Anvil
+	IroncladAnvil.removeRecipes(<tfc:metal/nugget/wrought_iron>);
+	IroncladAnvil.removeRecipes(<tfc:metal/nugget/gold>);
+	IroncladAnvil.removeRecipes(<pyrotech:material:19>);
+	IroncladAnvil.removeRecipes(<pyrotech:material:34>);
+	IroncladAnvil.removeRecipes(<pyrotech:rock:5>);
 
 
 //=======================================================================================================================================================================
@@ -537,8 +555,8 @@
 	GraniteAnvil.addRecipe("granite_anvil_copper_nugget", <tfc:metal/nugget/copper> * 10, <ore:ingotCopper>, 8, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_gold_nugget", <tfc:metal/nugget/gold> * 10, <ore:ingotGold>, 8, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_lead_nugget", <tfc:metal/nugget/lead> * 10, <ore:ingotLead>, 8, "pickaxe");
-	GraniteAnvil.addRecipe("granite_anvil_nickel_nugget", <tfc:metal/nugget/nickel> * 10, <ore:ingot>, 8, "pickaxe");
-	GraniteAnvil.addRecipe("granite_anvil_rose_gold_nugget", <tfc:metal/nugget/rose_gold> * 10, <ore:ingotNickel>, 8, "pickaxe");
+	GraniteAnvil.addRecipe("granite_anvil_nickel_nugget", <tfc:metal/nugget/nickel> * 10, <ore:ingotNickel>, 8, "pickaxe");
+	GraniteAnvil.addRecipe("granite_anvil_rose_gold_nugget", <tfc:metal/nugget/rose_gold> * 10, <ore:ingotRoseGold>, 8, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_silver_nugget", <tfc:metal/nugget/silver> * 10, <ore:ingotSilver>, 8, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_tin_nugget", <tfc:metal/nugget/tin> * 10, <ore:ingotTin>, 8, "pickaxe");
 	GraniteAnvil.addRecipe("granite_anvil_zinc_nugget", <tfc:metal/nugget/zinc> * 10, <ore:ingotZinc>, 8, "pickaxe");
@@ -584,8 +602,8 @@
 	IroncladAnvil.addRecipe("iron_anvil_copper_nugget", <tfc:metal/nugget/copper> * 10, <ore:ingotCopper>, 8, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_gold_nugget", <tfc:metal/nugget/gold> * 10, <ore:ingotGold>, 8, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_lead_nugget", <tfc:metal/nugget/lead> * 10, <ore:ingotLead>, 8, "pickaxe");
-	IroncladAnvil.addRecipe("iron_anvil_nickel_nugget", <tfc:metal/nugget/nickel> * 10, <ore:ingot>, 8, "pickaxe");
-	IroncladAnvil.addRecipe("iron_anvil_rose_gold_nugget", <tfc:metal/nugget/rose_gold> * 10, <ore:ingotNickel>, 8, "pickaxe");
+	IroncladAnvil.addRecipe("iron_anvil_nickel_nugget", <tfc:metal/nugget/nickel> * 10, <ore:ingotNickel>, 8, "pickaxe");
+	IroncladAnvil.addRecipe("iron_anvil_rose_gold_nugget", <tfc:metal/nugget/rose_gold> * 10, <ore:ingotRoseGold>, 8, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_silver_nugget", <tfc:metal/nugget/silver> * 10, <ore:ingotSilver>, 8, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_tin_nugget", <tfc:metal/nugget/tin> * 10, <ore:ingotTin>, 8, "pickaxe");
 	IroncladAnvil.addRecipe("iron_anvil_zinc_nugget", <tfc:metal/nugget/zinc> * 10, <ore:ingotZinc>, 8, "pickaxe");
@@ -624,6 +642,12 @@
 
 	SoakingPot.addRecipe("slaked_lime", <pyrotech:material:8>, <liquid:fresh_water> * 100, <pyrotech:material:22>, 7 * 60 * 20);
 	SoakingPot.addRecipe("prismarine_shard", <minecraft:prismarine_shard>, <liquid:salt_water> * 100, <tfc:ore/petrified_wood>, 60 * 20);
+
+
+//=======================================================================================================================================================================
+//Add Drying Recipes
+
+	DryingRack.addRecipe("dried_coffe_cherries", <ca:coffee_cherries_dried>, <ca:coffee_cherries>, 8 * 20);
 
 
 //=======================================================================================================================================================================

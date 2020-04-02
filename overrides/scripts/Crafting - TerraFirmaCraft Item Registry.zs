@@ -1,5 +1,7 @@
 #priority 1
 
+import mods.terrafirmacraft.ItemRegistry;
+
 //=======================================================================================================================================================================
 //ItemRegistry
 	
@@ -82,30 +84,36 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:firewood_ironwood>, 0.35, 80, true);
 
 	//Firewood
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_acacia>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ash>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_aspen>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_birch>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_blackwood>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_chestnut>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_douglas_fir>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_hickory>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_kapok>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_maple>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_oak>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_palm>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_pine>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_rosewood>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_sequoia>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_spruce>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_sycamore>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_white_cedar>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_white_elm>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_willow>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_greatwood>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_silverwood>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_olive>, 300, 600, true);
-	//modsterrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ironwood>, 300, 600, true);
+	//mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_acacia>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ash>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_aspen>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_birch>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_blackwood>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_chestnut>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_douglas_fir>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_hickory>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_kapok>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_maple>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_oak>, 300, 600, true, false);
+	//mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_palm>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_pine>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_rosewood>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_sequoia>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_spruce>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_sycamore>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_white_cedar>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_white_elm>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_willow>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_greatwood>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_silverwood>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_olive>, 300, 600, true, false);
+    //mods.terrafirmacraft.ItemRegistry.registerFuel(<contenttweaker:firewood_ironwood>, 300, 600, true, false);
+	
+	//Heating
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:rotten_flesh>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:tallow>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:beeswax>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:honeycomb>, 0.35, 480, true);
 	
 	//Food
 	//Raw
@@ -146,9 +154,7 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:1>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:2>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:4>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:rotten_flesh>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:tallow>, 0.35, 480, true);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<rustic:beeswax>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:eel_meat_raw>, 0.35, 480, true);
 	
 	//Cooked
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, true);
@@ -184,6 +190,7 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:pumpkin_pie>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cookie>, 0.35, 480, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:apple_pie>, 0.35, 480, true);
+	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:eel_meat_cooked>, 0.35, 480, true);
 
 	//Torch
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:torch>, 0.35, 80, true);
@@ -325,7 +332,8 @@
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:bronze_planer_blade>, 0.35, 950, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:bismuth_bronze_planer_blade>, 0.35, 985, true);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<contenttweaker:black_steel_planer_blade>, 0.35, 1485, true);
-
+	
+	/*
 	//Nutrient Tablets
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
 	mods.terrafirmacraft.ItemRegistry.registerFood(<contenttweaker:tablet_carbohydrate>, [10.0, 0.0, 0.0, 0.0, 0.0], 0.0, 0.0, 1.0);
@@ -376,6 +384,7 @@
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_mystery_meat>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:venisonraw>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:pheasantraw>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
+	*/
 	
 	//Register Metal Items
 	

@@ -44,6 +44,7 @@
 	recipes.remove(<betterwithmods:candle:13>);
 	recipes.remove(<betterwithmods:candle:14>);
 	recipes.remove(<betterwithmods:candle:15>);
+	recipes.remove(<betterwithmods:material:4>);
 
 
 //=======================================================================================================================================================================
@@ -113,7 +114,7 @@
 
 	//Sugar
 	mods.betterwithmods.Mill.addRecipe([<tfc:food/sugarcane> * 4],[<minecraft:sugar>]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:plants/sugar_cane> * 4],[<minecraft:sugar>]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:plants/sugar_cane> * 4],[<minecraft:sugar>]);
 
 	//Jute
 	mods.betterwithmods.Mill.addRecipe([<tfc:crop/product/jute>],[<tfc:crop/product/jute_fiber>]);
@@ -183,6 +184,10 @@
 
 	//Fertilizer
 	mods.betterwithmods.Mill.addRecipe([<tfc:ore/sylvite>], [<tfc:powder/fertilizer> * 8]);
+
+	//Coffee
+	mods.betterwithmods.Mill.addRecipe([<ca:coffee_beans>], [<ca:coffee_ground> * 4]);
+	mods.betterwithmods.Mill.addRecipe([<ca:coffee_cherries_dried>], [<ca:coffee_beans_green>]);
 
 	//Scraped Hide
 	mods.betterwithmods.Mill.addRecipe([<tfc:hide/soaked/small>], [<tfc:hide/scraped/small>]);
@@ -256,6 +261,7 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/sargassum>], [<minecraft:dye:3>]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/water_canna>], [<minecraft:dye:14> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/water_lily>], [<minecraft:dye:2>]);
+	mods.betterwithmods.Mill.addRecipe([<minecraft:red_flower:2>], [<minecraft:dye:5>]);
 
 
 //=======================================================================================================================================================================

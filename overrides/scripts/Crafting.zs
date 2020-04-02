@@ -124,7 +124,6 @@
 	recipes.addShapeless(<contenttweaker:lumber_ironwood> * 4, [<rustic:planks:1>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:lumber_olive> * 8, [<rustic:log>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<contenttweaker:lumber_olive> * 4, [<rustic:planks>, <ore:saw>.transformDamage(1)]);
-	recipes.addShapeless(<bibliocraft:framingsheet> * 2, [<ore:plankWood>, <bibliocraft:framingsaw>.transformDamage(1)]);
 
 	//Shaped
 	recipes.addShaped(<chiselsandbits:bit_bag>, [[<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <chiselsandbits:block_bit>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>]]);

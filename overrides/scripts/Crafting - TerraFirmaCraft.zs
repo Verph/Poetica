@@ -604,16 +604,16 @@
 	mods.terrafirmacraft.Heating.addRecipe("pumpkin_pie", <betterwithmods:raw_pastry:1>, <minecraft:pumpkin_pie>, 210, 480);
 	mods.terrafirmacraft.Heating.addRecipe("cookie_dough", <betterwithmods:raw_pastry:2>, <minecraft:cookie>, 210, 480);
 	mods.terrafirmacraft.Heating.addRecipe("apple_pie", <betterwithmods:raw_pastry:4>, <betterwithmods:apple_pie>, 210, 480);
-	mods.terrafirmacraft.Heating.addRecipe("tallow", <minecraft:rotten_flesh>, <rustic:tallow>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("eel_meat_raw", <betteranimalsplus:eel_meat_raw>, <betteranimalsplus:eel_meat_cooked>, 210, 480);
 	
 	//Materials
 	//mods.terrafirmacraft.Heating.addRecipe("ash", <contenttweaker:wooden_twig>, <contenttweaker:powder_ash>, 480, 730);
 	mods.terrafirmacraft.Heating.addRecipe("mud_brick_heating", <contenttweaker:mud_ball>, <contenttweaker:mud_brick>, 210, 1000);
 	mods.terrafirmacraft.Heating.addRecipe("terracotta_heating", <minecraft:clay>, <minecraft:hardened_clay>, 480, 1200);
 	//mods.terrafirmacraft.Heating.addRecipe("bone_heating", <minecraft:bone>, <tconstruct:materials:17>, 480, 1200);
-	
+	mods.terrafirmacraft.Heating.addRecipe("tallow", <minecraft:rotten_flesh>, <rustic:tallow>, 210, 480);
+	mods.terrafirmacraft.Heating.addRecipe("beeswax", <rustic:honeycomb>, <rustic:beeswax>, 210, 480);
 	mods.terrafirmacraft.Heating.addRecipe("dixie_glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
-	
 	//mods.terrafirmacraft.Heating.addRecipe("rubber", <contenttweaker:rubber_mix>, <contenttweaker:rubber>, 250, 250);
 	
 	//mods.terrafirmacraft.Heating.addRecipe("Acacia Firewood Torch", <contenttweaker:firewood_acacia>, <tfc:torch> * 4, 40, 600);
@@ -675,6 +675,15 @@
 
 
 //=======================================================================================================================================================================
+//Add Loom Recipes
+
+	mods.terrafirmacraft.Loom.addRecipe("hemp_cloth_loom", <betterwithmods:material:3>, <betterwithmods:material:4>, 12, "contenttweaker:textures/blocks/hemp_cloth");
+	mods.terrafirmacraft.Loom.addRecipe("cotton_cloth_loom", <contenttweaker:cotton_yarn>, <contenttweaker:cotton_cloth>, 12, "contenttweaker:textures/blocks/cotton_cloth");
+	mods.terrafirmacraft.Loom.addRecipe("linen_cloth_loom", <contenttweaker:flax_fibers>, <tfc:crop/product/burlap_cloth>, 12, "contenttweaker:textures/blocks/linen_cloth");
+	//mods.terrafirmacraft.Loom.addRecipe("linen_cloth_loom", <contenttweaker:flax_fibers>, <contenttweaker:linen_cloth>, 12, "contenttweaker:textures/blocks/linen_cloth");
+
+
+//=======================================================================================================================================================================
 //Add Barrel Recipes
 
 	//mods.terrafirmacraft.Barrel.addRecipe("rubber_latex", <contenttweaker:vulcanizing_agents>, <liquid:latex> * 100, <contenttweaker:rubber_mix> * 6, null, 8);
@@ -688,6 +697,12 @@
 	mods.terrafirmacraft.Barrel.addRecipe("slaked_lime", <pyrotech:material:22>, <liquid:fresh_water> * 100, <pyrotech:material:8>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("prismarine_shard", <tfc:ore/petrified_wood>, <liquid:salt_water> * 100, <minecraft:prismarine_shard>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("dicyanoacetylene", <ore:dustGraphite>, <liquid:salt_water> * 10, null, <liquid:dicyanoacetylene> * 10, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("hemp", <betterwithmods:material:2>, <liquid:fresh_water> * 200, <betterwithmods:material:3>, null, 8);
+	
+	mods.terrafirmacraft.Barrel.addRecipe("weld_root_dye", <contenttweaker:weld_root>, <liquid:tannin> * 100, <minecraft:dye:11> * 5, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("madder_root_dye", <contenttweaker:madder_root>, <liquid:tannin> * 100, <minecraft:dye:1> * 5, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("woad_leaves_dye", <contenttweaker:woad_leaves>, <liquid:tannin> * 100, <minecraft:dye:2> * 5, null, 8);
+	mods.terrafirmacraft.Barrel.addRecipe("agave_dye", <contenttweaker:agave>, <liquid:tannin> * 100, <quark:root_dye> * 5, null, 8);
 
 
 //=======================================================================================================================================================================
@@ -769,3 +784,4 @@
 	mods.terrafirmacraft.Quern.addRecipe("sargassum", <tfc:plants/sargassum>, <minecraft:dye:3>);
 	mods.terrafirmacraft.Quern.addRecipe("water_canna", <tfc:plants/water_canna>, <minecraft:dye:14> * 2);
 	mods.terrafirmacraft.Quern.addRecipe("water_lily", <tfc:plants/water_lily>, <minecraft:dye:2>);
+	mods.terrafirmacraft.Quern.addRecipe("lavender", <minecraft:red_flower:2>, <minecraft:dye:5>);
