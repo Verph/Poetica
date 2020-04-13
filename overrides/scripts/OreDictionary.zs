@@ -490,6 +490,16 @@ var nuggetIron = <ore:nuggetIron>;
 	<tfc:metal/nugget/wrought_iron>
 	]);
 
+var longRodIron = <ore:longRodIron>;
+    longRodIron.addItems([
+	<tfctech:metal/wrought_iron_long_rod>
+	]);
+
+var rodIron = <ore:rodIron>;
+    rodIron.addItems([
+	<tfctech:metal/wrought_iron_rod>
+	]);
+
 var ingotTungstensteel = <ore:ingotTungstensteel>;
     ingotTungstensteel.addItems([
 	<tfc:metal/ingot/tungsten_steel>

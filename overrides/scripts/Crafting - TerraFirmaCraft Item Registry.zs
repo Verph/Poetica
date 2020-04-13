@@ -346,44 +346,59 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerFood(<contenttweaker:powder_protein>, [0.0, 0.0, 5.0, 0.0, 0.0], 0.0, 0.0, 1.0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<contenttweaker:powder_vitamin>, [0.0, 0.0, 0.0, 5.0, 0.0], 0.0, 0.0, 1.0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<contenttweaker:powder_mineral>, [0.0, 0.0, 0.0, 0.0, 5.0], 0.0, 0.0, 1.0);
+	*/
 	
+	/*
 	//Berries
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
 
+	//Vegetables
+	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:core_root>, VEGETABLE, 4, 0f, 0f, 0f, 1f, 0f, 0f, 0f, 2.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:ginseng>, VEGETABLE, 4, 0f, 0f, 0f, 1f, 0f, 0f, 0f, 2.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:marsh_mallow>, VEGETABLE, 4, 0f, 0f, 0f, 1f, 0f, 0f, 0f, 2.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:tomato>, VEGETABLE, 4, 0f, 0f, 0f, 1.5f, 0f, 0f, 0f, 3.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:chili_pepper>, VEGETABLE, 4, 2f, 0f, 0f, 1f, 0f, 0f, 0f, 2.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:wildberries>, VEGETABLE, 4, 0f, 0f, 0f, 0f, 0.5f, 0f, 0.25f, 4.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:grapes>, VEGETABLE, 4, 1f, 0f, 0f, 0f, 0.5f, 0f, 0f, 4f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:cloudsbluff>, VEGETABLE, 4, 1f, 0f, 0f, 0f, 0.5f, 0f, 0f, 4.5f);
+	
 	//Fruits
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:apple>, [1.0, 0.0, 0.0, 0.5, 0.5], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chorus_fruit>, [1.0, 0.0, 0.0, 0.5, 0.5], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<pyrotech:apple_baked>, [1.0, 0.0, 0.0, 0.5, 0.5], 1.0, 0.0, 1.0);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:apple>, FRUIT, 4, 0f, 0f, 0f, 0f, 1.5f, 0f, 0f, 3.75f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chorus_fruit>, FRUIT, 4, 0f, 0f, 0f, 0f, 1.5f, 0f, 0f, 3.75f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<pyrotech:apple_baked>, FRUIT, 4, 0f, 0f, 0f, 0f, 1.5f, 0f, 0f, 3.75f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:olives>, FRUIT, 4, 0f, 0f, 0f, 0.5f, 0.5f, 0f, 0f, 3.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<rustic:ironberries>, FRUIT, 4, 1f, 0f, 0f, 0f, 0.5f, 0f, 0f, 4.5f);
 
 	//Fish
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
-	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cod>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:salmon>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:clownfish>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:pufferfish>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:*>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_cod>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_salmon>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish:1>, [0.0, 0.0, 2.0, 1.0, 0.0], 1.0, 0.0, 1.0);
+	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cod>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 3f, 1f, 200f);
+	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:salmon>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 3f, 1f, 200f);
+	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:clownfish>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 3f, 1f, 200f);
+	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:pufferfish>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 3f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:*>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 3f, 1f, 200f);
+	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_cod>, COOKED_MEAT, 4, 1f, 0f, 0f, 0f, 0f, 2f, 0f, 2.25f);
+	//mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_salmon>, COOKED_MEAT, 4, 1f, 0f, 0f, 0f, 0f, 2f, 0f, 2.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish>, COOKED_MEAT, 4, 1f, 0f, 0f, 0f, 0f, 2f, 0f, 2.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish:1>, COOKED_MEAT, 4, 1f, 0f, 0f, 0f, 0f, 2f, 0f, 2.25f);
 
 	//Meat
 	//[Carbohydrates, Fat, Protein, Vitamins, Minerals]
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:porkchop>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:beef>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chicken>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:mutton>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:rabbit>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:mystery_meat>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_porkchop>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_beef>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_chicken>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_mutton>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_rabbit>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_mystery_meat>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:venisonraw>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:pheasantraw>, [0.0, 2.0, 2.5, 0.0, 0.0], 1.0, 0.0, 1.0);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:porkchop>, MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2f, 0f, 2f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:beef>, MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2f, 0f, 2f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:chicken>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 2f, 0f, 3f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:mutton>, MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2f, 0f, 3f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:rabbit>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 0.5f, 0f, 3f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:mystery_meat>, MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2f, 0f, 2f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_porkchop>, COOKED_MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2.5f, 0f, 1.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_beef>, COOKED_MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2.5f, 0f, 1.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_chicken>, COOKED_MEAT, 4, 1f, 0f, 0f, 0f, 0f, 2.5f, 0f, 2.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_mutton>, COOKED_MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2.5f, 0f, 2.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_rabbit>, COOKED_MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 2.25f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_mystery_meat>, COOKED_MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2.5f, 0f, 1.5f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:venisonraw>, MEAT, 4, 1f, 0f, 0f, 0f, 0f, 1.5f, 0f, 2f, 1f, 200f);
+	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:pheasantraw>, MEAT, 4, 2f, 0f, 0f, 0f, 0f, 2f, 0f, 3f, 1f, 200f);
 	*/
 	
 	//Register Metal Items

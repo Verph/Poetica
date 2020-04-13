@@ -56,6 +56,8 @@
 	recipes.remove(<minecraft:stone_hoe>);
 	recipes.remove(<minecraft:stone_sword>);
 	recipes.remove(<minecraft:ladder>);
+	recipes.remove(<tconstruct:stone_ladder>);
+	recipes.remove(<quark:iron_ladder>);
 	recipes.remove(<qualitytools:reforging_station>);
 	recipes.remove(<chiselsandbits:bit_bag>);
 	recipes.remove(<minecraft:cobblestone>);
@@ -132,7 +134,9 @@
 	recipes.addShaped(<minecraft:prismarine:1>, [[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
 	recipes.addShaped(<minecraft:prismarine:1>, [[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:dyeBlack>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
 	recipes.addShaped(<minecraft:prismarine_crystals> * 2, [[null, <ore:gemPrismarine>, null], [<ore:gemPrismarine>, <ore:gem>, <ore:gemPrismarine>], [null, <ore:gemPrismarine>, null]]);
-	recipes.addShaped(<minecraft:ladder>, [[<ore:stickWood>, <ore:string>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
+	recipes.addShaped(<minecraft:ladder> * 3, [[<ore:stickWood>, <ore:string>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
+	recipes.addShaped(<tconstruct:stone_ladder> * 3, [[<ore:rodStone>, <ore:string>, <ore:rodStone>], [<ore:rodStone>, <ore:rodStone>, <ore:rodStone>], [<ore:rodStone>, <ore:string>, <ore:rodStone>]]);
+	recipes.addShaped(<quark:iron_ladder> * 8, [[<ore:rodIron>, <ore:string>, <ore:rodIron>], [<ore:rodIron>, <ore:rodIron>, <ore:rodIron>], [<ore:rodIron>, <ore:string>, <ore:rodIron>]]);
 	recipes.addShaped(<minecraft:nether_brick>, [[<ore:ingotBrickNether>, <ore:ingotBrickNether>], [<ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 	recipes.addShaped(<minecraft:speckled_melon>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:cropMelon>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
