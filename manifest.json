@@ -11,12 +11,12 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Poetica",
-  "version": "0.8.1",
+  "version": "0.9",
   "author": "Verph",
   "files": [
     {
       "projectID": 352028,
-      "fileID": 2915786,
+      "fileID": 2929700,
       "required": true
     },
     {
@@ -51,7 +51,12 @@
     },
     {
       "projectID": 261837,
-      "fileID": 2922900,
+      "fileID": 2931653,
+      "required": true
+    },
+    {
+      "projectID": 235107,
+      "fileID": 2695044,
       "required": true
     },
     {
@@ -91,7 +96,7 @@
     },
     {
       "projectID": 354353,
-      "fileID": 2864448,
+      "fileID": 2929637,
       "required": true
     },
     {
@@ -215,6 +220,11 @@
       "required": true
     },
     {
+      "projectID": 250290,
+      "fileID": 2916357,
+      "required": true
+    },
+    {
       "projectID": 314904,
       "fileID": 2819669,
       "required": true
@@ -251,7 +261,7 @@
     },
     {
       "projectID": 302128,
-      "fileID": 2748681,
+      "fileID": 2933507,
       "required": true
     },
     {
@@ -316,7 +326,7 @@
     },
     {
       "projectID": 255389,
-      "fileID": 2915200,
+      "fileID": 2929758,
       "required": true
     },
     {
@@ -376,7 +386,7 @@
     },
     {
       "projectID": 340660,
-      "fileID": 2889404,
+      "fileID": 2929260,
       "required": true
     },
     {
@@ -470,13 +480,18 @@
       "required": true
     },
     {
+      "projectID": 237701,
+      "fileID": 2560638,
+      "required": true
+    },
+    {
       "projectID": 306770,
       "fileID": 2731963,
       "required": true
     },
     {
       "projectID": 285612,
-      "fileID": 2921432,
+      "fileID": 2932525,
       "required": true
     },
     {
@@ -566,7 +581,7 @@
     },
     {
       "projectID": 339156,
-      "fileID": 2911872,
+      "fileID": 2931998,
       "required": true
     },
     {
@@ -581,7 +596,7 @@
     },
     {
       "projectID": 302973,
-      "fileID": 2921231,
+      "fileID": 2934980,
       "required": true
     },
     {
@@ -616,7 +631,7 @@
     },
     {
       "projectID": 303557,
-      "fileID": 2918029,
+      "fileID": 2933382,
       "required": true
     },
     {
