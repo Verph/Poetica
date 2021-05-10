@@ -3,7 +3,7 @@
 	mods.rustic.CrushingTub.removeRecipe(<liquid:water>, <minecraft:reeds>);
 	mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <minecraft:reeds> * 5);
 	mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <tfc:food/sugarcane> * 5);
-	//mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <tfc:plants/sugar_cane> * 5);
+	mods.rustic.CrushingTub.addRecipe(<liquid:water> * 250, <minecraft:sugar> * 1, <tfc:plants/sugar_cane> * 5);
 	mods.rustic.CrushingTub.addRecipe(<liquid:oliveoil> * 250, null, <tfc:food/olive>);
 	mods.rustic.CrushingTub.addRecipe(<liquid:applejuice> * 250, null, <tfc:food/red_apple>);
 	mods.rustic.CrushingTub.addRecipe(<liquid:applejuice> * 250, null, <tfc:food/green_apple>);
@@ -88,9 +88,3 @@
 	mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:14> * 2, <tfc:plants/water_canna>);
 	mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:2>, <tfc:plants/water_lily>);
 	mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <minecraft:dye:5>, <minecraft:red_flower:2>);
-
-
-//=======================================================================================================================================================================
-//Rename Items
-
-	//<rustic:tomato_seeds>.displayName = "Cotton Seeds";

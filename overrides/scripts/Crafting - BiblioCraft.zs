@@ -75,15 +75,6 @@ var bibliocraft_removed_items = [
 ] as IItemStack[];
 
 var tfc_buttons = [
-    <tfc:stone/button/dolomite>,
-    <tfc:stone/button/chert>,
-    <tfc:stone/button/chalk>,
-    <tfc:stone/button/rhyolite>,
-    <tfc:stone/button/basalt>,
-    <tfc:stone/button/andesite>,
-    <tfc:stone/button/dacite>,
-    <tfc:stone/button/quartzite>,
-    <tfc:stone/button/slate>,
     <tfc:wood/button/acacia>,
     <tfc:wood/button/ash>,
     <tfc:wood/button/aspen>,
@@ -103,6 +94,16 @@ var tfc_buttons = [
     <tfc:wood/button/sycamore>,
     <tfc:wood/button/white_cedar>,
     <tfc:wood/button/willow>,
+    <tfc:wood/button/hevea>,
+    <tfc:stone/button/dolomite>,
+    <tfc:stone/button/chert>,
+    <tfc:stone/button/chalk>,
+    <tfc:stone/button/rhyolite>,
+    <tfc:stone/button/basalt>,
+    <tfc:stone/button/andesite>,
+    <tfc:stone/button/dacite>,
+    <tfc:stone/button/quartzite>,
+    <tfc:stone/button/slate>,
     <tfc:stone/button/granite>,
     <tfc:stone/button/diorite>,
     <tfc:stone/button/gabbro>,
@@ -115,6 +116,104 @@ var tfc_buttons = [
     <tfc:stone/button/schist>,
     <tfc:stone/button/gneiss>,
     <tfc:stone/button/marble>,
+    <tfc:stone/button/blaimorite>,
+    <tfc:stone/button/boninite>,
+    <tfc:stone/button/carbonatite>,
+    <tfc:stone/button/foidolite>,
+    <tfc:stone/button/arkose>,
+    <tfc:stone/button/jaspillite>,
+    <tfc:stone/button/travertine>,
+    <tfc:stone/button/wackestone>,
+    <tfc:stone/button/blueschist>,
+    <tfc:stone/button/greenschist>,
+    <tfc:stone/button/cataclasite>,
+    <tfc:stone/button/mylonite>,
+    <tfc:wood/button/african_padauk>,
+    <tfc:wood/button/alder>,
+    <tfc:wood/button/angelim>,
+    <tfc:wood/button/baobab>,
+    <tfc:wood/button/beech>,
+    <tfc:wood/button/black_walnut>,
+    <tfc:wood/button/box>,
+    <tfc:wood/button/brazilwood>,
+    <tfc:wood/button/butternut>,
+    <tfc:wood/button/cocobolo>,
+    <tfc:wood/button/cypress>,
+    <tfc:wood/button/ebony>,
+    <tfc:wood/button/eucalyptus>,
+    <tfc:wood/button/european_oak>,
+    <tfc:wood/button/fever>,
+    <tfc:wood/button/fruitwood>,
+    <tfc:wood/button/ginkgo>,
+    <tfc:wood/button/greenheart>,
+    <tfc:wood/button/hawthorn>,
+    <tfc:wood/button/hazel>,
+    <tfc:wood/button/hemlock>,
+    <tfc:wood/button/holly>,
+    <tfc:wood/button/hornbeam>,
+    <tfc:wood/button/ipe>,
+    <tfc:wood/button/iroko>,
+    <tfc:wood/button/ironwood>,
+    <tfc:wood/button/jacaranda>,
+    <tfc:wood/button/juniper>,
+    <tfc:wood/button/kauri>,
+    <tfc:wood/button/larch>,
+    <tfc:wood/button/limba>,
+    <tfc:wood/button/locust>,
+    <tfc:wood/button/logwood>,
+    <tfc:wood/button/maclura>,
+    <tfc:wood/button/mahoe>,
+    <tfc:wood/button/mahogany>,
+    <tfc:wood/button/marblewood>,
+    <tfc:wood/button/messmate>,
+    <tfc:wood/button/mountain_ash>,
+    <tfc:wood/button/nordmann_fir>,
+    <tfc:wood/button/norway_spruce>,
+    <tfc:wood/button/pink_cherry>,
+    <tfc:wood/button/pink_ivory>,
+    <tfc:wood/button/poplar>,
+    <tfc:wood/button/purpleheart>,
+    <tfc:wood/button/red_cedar>,
+    <tfc:wood/button/red_elm>,
+    <tfc:wood/button/redwood>,
+    <tfc:wood/button/rowan>,
+    <tfc:wood/button/rubber_fig>,
+    <tfc:wood/button/sweetgum>,
+    <tfc:wood/button/syzygium>,
+    <tfc:wood/button/teak>,
+    <tfc:wood/button/walnut>,
+    <tfc:wood/button/wenge>,
+    <tfc:wood/button/white_cherry>,
+    <tfc:wood/button/white_elm>,
+    <tfc:wood/button/whitebeam>,
+    <tfc:wood/button/yellow_meranti>,
+    <tfc:wood/button/yew>,
+    <tfc:wood/button/zebrawood>,
+    <tfcflorae:wood/fruit_tree/button/banana>,
+    <tfcflorae:wood/fruit_tree/button/cherry>,
+    <tfcflorae:wood/fruit_tree/button/green_apple>,
+    <tfcflorae:wood/fruit_tree/button/lemon>,
+    <tfcflorae:wood/fruit_tree/button/olive>,
+    <tfcflorae:wood/fruit_tree/button/orange>,
+    <tfcflorae:wood/fruit_tree/button/peach>,
+    <tfcflorae:wood/fruit_tree/button/plum>,
+    <tfcflorae:wood/fruit_tree/button/red_apple>,
+    <tfcflorae:wood/fruit_tree/button/cinnamon>,
+    <tfcflorae:wood/fruit_tree/button/cocoa>,
+    <tfcflorae:wood/fruit_tree/button/cassia_cinnamon>,
+    <tfcflorae:wood/fruit_tree/button/ceylon_cinnamon>,
+    <tfcflorae:wood/button/arrow_bamboo>,
+    <tfcflorae:wood/button/black_bamboo>,
+    <tfcflorae:wood/button/blue_bamboo>,
+    <tfcflorae:wood/button/dragon_bamboo>,
+    <tfcflorae:wood/button/golden_bamboo>,
+    <tfcflorae:wood/button/narrow_leaf_bamboo>,
+    <tfcflorae:wood/button/red_bamboo>,
+    <tfcflorae:wood/button/temple_bamboo>,
+    <tfcflorae:wood/button/thorny_bamboo>,
+    <tfcflorae:wood/button/timber_bamboo>,
+    <tfcflorae:wood/button/tinwa_bamboo>,
+    <tfcflorae:wood/button/weavers_bamboo>,
 ] as IItemStack[];
 
 for item in tfc_buttons {
@@ -197,6 +296,354 @@ val tfc_woods = {
     'willow': {
         'plank': <tfc:wood/planks/willow>,
         'lumber': <tfc:wood/lumber/willow>,
+    } as IItemStack[string],
+    'hevea': {
+        'plank': <tfc:wood/planks/hevea>,
+        'lumber': <tfc:wood/lumber/hevea>,
+    } as IItemStack[string],
+    'african_padauk': {
+        'plank': <tfc:wood/planks/african_padauk>,
+        'lumber': <tfc:wood/lumber/african_padauk>,
+    } as IItemStack[string],
+    'alder': {
+        'plank': <tfc:wood/planks/alder>,
+        'lumber': <tfc:wood/lumber/alder>,
+    } as IItemStack[string],
+    'angelim': {
+        'plank': <tfc:wood/planks/angelim>,
+        'lumber': <tfc:wood/lumber/angelim>,
+    } as IItemStack[string],
+    'baobab': {
+        'plank': <tfc:wood/planks/baobab>,
+        'lumber': <tfc:wood/lumber/baobab>,
+    } as IItemStack[string],
+    'beech': {
+        'plank': <tfc:wood/planks/beech>,
+        'lumber': <tfc:wood/lumber/beech>,
+    } as IItemStack[string],
+    'black_walnut': {
+        'plank': <tfc:wood/planks/black_walnut>,
+        'lumber': <tfc:wood/lumber/black_walnut>,
+    } as IItemStack[string],
+    'box': {
+        'plank': <tfc:wood/planks/box>,
+        'lumber': <tfc:wood/lumber/box>,
+    } as IItemStack[string],
+    'brazilwood': {
+        'plank': <tfc:wood/planks/brazilwood>,
+        'lumber': <tfc:wood/lumber/brazilwood>,
+    } as IItemStack[string],
+    'butternut': {
+        'plank': <tfc:wood/planks/butternut>,
+        'lumber': <tfc:wood/lumber/butternut>,
+    } as IItemStack[string],
+    'cocobolo': {
+        'plank': <tfc:wood/planks/cocobolo>,
+        'lumber': <tfc:wood/lumber/cocobolo>,
+    } as IItemStack[string],
+    'cypress': {
+        'plank': <tfc:wood/planks/cypress>,
+        'lumber': <tfc:wood/lumber/cypress>,
+    } as IItemStack[string],
+    'ebony': {
+        'plank': <tfc:wood/planks/ebony>,
+        'lumber': <tfc:wood/lumber/ebony>,
+    } as IItemStack[string],
+    'eucalyptus': {
+        'plank': <tfc:wood/planks/eucalyptus>,
+        'lumber': <tfc:wood/lumber/eucalyptus>,
+    } as IItemStack[string],
+    'european_oak': {
+        'plank': <tfc:wood/planks/european_oak>,
+        'lumber': <tfc:wood/lumber/european_oak>,
+    } as IItemStack[string],
+    'fever': {
+        'plank': <tfc:wood/planks/fever>,
+        'lumber': <tfc:wood/lumber/fever>,
+    } as IItemStack[string],
+    'fruitwood': {
+        'plank': <tfc:wood/planks/fruitwood>,
+        'lumber': <tfc:wood/lumber/fruitwood>,
+    } as IItemStack[string],
+    'ginkgo': {
+        'plank': <tfc:wood/planks/ginkgo>,
+        'lumber': <tfc:wood/lumber/ginkgo>,
+    } as IItemStack[string],
+    'greenheart': {
+        'plank': <tfc:wood/planks/greenheart>,
+        'lumber': <tfc:wood/lumber/greenheart>,
+    } as IItemStack[string],
+    'hawthorn': {
+        'plank': <tfc:wood/planks/hawthorn>,
+        'lumber': <tfc:wood/lumber/hawthorn>,
+    } as IItemStack[string],
+    'hazel': {
+        'plank': <tfc:wood/planks/hazel>,
+        'lumber': <tfc:wood/lumber/hazel>,
+    } as IItemStack[string],
+    'hemlock': {
+        'plank': <tfc:wood/planks/hemlock>,
+        'lumber': <tfc:wood/lumber/hemlock>,
+    } as IItemStack[string],
+    'holly': {
+        'plank': <tfc:wood/planks/holly>,
+        'lumber': <tfc:wood/lumber/holly>,
+    } as IItemStack[string],
+    'hornbeam': {
+        'plank': <tfc:wood/planks/hornbeam>,
+        'lumber': <tfc:wood/lumber/hornbeam>,
+    } as IItemStack[string],
+    'ipe': {
+        'plank': <tfc:wood/planks/ipe>,
+        'lumber': <tfc:wood/lumber/ipe>,
+    } as IItemStack[string],
+    'iroko': {
+        'plank': <tfc:wood/planks/iroko>,
+        'lumber': <tfc:wood/lumber/iroko>,
+    } as IItemStack[string],
+    'ironwood': {
+        'plank': <tfc:wood/planks/ironwood>,
+        'lumber': <tfc:wood/lumber/ironwood>,
+    } as IItemStack[string],
+    'jacaranda': {
+        'plank': <tfc:wood/planks/jacaranda>,
+        'lumber': <tfc:wood/lumber/jacaranda>,
+    } as IItemStack[string],
+    'juniper': {
+        'plank': <tfc:wood/planks/juniper>,
+        'lumber': <tfc:wood/lumber/juniper>,
+    } as IItemStack[string],
+    'kauri': {
+        'plank': <tfc:wood/planks/kauri>,
+        'lumber': <tfc:wood/lumber/kauri>,
+    } as IItemStack[string],
+    'larch': {
+        'plank': <tfc:wood/planks/larch>,
+        'lumber': <tfc:wood/lumber/larch>,
+    } as IItemStack[string],
+    'limba': {
+        'plank': <tfc:wood/planks/limba>,
+        'lumber': <tfc:wood/lumber/limba>,
+    } as IItemStack[string],
+    'locust': {
+        'plank': <tfc:wood/planks/locust>,
+        'lumber': <tfc:wood/lumber/locust>,
+    } as IItemStack[string],
+    'logwood': {
+        'plank': <tfc:wood/planks/logwood>,
+        'lumber': <tfc:wood/lumber/logwood>,
+    } as IItemStack[string],
+    'maclura': {
+        'plank': <tfc:wood/planks/maclura>,
+        'lumber': <tfc:wood/lumber/maclura>,
+    } as IItemStack[string],
+    'mahoe': {
+        'plank': <tfc:wood/planks/mahoe>,
+        'lumber': <tfc:wood/lumber/mahoe>,
+    } as IItemStack[string],
+    'mahogany': {
+        'plank': <tfc:wood/planks/mahogany>,
+        'lumber': <tfc:wood/lumber/mahogany>,
+    } as IItemStack[string],
+    'marblewood': {
+        'plank': <tfc:wood/planks/marblewood>,
+        'lumber': <tfc:wood/lumber/marblewood>,
+    } as IItemStack[string],
+    'messmate': {
+        'plank': <tfc:wood/planks/messmate>,
+        'lumber': <tfc:wood/lumber/messmate>,
+    } as IItemStack[string],
+    'mountain_ash': {
+        'plank': <tfc:wood/planks/mountain_ash>,
+        'lumber': <tfc:wood/lumber/mountain_ash>,
+    } as IItemStack[string],
+    'nordmann_fir': {
+        'plank': <tfc:wood/planks/nordmann_fir>,
+        'lumber': <tfc:wood/lumber/nordmann_fir>,
+    } as IItemStack[string],
+    'norway_spruce': {
+        'plank': <tfc:wood/planks/norway_spruce>,
+        'lumber': <tfc:wood/lumber/norway_spruce>,
+    } as IItemStack[string],
+    'pink_cherry': {
+        'plank': <tfc:wood/planks/pink_cherry>,
+        'lumber': <tfc:wood/lumber/pink_cherry>,
+    } as IItemStack[string],
+    'pink_ivory': {
+        'plank': <tfc:wood/planks/pink_ivory>,
+        'lumber': <tfc:wood/lumber/pink_ivory>,
+    } as IItemStack[string],
+    'poplar': {
+        'plank': <tfc:wood/planks/poplar>,
+        'lumber': <tfc:wood/lumber/poplar>,
+    } as IItemStack[string],
+    'purpleheart': {
+        'plank': <tfc:wood/planks/purpleheart>,
+        'lumber': <tfc:wood/lumber/purpleheart>,
+    } as IItemStack[string],
+    'red_cedar': {
+        'plank': <tfc:wood/planks/red_cedar>,
+        'lumber': <tfc:wood/lumber/red_cedar>,
+    } as IItemStack[string],
+    'red_elm': {
+        'plank': <tfc:wood/planks/red_elm>,
+        'lumber': <tfc:wood/lumber/red_elm>,
+    } as IItemStack[string],
+    'redwood': {
+        'plank': <tfc:wood/planks/redwood>,
+        'lumber': <tfc:wood/lumber/redwood>,
+    } as IItemStack[string],
+    'rowan': {
+        'plank': <tfc:wood/planks/rowan>,
+        'lumber': <tfc:wood/lumber/rowan>,
+    } as IItemStack[string],
+    'rubber_fig': {
+        'plank': <tfc:wood/planks/rubber_fig>,
+        'lumber': <tfc:wood/lumber/rubber_fig>,
+    } as IItemStack[string],
+    'sweetgum': {
+        'plank': <tfc:wood/planks/sweetgum>,
+        'lumber': <tfc:wood/lumber/sweetgum>,
+    } as IItemStack[string],
+    'syzygium': {
+        'plank': <tfc:wood/planks/syzygium>,
+        'lumber': <tfc:wood/lumber/syzygium>,
+    } as IItemStack[string],
+    'teak': {
+        'plank': <tfc:wood/planks/teak>,
+        'lumber': <tfc:wood/lumber/teak>,
+    } as IItemStack[string],
+    'walnut': {
+        'plank': <tfc:wood/planks/walnut>,
+        'lumber': <tfc:wood/lumber/walnut>,
+    } as IItemStack[string],
+    'wenge': {
+        'plank': <tfc:wood/planks/wenge>,
+        'lumber': <tfc:wood/lumber/wenge>,
+    } as IItemStack[string],
+    'white_cherry': {
+        'plank': <tfc:wood/planks/white_cherry>,
+        'lumber': <tfc:wood/lumber/white_cherry>,
+    } as IItemStack[string],
+    'white_elm': {
+        'plank': <tfc:wood/planks/white_elm>,
+        'lumber': <tfc:wood/lumber/white_elm>,
+    } as IItemStack[string],
+    'whitebeam': {
+        'plank': <tfc:wood/planks/whitebeam>,
+        'lumber': <tfc:wood/lumber/whitebeam>,
+    } as IItemStack[string],
+    'yellow_meranti': {
+        'plank': <tfc:wood/planks/yellow_meranti>,
+        'lumber': <tfc:wood/lumber/yellow_meranti>,
+    } as IItemStack[string],
+    'yew': {
+        'plank': <tfc:wood/planks/yew>,
+        'lumber': <tfc:wood/lumber/yew>,
+    } as IItemStack[string],
+    'zebrawood': {
+        'plank': <tfc:wood/planks/zebrawood>,
+        'lumber': <tfc:wood/lumber/zebrawood>,
+    } as IItemStack[string],
+    'banana': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/banana>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/banana>,
+    } as IItemStack[string],
+    'cherry': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/cherry>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/cherry>,
+    } as IItemStack[string],
+    'green_apple': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/green_apple>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/green_apple>,
+    } as IItemStack[string],
+    'lemon': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/lemon>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/lemon>,
+    } as IItemStack[string],
+    'olive': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/olive>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/olive>,
+    } as IItemStack[string],
+    'orange': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/orange>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/orange>,
+    } as IItemStack[string],
+    'peach': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/peach>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/peach>,
+    } as IItemStack[string],
+    'plum': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/plum>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/plum>,
+    } as IItemStack[string],
+    'red_apple': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/red_apple>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/red_apple>,
+    } as IItemStack[string],
+    'cinnamon': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/cinnamon>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/cinnamon>,
+    } as IItemStack[string],
+    'cocoa': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/cocoa>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/cocoa>,
+    } as IItemStack[string],
+    'cassia_cinnamon': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/cassia_cinnamon>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/cassia_cinnamon>,
+    } as IItemStack[string],
+    'ceylon_cinnamon': {
+        'plank': <tfcflorae:wood/fruit_tree/planks/ceylon_cinnamon>,
+        'lumber': <tfcflorae:wood/fruit_tree/lumber/ceylon_cinnamon>,
+    } as IItemStack[string],
+    'arrow_bamboo': {
+        'plank': <tfcflorae:wood/planks/arrow_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/arrow_bamboo>,
+    } as IItemStack[string],
+    'black_bamboo': {
+        'plank': <tfcflorae:wood/planks/black_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/black_bamboo>,
+    } as IItemStack[string],
+    'blue_bamboo': {
+        'plank': <tfcflorae:wood/planks/blue_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/blue_bamboo>,
+    } as IItemStack[string],
+    'dragon_bamboo': {
+        'plank': <tfcflorae:wood/planks/dragon_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/dragon_bamboo>,
+    } as IItemStack[string],
+    'golden_bamboo': {
+        'plank': <tfcflorae:wood/planks/golden_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/golden_bamboo>,
+    } as IItemStack[string],
+    'narrow_leaf_bamboo': {
+        'plank': <tfcflorae:wood/planks/narrow_leaf_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/narrow_leaf_bamboo>,
+    } as IItemStack[string],
+    'red_bamboo': {
+        'plank': <tfcflorae:wood/planks/red_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/red_bamboo>,
+    } as IItemStack[string],
+    'temple_bamboo': {
+        'plank': <tfcflorae:wood/planks/temple_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/temple_bamboo>,
+    } as IItemStack[string],
+    'thorny_bamboo': {
+        'plank': <tfcflorae:wood/planks/thorny_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/thorny_bamboo>,
+    } as IItemStack[string],
+    'timber_bamboo': {
+        'plank': <tfcflorae:wood/planks/timber_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/timber_bamboo>,
+    } as IItemStack[string],
+    'tinwa_bamboo': {
+        'plank': <tfcflorae:wood/planks/tinwa_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/tinwa_bamboo>,
+    } as IItemStack[string],
+    'weavers_bamboo': {
+        'plank': <tfcflorae:wood/planks/weavers_bamboo>,
+        'lumber': <tfcflorae:wood/lumber/weavers_bamboo>,
     } as IItemStack[string],
 } as IItemStack[string][string];
 
@@ -851,8 +1298,8 @@ recipes.addShaped(
     <bibliocraft:swordpedestal>,
     [
         [null, null, null],
-        [null, <ore:slabStonePolished>, null],
-        [<ore:slabStonePolished>, <tfc:animal/product/wool_cloth>, <ore:slabStonePolished>]
+        [null, <ore:slabStoneBrickPolished>, null],
+        [<ore:slabStoneBrickPolished>, <tfc:animal/product/wool_cloth>, <ore:slabStoneBrickPolished>]
     ]
 );
 

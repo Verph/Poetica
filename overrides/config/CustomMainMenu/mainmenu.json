@@ -18,9 +18,7 @@
             "action" : 
             {
                 "type" : "refresh"
-            },
-			"hoverSound" : "menu:sounds/hover",
-			"pressSound" : "menu:sounds/click"
+            }
         },
 		
         "singleplayer":
@@ -41,9 +39,7 @@
                 "type" : "openGui",
                 "gui" : "singleplayer"
             },
-            "shadow" : false,
-			"hoverSound" : "menu:sounds/hover",
-			"pressSound" : "menu:sounds/click"
+            "shadow" : false
         },
        
         "multiplayer":
@@ -64,9 +60,7 @@
                 "type" : "openGui",
                 "gui" : "multiplayer"
             },
-            "shadow" : false,
-			"hoverSound" : "menu:sounds/hover",
-			"pressSound" : "menu:sounds/click"
+            "shadow" : false
         },
            
         "options":
@@ -87,9 +81,7 @@
                 "type" : "openGui",
                 "gui" : "options"
             },
-            "shadow" : false,
-			"hoverSound" : "menu:sounds/hover",
-			"pressSound" : "menu:sounds/click"
+            "shadow" : false
         },
        
         "language":
@@ -110,9 +102,7 @@
                 "type" : "openGui",
 				"gui" : "languages"
             },
-            "shadow" : false,
-			"hoverSound" : "menu:sounds/hover",
-			"pressSound" : "menu:sounds/click"
+            "shadow" : false
         },
        
         "quit":
@@ -132,9 +122,7 @@
             {
                 "type" : "quit"
             },
-            "shadow" : false,
-			"hoverSound" : "menu:sounds/hover",
-			"pressSound" : "menu:sounds/click"
+            "shadow" : false
         }
     },
    

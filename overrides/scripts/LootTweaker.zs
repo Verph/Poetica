@@ -1,4 +1,5 @@
 #priority 12
+import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTables;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
@@ -10,7 +11,7 @@ import loottweaker.vanilla.loot.Functions;
 //Add venison to the BetterAnimalsPlus Deer
 
 //Get the deer loot table and store it for later use
-val deerBAP = LootTables.getTable("betteranimalsplus:deer");
+val deerBAP = LootTweaker.getTable("betteranimalsplus:deer");
 
 //Get deer from the deer loot table and store it for later use
 val deer = deerBAP.getPool("deer-venison");
@@ -35,7 +36,7 @@ deer.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], [])
 //Add mutton to the BetterAnimalsPlus Goat
 
 //Get the goat loot table and store it for later use
-val goatBAP = LootTables.getTable("betteranimalsplus:goat");
+val goatBAP = LootTweaker.getTable("betteranimalsplus:goat");
 
 //Get goat from the goat loot table and store it for later use
 val goat = goatBAP.getPool("goat");
@@ -64,7 +65,7 @@ goat.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)], [])
 //Add fish to the BetterAnimalsPlus Lamprey
 
 //Get the lamprey loot table and store it for later use
-val lampreyBAP = LootTables.getTable("betteranimalsplus:lamprey");
+val lampreyBAP = LootTweaker.getTable("betteranimalsplus:lamprey");
 
 //Get lamprey from the lamprey loot table and store it for later use
 val lamprey = lampreyBAP.getPool("lamprey");
@@ -84,7 +85,7 @@ lamprey.addItemEntryHelper(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 2)], [
 //Add pheasant meat to the BetterAnimalsPlus Pheasant
 
 //Get the pheasant loot table and store it for later use
-val pheasantBAP = LootTables.getTable("betteranimalsplus:pheasant");
+val pheasantBAP = LootTweaker.getTable("betteranimalsplus:pheasant");
 
 //Get pheasant from the pheasant loot table and store it for later use
 val pheasant = pheasantBAP.getPool("pheasant");
@@ -106,7 +107,7 @@ pheasant.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)],
 //Add venison to the BetterAnimalsPlus Reindeer
 
 //Get the reindeer loot table and store it for later use
-val reindeerBAP = LootTables.getTable("betteranimalsplus:reindeer");
+val reindeerBAP = LootTweaker.getTable("betteranimalsplus:reindeer");
 
 //Get reindeer from the reindeer loot table and store it for later use
 val reindeer = reindeerBAP.getPool("reindeer");
@@ -134,7 +135,7 @@ reindeer.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)],
 //Add venison to the BetterAnimalsPlus Reindeer
 
 //Get the moose loot table and store it for later use
-val mooseBAP = LootTables.getTable("betteranimalsplus:moose");
+val mooseBAP = LootTweaker.getTable("betteranimalsplus:moose");
 
 //Get moose from the moose loot table and store it for later use
 val moose = mooseBAP.getPool("moose-venison");
@@ -156,7 +157,7 @@ moose.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []
 //Add bear meat to the BetterAnimalsPlus Brownbear
 
 //Get the bear_brown loot table and store it for later use
-val brownbearBAP = LootTables.getTable("betteranimalsplus:bear_brown");
+val brownbearBAP = LootTweaker.getTable("betteranimalsplus:bear_brown");
 
 //Get bear_brown_fish from the bear-brown-fish loot table and store it for later use
 val bear_brown_fish = brownbearBAP.getPool("bear-brown-fish");
@@ -187,7 +188,7 @@ bear_brown_skin.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(
 //Add bear meat to the BetterAnimalsPlus Blackbear
 
 //Get the bear_black loot table and store it for later use
-val blackbearBAP = LootTables.getTable("betteranimalsplus:bear_black");
+val blackbearBAP = LootTweaker.getTable("betteranimalsplus:bear_black");
 
 //Get bear_black_fish from the bear-black-fish loot table and store it for later use
 val bear_black_fish = blackbearBAP.getPool("bear-black-fish");
@@ -218,7 +219,7 @@ bear_black_skin.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(
 //Add lammergeier meat to the BetterAnimalsPlus lammergeier
 
 //Get the lammergeier loot table and store it for later use
-val lammergeierBAP = LootTables.getTable("betteranimalsplus:lammergeier");
+val lammergeierBAP = LootTweaker.getTable("betteranimalsplus:lammergeier");
 
 //Get lammergeier from the lammergeier loot table and store it for later use
 val lammergeier = lammergeierBAP.getPool("lammergeier");
@@ -234,7 +235,7 @@ lammergeier.addItemEntryHelper(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1
 //Add songbird meat to the BetterAnimalsPlus songbird
 
 //Get the songbird loot table and store it for later use
-val songbirdBAP = LootTables.getTable("betteranimalsplus:songbird");
+val songbirdBAP = LootTweaker.getTable("betteranimalsplus:songbird");
 
 //Get songbird from the songbird loot table and store it for later use
 val songbird = songbirdBAP.getPool("songbird");
@@ -250,7 +251,7 @@ songbird.addItemEntryHelper(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1,1)
 //Add crayfish meat to the BetterAnimalsPlus Nautilus
 
 //Get the nautilus loot table and store it for later use
-val nautilusBAP = LootTables.getTable("betteranimalsplus:nautilus");
+val nautilusBAP = LootTweaker.getTable("betteranimalsplus:nautilus");
 
 //Get nautilus from the nautilus loot table and store it for later use
 val nautilus = nautilusBAP.getPool("nautilus");
@@ -272,7 +273,7 @@ nautilus.addItemEntryHelper(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)
 //Add crayfish meat to the BetterAnimalsPlus Horseshoe Crab
 
 //Get the horseshoecrab loot table and store it for later use
-//val horseshoecrabBAP = LootTables.getTable("betteranimalsplus:horseshoecrab");
+//val horseshoecrabBAP = LootTweaker.getTable("betteranimalsplus:horseshoecrab");
 
 //Get horseshoecrab from the horseshoecrab loot table and store it for later use
 //val horseshoecrab = horseshoecrabBAP.getPool("horseshoecrab");
@@ -291,7 +292,7 @@ nautilus.addItemEntryHelper(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)
 //Add fish meat to the BetterAnimalsPlus Shark
 
 //Get the shark loot table and store it for later use
-val sharkBAP = LootTables.getTable("betteranimalsplus:shark");
+val sharkBAP = LootTweaker.getTable("betteranimalsplus:shark");
 
 //Get shark_fish from the shark-fish loot table and store it for later use
 val shark_fish = sharkBAP.getPool("shark-fish");
@@ -316,7 +317,7 @@ shark_fish.addItemEntryHelper(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 5)]
 //Add small raw hide to BetterAnimalsPlus Black Wolf
 
 //Get the wolf_black loot table and store it for later use
-val wolf_blackBAP = LootTables.getTable("betteranimalsplus:wolf_black");
+val wolf_blackBAP = LootTweaker.getTable("betteranimalsplus:wolf_black");
 
 //Get wolf_black from the wolf_black loot table and store it for later use
 val wolf_black = wolf_blackBAP.getPool("wolf_black");
@@ -335,7 +336,7 @@ wolf_black.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1
 //Add small raw hide to BetterAnimalsPlus Snowy Wolf
 
 //Get the wolf_snowy loot table and store it for later use
-val wolf_snowyBAP = LootTables.getTable("betteranimalsplus:wolf_snowy");
+val wolf_snowyBAP = LootTweaker.getTable("betteranimalsplus:wolf_snowy");
 
 //Get wolf_snowy from the wolf_snowy loot table and store it for later use
 val wolf_snowy = wolf_snowyBAP.getPool("wolf_snowy");
@@ -354,7 +355,7 @@ wolf_snowy.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1
 //Add small raw hide to BetterAnimalsPlus Timber Wolf
 
 //Get the wolf_timber loot table and store it for later use
-val wolf_timberBAP = LootTables.getTable("betteranimalsplus:wolf_timber");
+val wolf_timberBAP = LootTweaker.getTable("betteranimalsplus:wolf_timber");
 
 //Get wolf_timber from the wolf_timber loot table and store it for later use
 val wolf_timber = wolf_timberBAP.getPool("wolf_timber");
@@ -373,7 +374,7 @@ wolf_timber.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(
 //Add venison to the BetterAnimalsPlus Boar
 
 //Get the boar loot table and store it for later use
-val pig = LootTables.getTable("minecraft:entities/pig");
+val pig = LootTweaker.getTable("minecraft:entities/pig");
 
 //Get boar from the boar loot table and store it for later use
 val main = pig.getPool("main");
@@ -395,14 +396,104 @@ main.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], [])
 
 
 //=========================================================================================================
-//Add pelt to TFC bears
+//Add pelt to TFC black bears
 
 //Get the bear loot table and store it for later use
-val bearTFC = LootTables.getTable("tfc:animals/bear");
+val blackbeartfcTFC = LootTweaker.getTable("tfc:animals/black_bear");
 
 //Get roll2 from the bear loot table and store it for later use
-val bear_loot = bearTFC.getPool("roll2");
+val blackbeartfc_loot = blackbeartfcTFC.getPool("roll2");
+
+//Drop 1 black bear cape
+blackbeartfc_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_black>, 1, 1, [Functions.setCount(1, 1)], []);
+
+
+//=========================================================================================================
+//Add pelt to TFC grizzly bears
+
+//Get the bear loot table and store it for later use
+val grizzlybeartfcTFC = LootTweaker.getTable("tfc:animals/grizzly_bear");
+
+//Get roll2 from the bear loot table and store it for later use
+val grizzlybeartfc_loot = grizzlybeartfcTFC.getPool("roll2");
 
 //Drop 1 brown bear cape
-bear_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_brown>, 1, 1, [Functions.setCount(1, 1)], []);
+grizzlybeartfc_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_brown>, 1, 1, [Functions.setCount(1, 1)], []);
+
+
+//=========================================================================================================
+//Add pelt to TFC black bears
+
+//Get the bear loot table and store it for later use
+val polarbeartfcTFC = LootTweaker.getTable("tfc:animals/polar_bear");
+
+//Get roll2 from the bear loot table and store it for later use
+val polarbeartfc_loot = polarbeartfcTFC.getPool("roll2");
+
+//Drop 1 kermode bear cape
+polarbeartfc_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_kermode>, 1, 1, [Functions.setCount(1, 1)], []);
+
+
+//=========================================================================================================
+//Change JAFF fish drop from Minecraft fish to TFC fish
+
+//Get the clownfish loot table and store it for later use
+val clownfishJAFF = LootTweaker.getTable("jaff:entities/clownfish");
+
+//Get clownfish from the clownfish loot table and store it for later use
+val clownfishJAFF_loot = clownfishJAFF.getPool("main");
+
+//Remove the entry named "minecraft:fish" from "clownfish"
+clownfishJAFF_loot.removeEntry("minecraft:fish");
+
+//Drop 1 fish
+clownfishJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+
+
+//=========================================================================================================
+//Change JAFF fish drop from Minecraft fish to TFC fish
+
+//Get the cod loot table and store it for later use
+val codJAFF = LootTweaker.getTable("jaff:entities/cod");
+
+//Get cod from the cod loot table and store it for later use
+val codJAFF_loot = codJAFF.getPool("main");
+
+//Remove the entry named "minecraft:fish" from "cod"
+codJAFF_loot.removeEntry("minecraft:fish");
+
+//Drop 1 fish
+codJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+
+
+//=========================================================================================================
+//Change JAFF fish drop from Minecraft fish to TFC fish
+
+//Get the pufferfish loot table and store it for later use
+val pufferfishJAFF = LootTweaker.getTable("jaff:entities/pufferfish");
+
+//Get pufferfish from the pufferfish loot table and store it for later use
+val pufferfishJAFF_loot = pufferfishJAFF.getPool("main");
+
+//Remove the entry named "minecraft:fish" from "pufferfish"
+pufferfishJAFF_loot.removeEntry("minecraft:fish");
+
+//Drop 1 fish
+pufferfishJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+
+
+//=========================================================================================================
+//Change JAFF fish drop from Minecraft fish to TFC fish
+
+//Get the salmon loot table and store it for later use
+val salmonJAFF = LootTweaker.getTable("jaff:entities/salmon");
+
+//Get salmon from the salmon loot table and store it for later use
+val salmonJAFF_loot = salmonJAFF.getPool("main");
+
+//Remove the entry named "minecraft:fish" from "salmon"
+salmonJAFF_loot.removeEntry("minecraft:fish");
+
+//Drop 1 fish
+salmonJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
 

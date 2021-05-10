@@ -1728,7 +1728,106 @@
     "weight": 100
   },
   {
-    "content": "entity:tfc:beartfc",
+    "content": "entity:tfc:blackbeartfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:cougartfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:coyotetfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:direwolftfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:grizzlybeartfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:hyenatfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:jackaltfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:liontfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:panthertfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:polarbeartfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:sabertoothtfc",
+    "amount": {
+      "min": 1,
+      "max": 5
+    },
+    "unitWorth": 200,
+    "weight": 300
+  },
+  {
+    "content": "entity:tfc:wolftfc",
     "amount": {
       "min": 1,
       "max": 5
@@ -1773,12 +1872,13 @@
     "weight": 250
   },
   {
-    "content": "entity:minecraft:enderman",
+    "content": "minecraft:potion",
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 3
     },
-    "unitWorth": 160,
-    "weight": 250
+    "unitWorth": 300,
+    "weight": 100,
+    "nbt_data": "{Potion: \"minecraft:healing\"}"
   }
 ]

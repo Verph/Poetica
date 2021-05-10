@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:block/cross",
-    "textures": {
-        "particle": "contenttweaker:blocks/lavender",
-        "cross": "contenttweaker:blocks/lavender"
-    }
-}
-

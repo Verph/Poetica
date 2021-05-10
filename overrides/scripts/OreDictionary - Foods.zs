@@ -574,7 +574,7 @@ var listAllchickenraw = <ore:listAllchickenraw>;
     listAllchickenraw.addItems([
 	<tfc:food/chicken>,
 	<tfc:food/pheasant>,
-	<exoticbirds:birdmeat>
+	//<exoticbirds:birdmeat>
 	]);
 
 var listAllmuttonraw = <ore:listAllmuttonraw>;
@@ -636,7 +636,7 @@ var listAllchickencooked = <ore:listAllchickencooked>;
     listAllchickencooked.addItems([
 	<tfc:food/cooked_chicken>,
 	<tfc:food/cooked_pheasant>,
-	<exoticbirds:cooked_birdmeat>
+	//<exoticbirds:cooked_birdmeat>
 	]);
 
 var listAllmuttoncooked = <ore:listAllmuttoncooked>;
@@ -686,7 +686,17 @@ var categoryVegetable = <ore:categoryVegetable>;
 	<minecraft:carrot>,
 	<minecraft:potato>,
 	<minecraft:pumpkin>,
-	<minecraft:beetroot>
+	<minecraft:beetroot>,
+	<tfc:plants/artists_conk>,
+	<tfc:plants/sulphur_shelf>,
+	<tfc:plants/turkey_tail>,
+	<tfc:plants/black_powderpuff>,
+	<tfc:plants/chanterelle>,
+	<tfc:plants/parasol_mushroom>,
+	<tfc:plants/stinkhorn>,
+	<tfc:plants/weeping_milk_cap>,
+	<tfc:plants/wood_blewit>,
+	<tfc:plants/woolly_gomphus>
 	]);
 
 //Meat Category
