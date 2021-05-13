@@ -18,8 +18,16 @@
 //=======================================================================================================================================================================
 //Add Shapeless Recipes
 
-	recipes.addShapeless(<minecraft:stick> * 2, [<ore:lumber>, <ore:saw>.transformDamage(1)]);
+	// Clef Instruments
+	//recipes.addShaped(<clef:instrument>.withTag({itemName: "accordion"}), [[<ore:lumber>, <ore:leather>, <ore:lumber>], [<ore:glue>, <ore:sugercane>, <ore:glue>], [<ore:lumber>, <ore:leather>, <ore:lumber>]]);
+	//recipes.addShaped(<clef:instrument>.withTag({itemName: "accordion"}), [[<ore:lumber>, <ore:leather>, <ore:lumber>], [<ore:glue>, <ore:papyrus>, <ore:glue>], [<ore:lumber>, <ore:leather>, <ore:lumber>]]);
+	//recipes.addShaped(<clef:instrument>.withTag({itemName: "acousticguitar"}), [[null, <ore:string>, <ore:lumber>], [<ore:lumber>, <ore:stickWood>, <ore:string>], [<ore:lumber>, <ore:lumber>, null]]);
+	//recipes.addShaped(<clef:instrument>.withTag({itemName: "banjo"}), [[null, <ore:string>, <ore:lumber>], [<ore:lumber>, <ore:stickWood>, <ore:string>], [<ore:leather>, <ore:lumber>, null]]);
+	//recipes.addShaped(<clef:instrument>.withTag({itemName: "bassguitar"}), [[null, <ore:string>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:string>], [<ore:lumber>, <ore:lumber>, null]]);
 	recipes.addShapeless(<clef:instrument>.withTag({itemName: "ocarina"}), [<ore:conch>, <ore:knife>.transformDamage(1)]);
+
+
+	recipes.addShapeless(<minecraft:stick> * 2, [<ore:lumber>, <ore:saw>.transformDamage(1)]);
 
 	recipes.addShapeless(<contenttweaker:glue> * 8, [<contenttweaker:dixie_glue>]);
 

@@ -57,6 +57,9 @@
 	recipes.remove(<chiselsandbits:bit_bag>);
 	recipes.remove(<minecraft:cobblestone>);
 	furnace.remove(<minecraft:cobblestone>, <minecraft:gravel>);
+	recipes.remove(<clef:block_instrument_player>);
+	recipes.remove(<minecraft:noteblock>);
+	recipes.remove(<minecraft:jukebox>);
 
 
 //=======================================================================================================================================================================
@@ -194,6 +197,11 @@
 	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumber>, <rustic:clay_wall_cross>);
 	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumber>, <rustic:clay_wall_diag>);
 	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumber>, <rustic:clay_wall>);
+	
+	// Clef Music Box
+	recipes.addShaped(<clef:block_instrument_player>, [[<ore:lumber>, <ore:chestWood>, <ore:lumber>], [<ore:lumber>, <minecraft:noteblock>, <ore:lumber>], [<ore:lumber>, <minecraft:redstone_torch>, <ore:lumber>]]);
+	recipes.addShaped(<minecraft:noteblock>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <ore:dustRedstone>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
+	recipes.addShaped(<minecraft:jukebox>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <ore:gem>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
 
 //=======================================================================================================================================================================
 //Rename Items
