@@ -11,12 +11,6 @@ import mods.contenttweaker.CreativeTab;
 //=====================================================================================================================================================================
 //Glue & Dixie buckets
 
-//Cellulose
-var cellulose_fibers = VanillaFactory.createItem("cellulose_fibers");
-cellulose_fibers.maxStackSize = 64;
-cellulose_fibers.setCreativeTab(<creativetab:misc>);
-cellulose_fibers.register();
-
 //Glue
 var glue = VanillaFactory.createItem("glue");
 glue.maxStackSize = 64;

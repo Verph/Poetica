@@ -129,13 +129,8 @@
 //=======================================================================================================================================================================
 //Add Barrel Recipes
 
-	mods.terrafirmacraft.Barrel.addRecipe("base_potash_liquor_potash", <ore:dustPotash>, <liquid:fresh_water> * 500, null, <liquid:base_potash_liquor> * 500, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("base_potash_liquor_ash", <ore:dustAsh>, <liquid:fresh_water> * 500, null, <liquid:base_potash_liquor> * 500, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("cellulose_fibers", <ore:sugarcane>, <liquid:base_potash_liquor> * 150, <contenttweaker:cellulose_fibers>, <liquid:waste> * 150, 24);
-	mods.terrafirmacraft.Barrel.addRecipe("cellulose_fibers_wood_dust", <ore:dustWood>, <liquid:base_potash_liquor> * 150, <contenttweaker:cellulose_fibers>, <liquid:waste> * 150, 24);
 	mods.terrafirmacraft.Barrel.addRecipe("spider_eye", <minecraft:spider_eye>, <liquid:vinegar> * 25, <minecraft:fermented_spider_eye>, null, 8);
 	mods.terrafirmacraft.Barrel.addRecipe("prismarine_shard", <tfc:ore/petrified_wood>, <liquid:salt_water> * 100, <minecraft:prismarine_shard>, null, 8);
-	mods.terrafirmacraft.Barrel.addRecipe("dicyanoacetylene", <ore:dustGraphite>, <liquid:salt_water> * 10, null, <liquid:dicyanoacetylene> * 10, 8);
 
 
 //=======================================================================================================================================================================

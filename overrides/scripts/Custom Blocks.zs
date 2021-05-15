@@ -8,28 +8,6 @@ import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.CreativeTab;
 
-//=====================================================================================================================================================================
-//Other Liquids
-
-var base_potash_liquor = VanillaFactory.createFluid("base_potash_liquor", Color.fromHex("ffffff"));
-base_potash_liquor.density = 1000;
-base_potash_liquor.stillLocation = "contenttweaker:fluids/base_potash_liquor_still";
-base_potash_liquor.flowingLocation = "contenttweaker:fluids/base_potash_liquor_flow";
-base_potash_liquor.register();
-
-var waste = VanillaFactory.createFluid("waste", Color.fromHex("ffffff"));
-waste.density = 1000;
-waste.stillLocation = "contenttweaker:fluids/waste_still";
-waste.flowingLocation = "contenttweaker:fluids/waste_flow";
-waste.register();
-
-var dicyanoacetylene = VanillaFactory.createFluid("dicyanoacetylene", Color.fromHex("ffffff"));
-dicyanoacetylene.density = 1000;
-dicyanoacetylene.temperature = 5727;
-dicyanoacetylene.stillLocation = "contenttweaker:fluids/dicyanoacetylene_still";
-dicyanoacetylene.flowingLocation = "contenttweaker:fluids/dicyanoacetylene_flow";
-dicyanoacetylene.register();
-
 
 //=====================================================================================================================================================================
 //Brick Decoration Blocks
