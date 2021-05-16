@@ -1,3 +1,0 @@
-
-background = addStretchedTexture("top_left", "mainmenu:textures/forest_night_pixel_1.png")
-background.setRelRender(1, 1)
