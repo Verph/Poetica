@@ -155,10 +155,13 @@
             "texts" : "file:mainmenu:texts/splashes.txt"
         },
 		
-        "background":
+        "panorama":
         {
-            "image" : "mainmenu:textures/forest_night_pixel_1.png",
-            "mode" : "stretch"
+            "images" : "mainmenu:textures/panorama/panorama_%c.jpg",
+			"animate" : true,
+			"animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : false
         }
     }
 }
