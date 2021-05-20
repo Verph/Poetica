@@ -58,6 +58,8 @@
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 4, [<minecraft:planks:5>, <ore:saw>.transformDamage(1)]);
 	recipes.addShapeless(<tfc:wood/lumber/hickory> * 8, [<minecraft:log2:1>, <ore:saw>.transformDamage(1)]);
 
+	recipes.addShapeless(<firmalife:honeycomb>, [<rustic:honeycomb>]);
+	recipes.addShapeless(<rustic:honeycomb>, [<firmalife:honeycomb>]);
 
 //=======================================================================================================================================================================
 //Add Shaped Recipes
@@ -107,8 +109,8 @@
 	mods.terrafirmacraft.Heating.addRecipe("eel_meat_raw", <betteranimalsplus:eel_meat_raw>, <betteranimalsplus:eel_meat_cooked>, 200, 480);
 	
 	//Materials
-	mods.terrafirmacraft.Heating.addRecipe("tallow", <minecraft:rotten_flesh>, <rustic:tallow>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("beeswax", <rustic:honeycomb>, <rustic:beeswax>, 200, 480);
+	mods.terrafirmacraft.Heating.addRecipe("tallow", <minecraft:rotten_flesh>, <rustic:tallow>, 150, 400);
+	mods.terrafirmacraft.Heating.addRecipe("beeswax", <rustic:honeycomb>, <rustic:beeswax>, 150, 400);
 	mods.terrafirmacraft.Heating.addRecipe("dixie_glue", <contenttweaker:dixie_bones>, <contenttweaker:dixie_glue>, 120, 120);
 
 

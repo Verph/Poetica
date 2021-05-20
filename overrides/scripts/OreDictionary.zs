@@ -13,6 +13,16 @@ var rockFlux = <ore:rockFlux>;
 // ================================================================================
 //Add
 
+var materialWaxcomb = <ore:materialWaxcomb>;
+    materialWaxcomb.addItems([
+		<firmalife:honeycomb>
+	]);
+
+var materialHoneycomb = <ore:materialHoneycomb>;
+    materialHoneycomb.addItems([
+		<firmalife:honeycomb>
+	]);
+
 var tallow = <ore:tallow>;
     tallow.addItems([
 		<firmalife:beeswax>

@@ -11,6 +11,9 @@
         "class": "ItemShield"
       },
       {
+		"item": "tfc:metal/shield/bismuth"
+      },
+      {
 		"item": "tfc:metal/shield/bismuth_bronze"
       },
       {
@@ -23,16 +26,16 @@
 		"item": "tfc:metal/shield/copper"
       },
       {
+		"item": "tfc:metal/shield/rose_gold"
+      },
+      {
+		"item": "tfc:metal/shield/tin"
+      },
+      {
+		"item": "tfc:metal/shield/zinc"
+      },
+      {
 		"item": "tfc:metal/shield/wrought_iron"
-      },
-      {
-		"item": "tfc:metal/shield/mithril"
-      },
-      {
-		"item": "tfc:metal/shield/invar"
-      },
-      {
-		"item": "tfc:metal/shield/aluminium"
       },
       {
 		"item": "tfc:metal/shield/steel"
@@ -47,22 +50,52 @@
 		"item": "tfc:metal/shield/red_steel"
       },
       {
+		"item": "tfc:metal/shield/titanium"
+      },
+      {
 		"item": "tfc:metal/shield/cobalt"
       },
       {
-		"item": "tfc:metal/shield/manyullyn"
-      },
-      {
-		"item": "tfc:metal/shield/osmium"
-      },
-      {
-		"item": "tfc:metal/shield/titanium"
+		"item": "tfc:metal/shield/palladium"
       },
       {
 		"item": "tfc:metal/shield/tungsten"
       },
       {
+		"item": "tfc:metal/shield/osmium"
+      },
+      {
+		"item": "tfc:metal/shield/iridium"
+      },
+      {
+		"item": "tfc:metal/shield/aluminium"
+      },
+      {
+		"item": "tfc:metal/shield/invar"
+      },
+      {
+		"item": "tfc:metal/shield/nickel_silver"
+      },
+      {
 		"item": "tfc:metal/shield/tungsten_steel"
+      },
+      {
+		"item": "tfc:metal/shield/stainless_steel"
+      },
+      {
+		"item": "tfc:metal/shield/titanium_gold"
+      },
+      {
+		"item": "tfc:metal/shield/mithril"
+      },
+      {
+		"item": "tfc:metal/shield/manyullyn"
+      },
+      {
+		"item": "tfc:metal/shield/thaumium"
+      },
+      {
+		"item": "tfc:metal/shield/adamantium"
       }
     ],
     "blacklist": [
