@@ -23,13 +23,13 @@ deer.removeEntry("betteranimalsplus:venisonraw");
 //val deer = deer.addPool("deer", 1, 1, 1, 1);
 
 //Drop 1-7 venison
-deer.addItemEntryHelper(<tfc:food/venison>, 20, 1, [Functions.setCount(1, 7)], []);
+deer.addItemEntry(<tfc:food/venison>, 20, 1, [Functions.setCount(1, 7)], []);
 
 //Drop 1-3 medium raw hide
-deer.addItemEntryHelper(<tfc:hide/raw/medium>, 20, 1, [Functions.setCount(1, 3)], []);
+deer.addItemEntry(<tfc:hide/raw/medium>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 2-6 bones
-deer.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
+deer.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
 
 
 //=========================================================================================================
@@ -51,13 +51,13 @@ goat.removeEntry("minecraft:leather");
 //val goat = goat.addPool("goat", 1, 1, 1, 1);
 
 //Drop 1-5 venison
-goat.addItemEntryHelper(<tfc:food/mutton>, 20, 1, [Functions.setCount(1, 5)], []);
+goat.addItemEntry(<tfc:food/mutton>, 20, 1, [Functions.setCount(1, 5)], []);
 
 //Drop 1-2 small raw hide
-goat.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
+goat.addItemEntry(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
 
 //Drop 1-4 bones
-goat.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)], []);
+goat.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)], []);
 
 
 /*
@@ -77,7 +77,7 @@ lamprey.removeEntry("minecraft:fish");
 //val lamprey = lamprey.addPool("lamprey", 1, 1, 1, 1);
 
 //Drop 1-2 fish
-lamprey.addItemEntryHelper(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 2)], []);
+lamprey.addItemEntry(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 2)], []);
 */
 
 
@@ -97,10 +97,10 @@ pheasant.removeEntry("betteranimalsplus:pheasantraw");
 //val pheasant = pheasant.addPool("pheasant", 1, 1, 1, 1);
 
 //Drop 1-3 pheasant meat
-pheasant.addItemEntryHelper(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1, 3)], []);
+pheasant.addItemEntry(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 1-4 bones
-pheasant.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)], []);
+pheasant.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(1, 4)], []);
 
 
 //=========================================================================================================
@@ -122,13 +122,13 @@ reindeer.removeEntry("minecraft:leather");
 //val reindeer = reindeer.addPool("reindeer", 1, 1, 1, 1);
 
 //Drop 1-10 venison
-reindeer.addItemEntryHelper(<tfc:food/venison>, 20, 1, [Functions.setCount(1, 9)], []);
+reindeer.addItemEntry(<tfc:food/venison>, 20, 1, [Functions.setCount(1, 9)], []);
 
 //Drop 1-3 large raw hide
-reindeer.addItemEntryHelper(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
+reindeer.addItemEntry(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 2-6 bones
-reindeer.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
+reindeer.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
 
 
 //=========================================================================================================
@@ -144,13 +144,13 @@ val moose = mooseBAP.getPool("moose-venison");
 moose.removeEntry("betteranimalsplus:venisonraw");
 
 //Drop 1-10 venison
-moose.addItemEntryHelper(<tfc:food/venison>, 20, 1, [Functions.setCount(1, 9)], []);
+moose.addItemEntry(<tfc:food/venison>, 20, 1, [Functions.setCount(1, 9)], []);
 
 //Drop 1-3 large raw hide
-moose.addItemEntryHelper(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
+moose.addItemEntry(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 2-6 bones
-moose.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
+moose.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
 
 
 //=========================================================================================================
@@ -175,13 +175,13 @@ bear_brown_skin.removeEntry("betteranimalsplus:bear_skin_brown");
 //val bear_brown_skin = brownbearBAP.addPool("bear-brown-skin", 1, 1, 1, 1);
 
 //Drop 1-12 bear meat
-bear_brown_skin.addItemEntryHelper(<tfc:food/bear>, 20, 1, [Functions.setCount(1, 9)], []);
+bear_brown_skin.addItemEntry(<tfc:food/bear>, 20, 1, [Functions.setCount(1, 9)], []);
 
 //Drop 1-3 large raw hide
-bear_brown_skin.addItemEntryHelper(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
+bear_brown_skin.addItemEntry(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 3-10 bones
-bear_brown_skin.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(3, 10)], []);
+bear_brown_skin.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(3, 10)], []);
 
 
 //=========================================================================================================
@@ -206,13 +206,13 @@ bear_black_skin.removeEntry("betteranimalsplus:bear_skin_black");
 //val bear_black_skin = blackbearBAP.addPool("bear-black-skin", 1, 1, 1, 1);
 
 //Drop 1-12 bear meat
-bear_black_skin.addItemEntryHelper(<tfc:food/bear>, 20, 1, [Functions.setCount(1, 9)], []);
+bear_black_skin.addItemEntry(<tfc:food/bear>, 20, 1, [Functions.setCount(1, 9)], []);
 
 //Drop 1-3 large raw hide
-bear_black_skin.addItemEntryHelper(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
+bear_black_skin.addItemEntry(<tfc:hide/raw/large>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 3-10 bones
-bear_black_skin.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(3, 10)], []);
+bear_black_skin.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(3, 10)], []);
 
 
 //=========================================================================================================
@@ -228,7 +228,7 @@ val lammergeier = lammergeierBAP.getPool("lammergeier");
 //val lammergeier = lammergeier.addPool("lammergeier", 1, 1, 1, 1);
 
 //Drop 1-3 pheasant meat
-lammergeier.addItemEntryHelper(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1, 3)], []);
+lammergeier.addItemEntry(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1, 3)], []);
 
 
 //=========================================================================================================
@@ -244,7 +244,7 @@ val songbird = songbirdBAP.getPool("songbird");
 //val songbird = songbird.addPool("songbird", 1, 1, 1, 1);
 
 //Drop 1 pheasant meat
-songbird.addItemEntryHelper(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1,1)], []);
+songbird.addItemEntry(<tfc:food/pheasant>, 20, 1, [Functions.setCount(1,1)], []);
 
 
 //=========================================================================================================
@@ -263,10 +263,10 @@ val nautilus = nautilusBAP.getPool("nautilus");
 //val nautilus = nautilus.addPool("nautilus", 1, 1, 1, 1);
 
 //Drop 1-2 crayfish meat
-//nautilus.addItemEntryHelper(<harvestcraft:crayfishrawitem>, 20, 1, [Functions.setCount(1, 2)], []);
+//nautilus.addItemEntry(<harvestcraft:crayfishrawitem>, 20, 1, [Functions.setCount(1, 2)], []);
 
 //Drop 1-2 bone meal
-nautilus.addItemEntryHelper(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)], []);
+nautilus.addItemEntry(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)], []);
 
 
 //=========================================================================================================
@@ -282,10 +282,10 @@ nautilus.addItemEntryHelper(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)
 //val horseshoecrab = horseshoecrab.addPool("horseshoecrab", 1, 1, 1, 1);
 
 //Drop 1-2 crayfish meat
-//horseshoecrab.addItemEntryHelper(<harvestcraft:crayfishrawitem>, 20, 1, [Functions.setCount(1, 2)], []);
+//horseshoecrab.addItemEntry(<harvestcraft:crayfishrawitem>, 20, 1, [Functions.setCount(1, 2)], []);
 
 //Drop 1-2 bone meal
-//horseshoecrab.addItemEntryHelper(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)], []);
+//horseshoecrab.addItemEntry(<minecraft:dye:15>, 20, 1, [Functions.setCount(1, 2)], []);
 
 
 //=========================================================================================================
@@ -310,7 +310,7 @@ shark_iron.removeEntry("minecraft:iron_ingot");
 //val shark_fish = shark.addPool("shark_fish", 1, 1, 1, 1);
 
 //Drop 1-5 fish meat
-shark_fish.addItemEntryHelper(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 5)], []);
+shark_fish.addItemEntry(<tfc:food/fish>, 20, 1, [Functions.setCount(1, 5)], []);
 
 
 //=========================================================================================================
@@ -329,7 +329,7 @@ wolf_black.removeEntry("betteranimalsplus:wolf_pelt_black");
 //val wolf_black = wolf_black.addPool("wolf_black", 1, 1, 1, 1);
 
 //Drop 1-2 small raw hide
-wolf_black.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
+wolf_black.addItemEntry(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
 
 
 //=========================================================================================================
@@ -348,7 +348,7 @@ wolf_snowy.removeEntry("betteranimalsplus:wolf_pelt_snowy");
 //val wolf_snowy = wolf_snowy.addPool("wolf_snowy", 1, 1, 1, 1);
 
 //Drop 1-2 small raw hide
-wolf_snowy.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
+wolf_snowy.addItemEntry(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
 
 
 //=========================================================================================================
@@ -367,7 +367,7 @@ wolf_timber.removeEntry("betteranimalsplus:wolf_pelt_timber");
 //val wolf_timber = wolf_timber.addPool("wolf_timber", 1, 1, 1, 1);
 
 //Drop 1-2 small raw hide
-wolf_timber.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
+wolf_timber.addItemEntry(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 2)], []);
 
 
 //=========================================================================================================
@@ -386,13 +386,13 @@ main.removeEntry("minecraft:porkchop");
 //val boar = boar.addPool("boar", 1, 1, 1, 1);
 
 //Drop 1-3 pork
-main.addItemEntryHelper(<tfc:food/pork>, 20, 1, [Functions.setCount(1, 3)], []);
+main.addItemEntry(<tfc:food/pork>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 1-3 small raw hide
-main.addItemEntryHelper(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 3)], []);
+main.addItemEntry(<tfc:hide/raw/small>, 20, 1, [Functions.setCount(1, 3)], []);
 
 //Drop 2-6 bones
-main.addItemEntryHelper(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
+main.addItemEntry(<minecraft:bone>, 20, 1, [Functions.setCount(2, 6)], []);
 
 
 //=========================================================================================================
@@ -405,7 +405,7 @@ val blackbeartfcTFC = LootTweaker.getTable("tfc:animals/black_bear");
 val blackbeartfc_loot = blackbeartfcTFC.getPool("roll2");
 
 //Drop 1 black bear cape
-blackbeartfc_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_black>, 1, 1, [Functions.setCount(1, 1)], []);
+blackbeartfc_loot.addItemEntry(<betteranimalsplus:bear_cape_black>, 1, 1, [Functions.setCount(1, 1)], []);
 
 
 //=========================================================================================================
@@ -418,7 +418,7 @@ val grizzlybeartfcTFC = LootTweaker.getTable("tfc:animals/grizzly_bear");
 val grizzlybeartfc_loot = grizzlybeartfcTFC.getPool("roll2");
 
 //Drop 1 brown bear cape
-grizzlybeartfc_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_brown>, 1, 1, [Functions.setCount(1, 1)], []);
+grizzlybeartfc_loot.addItemEntry(<betteranimalsplus:bear_cape_brown>, 1, 1, [Functions.setCount(1, 1)], []);
 
 
 //=========================================================================================================
@@ -431,7 +431,7 @@ val polarbeartfcTFC = LootTweaker.getTable("tfc:animals/polar_bear");
 val polarbeartfc_loot = polarbeartfcTFC.getPool("roll2");
 
 //Drop 1 kermode bear cape
-polarbeartfc_loot.addItemEntryHelper(<betteranimalsplus:bear_cape_kermode>, 1, 1, [Functions.setCount(1, 1)], []);
+polarbeartfc_loot.addItemEntry(<betteranimalsplus:bear_cape_kermode>, 1, 1, [Functions.setCount(1, 1)], []);
 
 
 //=========================================================================================================
@@ -447,7 +447,7 @@ val clownfishJAFF_loot = clownfishJAFF.getPool("main");
 clownfishJAFF_loot.removeEntry("minecraft:fish");
 
 //Drop 1 fish
-clownfishJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+clownfishJAFF_loot.addItemEntry(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
 
 
 //=========================================================================================================
@@ -463,7 +463,7 @@ val codJAFF_loot = codJAFF.getPool("main");
 codJAFF_loot.removeEntry("minecraft:fish");
 
 //Drop 1 fish
-codJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+codJAFF_loot.addItemEntry(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
 
 
 //=========================================================================================================
@@ -479,7 +479,7 @@ val pufferfishJAFF_loot = pufferfishJAFF.getPool("main");
 pufferfishJAFF_loot.removeEntry("minecraft:fish");
 
 //Drop 1 fish
-pufferfishJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+pufferfishJAFF_loot.addItemEntry(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
 
 
 //=========================================================================================================
@@ -495,5 +495,5 @@ val salmonJAFF_loot = salmonJAFF.getPool("main");
 salmonJAFF_loot.removeEntry("minecraft:fish");
 
 //Drop 1 fish
-salmonJAFF_loot.addItemEntryHelper(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
+salmonJAFF_loot.addItemEntry(<tfc:food/fish>, 1, 1, [Functions.setCount(1, 1)], []);
 

@@ -1,5 +1,4 @@
 You can weld ingots! There's no weld button - shift-right-click on the anvil with hammer in hand.
-Put straw in your inventory to stay warm.
 Tough TFC grass can break stuff when it grows. 
 Crops and fruit trees are very particular about growing conditions.
 Stay hydrated. Stay well fed.
@@ -46,3 +45,5 @@ Lots of new plants can be substituted for jute...
 Graphite and kaolinite aren't the only minerals that can make fire clay anymore...
 Remember to enable the included resource packs!
 The included resource packs increases the world immersion! Enable them!
+Handle hot items with great care!
+Use mittens when handling hot materials!
