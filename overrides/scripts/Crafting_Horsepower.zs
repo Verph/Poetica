@@ -381,6 +381,9 @@
 
 	//Press Recipes
 
+        mods.horsepower.Press.add(<ore:blockCactus>, <liquid:juice_barrel_cactus> * 200);
+        mods.horsepower.Press.add(<ore:blockcactus>, <liquid:juice_barrel_cactus> * 200);
+        mods.horsepower.Press.add(<ore:barrelCactusFruit>, <liquid:juice_barrel_cactus> * 50);
         //mods.horsepower.Press.add(<ore:sugarBeet>, <tfcflorae:food/mashed_sugar_beet>, <liquid:sugar_beet_water> * 50);
         //mods.horsepower.Press.add(<ore:sugarcane>, <tfcflorae:food/mashed_sugar_cane>, <liquid:sugar_water> * 50);
         //mods.horsepower.Press.add(<ore:linseed>, <tfcflorae:food/linseed_paste>, <liquid:linseed_water> * 50);
