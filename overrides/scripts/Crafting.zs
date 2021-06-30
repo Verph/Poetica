@@ -30,6 +30,8 @@
 	recipes.removeShaped(<minecraft:paper> * 3, [[null, <ore:knife>, null], [<tfc:food/sugarcane>, <tfc:food/sugarcane>, <tfc:food/sugarcane>]]);
 	recipes.removeShaped(<minecraft:iron_ingot> * 9, [[<ore:blockIron>]]);
 	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
+	recipes.removeShaped(<minecraft:string> * 2, [[<ore:cropFlax>, <ore:cropFlax>], [<ore:cropFlax>, null]]);
+	recipes.removeShaped(<minecraft:string> * 2, [[<ore:cropCotton>, <ore:cropCotton>], [<ore:cropCotton>, null]]);
 	recipes.removeShapeless(<rustic:planks> * 3, [<rustic:log>, <ore:axe>]);
 	recipes.removeShapeless(<rustic:planks:1> * 3, [<rustic:log:1>, <ore:axe>]);
 	recipes.remove(<harvestcraft:wovencottonitem>);
