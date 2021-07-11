@@ -46,6 +46,7 @@ Graphite and kaolinite aren't the only minerals that can make fire clay anymore.
 Remember to enable the included resource packs!
 The included resource packs increases the world immersion! Enable them!
 Handle hot items with great care!
-Use mittens or two sticks when handling hot materials!
+Use mittens, two sticks, tongs or other protection when handling hot materials!
 Holding a walking stick will increase your movement speed...
 Hiking Boots combined with a walking stick is a great setup...
+Enable the "TFC Florae Lite" Resource Pack for significantly decreased ram usage!

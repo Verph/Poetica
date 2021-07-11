@@ -8,9 +8,9 @@
 	recipes.remove(<horsepower:hand_grindstone>);
 	recipes.remove(<horsepower:grindstone>);
 	recipes.remove(<minecraft:lead>);
-	recipes.remove(<chisel:chisel_iron>);
-	recipes.remove(<chisel:chisel_diamond>);
-	recipes.remove(<chisel:offsettool>);
+	//recipes.remove(<chisel:chisel_iron>);
+	//recipes.remove(<chisel:chisel_diamond>);
+	//recipes.remove(<chisel:offsettool>);
 	recipes.remove(<minecraft:chest>);
 	recipes.remove(<minecraft:leather>);
 	recipes.remove(<minecraft:trapdoor>);
@@ -105,6 +105,7 @@
 	//Shapeless
 	recipes.addShapeless(<minecraft:magma_cream>, [<ore:slimeball>, <ore:dustBlaze>]);
 	recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:writable_book>, <minecraft:map>]);
+	recipes.addShapeless(<hotornot:mitts>, [<hotornot:mitts>.anyDamage(), <ore:string>, <ore:leather>]);
 
 	//Shaped
 	recipes.addShaped(<chiselsandbits:bit_bag>, [[<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <chiselsandbits:block_bit>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>]]);
@@ -120,9 +121,9 @@
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
 	recipes.addShaped(<rustic:planks:1>, [[<ore:lumberIronwood>, <ore:lumberIronwood>], [<ore:lumberIronwood>, <ore:lumberIronwood>]]);
 	recipes.addShaped(<rustic:planks>, [[<ore:lumberOlive>, <ore:lumberOlive>], [<ore:lumberOlive>, <ore:lumberOlive>]]);
-	recipes.addShaped(<chisel:offsettool>, [[<ore:chiselHead>, <ore:enderpearl>], [<ore:enderpearl>, <ore:stickWood>]]);
-	recipes.addShaped(<chisel:chisel_diamond>, [[<ore:chiselHead>, <ore:gem>], [<ore:gem>, <ore:stickWood>]]);
-	recipes.addShaped(<chisel:chisel_iron>, [[<ore:chiselHead>, null], [null, <ore:stickWood>]]);
+	//recipes.addShaped(<chisel:offsettool>, [[<ore:chiselHead>, <ore:enderpearl>], [<ore:enderpearl>, <ore:stickWood>]]);
+	//recipes.addShaped(<chisel:chisel_diamond>, [[<ore:chiselHead>, <ore:gem>], [<ore:gem>, <ore:stickWood>]]);
+	//recipes.addShaped(<chisel:chisel_iron>, [[<ore:chiselHead>, null], [null, <ore:stickWood>]]);
 	recipes.addShaped(<minecraft:stone_slab> * 6, [[<ore:stone>, <ore:stone>, <ore:stone>]]);
 	recipes.addShaped(<minecraft:wooden_pressure_plate>, [[<ore:plankWood>, <ore:plankWood>]]);
 	recipes.addShaped(<minecraft:iron_block>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);

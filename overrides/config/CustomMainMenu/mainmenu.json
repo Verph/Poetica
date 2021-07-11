@@ -159,7 +159,7 @@
         {
             "images" : "mainmenu:textures/panorama/panorama_%c.jpg",
 			"animate" : true,
-			"animationSpeed" : 1,
+			"animationSpeed" : 2,
             "blur" : true,
             "gradient" : false
         }

@@ -267,7 +267,6 @@
   },
   "radiumbarite": {
     "ore": "tfc:radiumbarite",
-    "loose": "tfc:radiumbarite",
     "width": 32,
     "height": 44,
     "shape": "cluster",
