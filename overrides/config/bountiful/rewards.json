@@ -1,25 +1,5 @@
 [
   {
-    "content": "ordinarycoins:coinbronze",
-    "unitWorth": 100,
-    "weight": 1000
-  },
-  {
-    "content": "ordinarycoins:coinsilver",
-    "unitWorth": 1000,
-    "weight": 1000
-  },
-  {
-    "content": "ordinarycoins:coingold",
-    "unitWorth": 10000,
-    "weight": 1000
-  },
-  {
-    "content": "ordinarycoins:coinplatinum",
-    "unitWorth": 100000,
-    "weight": 1000
-  },
-  {
     "content": "tfc:crop/seeds/barley",
     "unitWorth": 50,
     "weight": 5,

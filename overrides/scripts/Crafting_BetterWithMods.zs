@@ -124,12 +124,12 @@
 	mods.betterwithmods.Mill.addRecipe([<ore:cropMaize>], [<tfc:food/maize_grain>]);
 
 	//Flour
-	mods.betterwithmods.Mill.addRecipe([<ore:grainBarley>], [<tfc:food/barley_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainMaize>], [<tfc:food/cornmeal_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainOat>], [<tfc:food/oat_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainRice>], [<tfc:food/rice_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainRye>], [<tfc:food/rye_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainWheat>], [<tfc:food/wheat_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:food/barley_grain>], [<tfc:food/barley_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:food/maize_grain>], [<tfc:food/cornmeal_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:food/oat_grain>], [<tfc:food/oat_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:food/rice_grain>], [<tfc:food/rice_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:food/rye_grain>], [<tfc:food/rye_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:food/wheat_grain>], [<tfc:food/wheat_flour>]);
 
 	//Miscellaneous Products
 	mods.betterwithmods.Mill.addRecipe([<ore:cropOlive>], [<tfc:food/olive_paste>]);
@@ -246,12 +246,12 @@
 	mods.betterwithmods.Mill.addRecipe([<ore:spelt>], [<tfcflorae:food/spelt_grain>]);
 	
 	//Flour
-	mods.betterwithmods.Mill.addRecipe([<ore:grainAmaranth>], [<tfcflorae:food/amaranth_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainBuckwheat>], [<tfcflorae:food/buckwheat_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainFonio>], [<tfcflorae:food/fonio_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainMillet>], [<tfcflorae:food/millet_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainQuinoa>], [<tfcflorae:food/quinoa_flour>]);
-	mods.betterwithmods.Mill.addRecipe([<ore:grainSpelt>], [<tfcflorae:food/spelt_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:food/amaranth_grain>], [<tfcflorae:food/amaranth_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:food/buckwheat_grain>], [<tfcflorae:food/buckwheat_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:food/fonio_grain>], [<tfcflorae:food/fonio_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:food/millet_grain>], [<tfcflorae:food/millet_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:food/quinoa_grain>], [<tfcflorae:food/quinoa_flour>]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:food/spelt_grain>], [<tfcflorae:food/spelt_flour>]);
 
 	//Miscellanous Products
 	mods.betterwithmods.Mill.addRecipe([<ore:groundSoybeans>], [<tfcflorae:food/soybean_paste>]);
