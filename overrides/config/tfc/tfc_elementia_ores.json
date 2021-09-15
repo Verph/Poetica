@@ -396,6 +396,20 @@
       "tfc:igneous_intrusive"
     ]
   },
+  "bunsenite": {
+    "ore": "tfc:bunsenite",
+    "loose": "tfc:bunsenite",
+    "width": 22,
+    "height": 22,
+    "shape": "cluster",
+    "rarity": 140,
+    "minimum_height": 5,
+    "maximum_height": 128,
+    "density": 70,
+    "base_rocks": [
+      "tfc:metamorphic"
+    ]
+  },
   "chalcocite": {
     "ore": "tfc:chalcocite",
     "loose": "tfc:chalcocite",
