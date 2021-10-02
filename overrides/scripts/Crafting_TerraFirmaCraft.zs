@@ -100,18 +100,12 @@
 	mods.terrafirmacraft.Heating.addRecipe("raw_scrambled_egg", <betterwithmods:raw_scrambled_egg>, <betterwithmods:cooked_scrambled_egg>, 200, 480);
 	mods.terrafirmacraft.Heating.addRecipe("raw_omelet", <betterwithmods:raw_omelet>, <betterwithmods:cooked_omelet>, 200, 480);
 	mods.terrafirmacraft.Heating.addRecipe("wolf_chop", <betterwithmods:wolf_chop>, <betterwithmods:cooked_wolf_chop>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("venison_raw", <betteranimalsplus:venisonraw>, <betteranimalsplus:venisoncooked>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("pheasant_raw", <betteranimalsplus:pheasantraw>, <betteranimalsplus:pheasantcooked>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("crab_meat_raw", <betteranimalsplus:crab_meat_raw>, <betteranimalsplus:crab_meat_cooked>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("turkey_leg", <betteranimalsplus:turkey_leg_raw>, <betteranimalsplus:turkey_leg_cooked>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("turkey", <betteranimalsplus:turkey_raw>, <betteranimalsplus:turkey_cooked>, 200, 480);
 	//mods.terrafirmacraft.Heating.addRecipe("birdmeat", <exoticbirds:birdmeat>, <exoticbirds:cooked_birdmeat>, 200, 480);
 	//mods.terrafirmacraft.Heating.addRecipe("silkworm", <exnihilocreatio:item_material:2>, <exnihilocreatio:item_cooked_silkworm>, 200, 480);
 	mods.terrafirmacraft.Heating.addRecipe("cake_batter", <betterwithmods:raw_pastry>, <minecraft:cake>, 200, 480);
 	mods.terrafirmacraft.Heating.addRecipe("pumpkin_pie", <betterwithmods:raw_pastry:1>, <minecraft:pumpkin_pie>, 200, 480);
 	mods.terrafirmacraft.Heating.addRecipe("cookie_dough", <betterwithmods:raw_pastry:2>, <minecraft:cookie>, 200, 480);
 	mods.terrafirmacraft.Heating.addRecipe("apple_pie", <betterwithmods:raw_pastry:4>, <betterwithmods:apple_pie>, 200, 480);
-	mods.terrafirmacraft.Heating.addRecipe("eel_meat_raw", <betteranimalsplus:eel_meat_raw>, <betteranimalsplus:eel_meat_cooked>, 200, 480);
 	
 	//Materials
 	mods.terrafirmacraft.Heating.addRecipe("tallow", <minecraft:rotten_flesh>, <rustic:tallow>, 150, 400);
@@ -149,3 +143,10 @@
 
 	//Dixie
 	mods.terrafirmacraft.Anvil.addRecipe("dixie", <ore:sheetWroughtIron>, <contenttweaker:dixie>, 3, "general", "BEND_LAST", "BEND_SECOND_LAST", "BEND_THIRD_LAST");
+
+
+//=======================================================================================================================================================================
+//Add Knapping Recipes
+
+	mods.tfcflorae.knapping.add("pineapple_leather", "pineapple_leather_sling", <tfcthings:sling>, "  XXX", "    X", " XXXX", "XX   ", "X    ");
+	mods.tfcflorae.knapping.add("pineapple_leather", "pineapple_leather_flask_side", <waterflasks:leather_side>, "  XX ", " XXX ", "XXXXX", " XXX ", "  X  ");

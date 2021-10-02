@@ -493,29 +493,6 @@ var seedMelon = <ore:seedMelon>;
 //=======================================================================================================================================================================
 //Meats
 
-//Crab Meat
-var foodCrabraw = <ore:foodCrabraw>;
-    foodCrabraw.addItems([
-	<betteranimalsplus:crab_meat_raw>
-	]);
-	
-var foodCrabcooked = <ore:foodCrabcooked>;
-    foodCrabcooked.addItems([
-	<betteranimalsplus:crab_meat_cooked>
-	]);
-
-//Eel Meat
-var foodEelraw = <ore:foodCrabraw>;
-    foodEelraw.addItems([
-	<betteranimalsplus:eel_meat_raw>
-	]);
-	
-var foodEelcooked = <ore:foodCrabcooked>;
-    foodEelcooked.addItems([
-	<betteranimalsplus:eel_meat_cooked>
-	]);
-
-
 //Fish & Calamari
 var listAllfishraw = <ore:listAllfishraw>;
     listAllfishraw.addItems([
@@ -720,18 +697,10 @@ var categoryMeat = <ore:categoryMeat>;
 	<minecraft:cooked_porkchop>,
 	<minecraft:cooked_mutton>,
 	<minecraft:cooked_rabbit>,
-	<betteranimalsplus:venisoncooked>,
-	<betteranimalsplus:pheasantcooked>,
 	<minecraft:cooked_fish>,
 	<betterwithmods:cooked_mystery_meat>,
 	<minecraft:cooked_fish:1>,
-	<minecraft:rabbit>,
-	<betteranimalsplus:venisonraw>,
-	<betteranimalsplus:pheasantraw>,
-	<betteranimalsplus:turkey_raw>,
-	<betteranimalsplus:turkey_cooked>,
-	<betteranimalsplus:eel_meat_raw>,
-	<betteranimalsplus:eel_meat_cooked>
+	<minecraft:rabbit>
 	]);
 
 	

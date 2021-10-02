@@ -32,11 +32,7 @@
 	recipes.removeShaped(<minecraft:gold_ingot> * 9, [[<ore:blockGold>]]);
 	recipes.removeShaped(<minecraft:string> * 2, [[<ore:cropFlax>, <ore:cropFlax>], [<ore:cropFlax>, null]]);
 	recipes.removeShaped(<minecraft:string> * 2, [[<ore:cropCotton>, <ore:cropCotton>], [<ore:cropCotton>, null]]);
-	recipes.removeShapeless(<rustic:planks> * 3, [<rustic:log>, <ore:axe>]);
-	recipes.removeShapeless(<rustic:planks:1> * 3, [<rustic:log:1>, <ore:axe>]);
 	recipes.remove(<harvestcraft:wovencottonitem>);
-	recipes.remove(<rustic:planks>);
-	recipes.remove(<rustic:planks:1>);
 	/*r
 	recipes.remove(<betterstorage:cardboard_sword>);
 	recipes.remove(<betterstorage:cardboard_shovel>);
@@ -62,6 +58,8 @@
 	recipes.remove(<clef:block_instrument_player>);
 	recipes.remove(<minecraft:noteblock>);
 	recipes.remove(<minecraft:jukebox>);
+	recipes.remove(<tfcthings:hiking_boots>);
+	recipes.remove(<paraglider:paraglider:1>.withTag({}));
 
 
 //=======================================================================================================================================================================
@@ -106,6 +104,7 @@
 	recipes.addShapeless(<minecraft:magma_cream>, [<ore:slimeball>, <ore:dustBlaze>]);
 	recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:writable_book>, <minecraft:map>]);
 	recipes.addShapeless(<hotornot:mitts>, [<hotornot:mitts>.anyDamage(), <ore:string>, <ore:leather>]);
+	recipes.addShapeless(<hotornot:mitts>, [<hotornot:mitts>.anyDamage(), <ore:string>, <ore:leatherPineapple>]);
 
 	//Shaped
 	recipes.addShaped(<chiselsandbits:bit_bag>, [[<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <chiselsandbits:block_bit>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>]]);
@@ -119,8 +118,6 @@
 	recipes.addShaped(<minecraft:nether_brick>, [[<ore:ingotBrickNether>, <ore:ingotBrickNether>], [<ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 	recipes.addShaped(<minecraft:speckled_melon>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:cropMelon>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);
-	recipes.addShaped(<rustic:planks:1>, [[<ore:lumberIronwood>, <ore:lumberIronwood>], [<ore:lumberIronwood>, <ore:lumberIronwood>]]);
-	recipes.addShaped(<rustic:planks>, [[<ore:lumberOlive>, <ore:lumberOlive>], [<ore:lumberOlive>, <ore:lumberOlive>]]);
 	//recipes.addShaped(<chisel:offsettool>, [[<ore:chiselHead>, <ore:enderpearl>], [<ore:enderpearl>, <ore:stickWood>]]);
 	//recipes.addShaped(<chisel:chisel_diamond>, [[<ore:chiselHead>, <ore:gem>], [<ore:gem>, <ore:stickWood>]]);
 	//recipes.addShaped(<chisel:chisel_iron>, [[<ore:chiselHead>, null], [null, <ore:stickWood>]]);
@@ -186,9 +183,10 @@
 	*/
 
 	//Paraglider
-	recipes.replaceAllOccurences(<minecraft:leather>, <ore:clothHighQuality>, <paraglider:paraglider:1>);
-	recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:clothHighQuality>, <ore:stickWood>], [<ore:clothHighQuality>, <ore:stickWood>, <ore:clothHighQuality>], [<ore:stickWood>, null, <ore:stickWood>]]);
-	recipes.addShaped(<paraglider:paraglider:1>, [[<ore:stickWood>, <ore:fabricHemp>, <ore:stickWood>], [<ore:fabricHemp>, <ore:stickWood>, <ore:fabricHemp>], [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<paraglider:paraglider:1>.withTag({}), [[<ore:stickWood>, <ore:leather>, <ore:stickWood>], [<ore:leather>, <ore:stickWood>, <ore:leather>], [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<paraglider:paraglider:1>.withTag({}), [[<ore:stickWood>, <ore:leatherPineapple>, <ore:stickWood>], [<ore:leatherPineapple>, <ore:stickWood>, <ore:leatherPineapple>], [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<paraglider:paraglider:1>.withTag({}), [[<ore:stickWood>, <ore:cloth>, <ore:stickWood>], [<ore:cloth>, <ore:stickWood>, <ore:cloth>], [<ore:stickWood>, null, <ore:stickWood>]]);
+	recipes.addShaped(<paraglider:paraglider:1>.withTag({}), [[<ore:stickWood>, <ore:fabric>, <ore:stickWood>], [<ore:fabric>, <ore:stickWood>, <ore:fabric>], [<ore:stickWood>, null, <ore:stickWood>]]);
 
 	//Horse Grindstone
 	recipes.addShaped(<horsepower:grindstone>, [[null, <ore:stickWood>, null], [<minecraft:lead>, <ore:handstone>, <minecraft:lead>], [null, <tfc:quern>, null]]);
@@ -196,15 +194,15 @@
 	//Display Case
 	//recipes.replaceAllOccurences(<ore:slabWoodOakSimilar>, <ore:lumber>, <butterflies:butterfly_case>);
 	
-	//Clay Wall
-	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumber>, <rustic:clay_wall_cross>);
-	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumber>, <rustic:clay_wall_diag>);
-	recipes.replaceAllOccurences(<ore:plankWood>, <ore:lumber>, <rustic:clay_wall>);
-	
 	// Clef Music Box
 	recipes.addShaped(<clef:block_instrument_player>, [[<ore:lumber>, <ore:chestWood>, <ore:lumber>], [<ore:lumber>, <minecraft:noteblock>, <ore:lumber>], [<ore:lumber>, <minecraft:redstone_torch>, <ore:lumber>]]);
 	recipes.addShaped(<minecraft:noteblock>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <ore:dustRedstone>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
 	recipes.addShaped(<minecraft:jukebox>, [[<ore:lumber>, <ore:lumber>, <ore:lumber>], [<ore:lumber>, <ore:gem>, <ore:lumber>], [<ore:lumber>, <ore:lumber>, <ore:lumber>]]);
+
+	//Hiking Boots
+	recipes.addShaped(<tfcthings:hiking_boots>, [[<ore:fiber>, <ore:fiber>, <ore:fiber>], [<ore:fiber>, <minecraft:leather_boots>, <ore:fiber>], [<ore:leather>, <tfcthings:metal_bracing>, <ore:leather>]]);
+	recipes.addShaped(<tfcthings:hiking_boots>, [[<ore:fiber>, <ore:fiber>, <ore:fiber>], [<ore:fiber>, <minecraft:leather_boots>, <ore:fiber>], [<ore:leatherPineapple>, <tfcthings:metal_bracing>, <ore:leatherPineapple>]]);
+
 
 //=======================================================================================================================================================================
 //Rename Items

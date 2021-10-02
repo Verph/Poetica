@@ -51,9 +51,6 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_scrambled_egg>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_omelet>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:wolf_chop>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:venisonraw>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:pheasantraw>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:crab_meat_raw>, 0.35, 480, false);
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exoticbirds:birdmeat>, 0.35, 480, false);
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exnihilocreatio:item_material:2>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:food/red_apple>, 0.35, 480, false);
@@ -63,13 +60,10 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<tfc:plants/porcini>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:brown_mushroom>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:red_mushroom>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_leg_raw>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_raw>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:1>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:2>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:raw_pastry:4>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:eel_meat_raw>, 0.35, 480, false);
 	
 	//Cooked
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cooked_fish>, 0.35, 480, false);
@@ -88,18 +82,12 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_scrambled_egg>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_omelet>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:cooked_wolf_chop>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:venisoncooked>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:pheasantcooked>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:crab_meat_cooked>, 0.35, 480, false);
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exoticbirds:cooked_birdmeat>, 0.35, 480, false);
 	//mods.terrafirmacraft.ItemRegistry.registerItemHeat(<exnihilocreatio:item_cooked_silkworm>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_leg_cooked>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:turkey_cooked>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cake>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:pumpkin_pie>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:cookie>, 0.35, 480, false);
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betterwithmods:apple_pie>, 0.35, 480, false);
-	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<betteranimalsplus:eel_meat_cooked>, 0.35, 480, false);
 
 	//Torch
 	mods.terrafirmacraft.ItemRegistry.registerItemHeat(<minecraft:torch>, 0.35, 80, false);
@@ -122,9 +110,6 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:donut>, 4, 3, 4.5, 0, 0, 0, 0, 0, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:apple_pie>, 6, 0.1, 1.7, 5, 0, 0, 1, 0, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:tasty_sandwich>, 4, 3, 4.5, 0, 0, 0, 0, 0, 0);
-	
-	//Dairy
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:goatcheese>, 4, 2, 0.5, 0, 0, 0, 0, 0, 3);
 
 	//Stew
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:mushroom_stew>, 4, 3, 3.5, 0, 0, 0, 0, 0, 0);
@@ -165,8 +150,6 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:fish:3>, 4, 0, 3, 0, 0, 0, 0, 1, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish>, 4, 1, 2.25, 0, 0, 0, 0, 2, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_fish:1>, 4, 1, 2.25, 0, 0, 0, 0, 2, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:eel_meat_raw>, 4, 0, 3, 0, 0, 0, 0, 1, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:eel_meat_cooked>, 4, 1, 2.25, 0, 0, 0, 0, 2, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<quark:crab_leg>, 4, 0, 3, 0, 0, 0, 0, 1, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<quark:cooked_crab_leg>, 4, 1, 2.25, 0, 0, 0, 0, 2, 0);
 	//mods.terrafirmacraft.ItemRegistry.registerFood(<tfcflorae:raw_clam>, 4, 0, 3, 0, 0, 0, 0, 1, 0);
@@ -183,10 +166,6 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:mutton>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:rabbit>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:mystery_meat>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:venisonraw>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:pheasantraw>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:turkey_leg_raw>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:turkey_raw>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
 	//mods.terrafirmacraft.ItemRegistry.registerFood(<exoticbirds:birdmeat>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_porkchop>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_beef>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
@@ -194,10 +173,6 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_mutton>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<minecraft:cooked_rabbit>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_mystery_meat>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:venisoncooked>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:pheasantcooked>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:turkey_leg_cooked>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:turkey_cooked>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	//mods.terrafirmacraft.ItemRegistry.registerFood(<exoticbirds:cooked_birdmeat>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	//mods.terrafirmacraft.ItemRegistry.registerFood(<exnihilocreatio:item_cooked_silkworm>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<quark:frog_leg>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
@@ -213,12 +188,10 @@ import mods.terrafirmacraft.ItemRegistry;
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:bat_wing>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_bat_wing>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:kibble>, 4, 2, 2.25, 0, 0, 0, 0, 2.5, 0);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:blubber>, 4, 0, 3, 0, 0, 0, 0, 0.5, 0);
 	
 	//Eggs
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:raw_egg>, 4, 0.1, 2.25, 4, 0, 0, 0, 0.50, 0.20);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_egg>, 4, 0.5, 3, 4, 0, 0, 0, 0.75, 0.25);
-	mods.terrafirmacraft.ItemRegistry.registerFood(<betteranimalsplus:fried_egg>, 4, 0.5, 3, 4, 0, 0, 0, 0.75, 0.25);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:raw_scrambled_egg>, 4, 0.5, 2.25, 4, 0, 0, 0, 0.75, 0.25);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:cooked_scrambled_egg>, 4, 0.5, 3, 4, 0, 0, 0, 0.75, 0.25);
 	mods.terrafirmacraft.ItemRegistry.registerFood(<betterwithmods:raw_omelet>, 4, 0.1, 2.25, 4, 0, 0, 0, 0.50, 0.20);

@@ -14,10 +14,11 @@
             "texture" : "mainmenu:textures/poetica_btn.png",
             "normalTextColor" : 0,
             "hoverTextColor" : 16777215,
-            "tooltip" : "Click me!",
+            "tooltip" : "Click to join the public server! Sneaky!",
             "action" : 
             {
-                "type" : "refresh"
+                "type" : "connectToServer",
+                "ip" : "poeticamc.tk"
             }
         },
 		
