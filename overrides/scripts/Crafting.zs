@@ -49,8 +49,6 @@
 	recipes.remove(<minecraft:stone_axe>);
 	recipes.remove(<minecraft:stone_hoe>);
 	recipes.remove(<minecraft:stone_sword>);
-	recipes.remove(<minecraft:ladder>);
-	recipes.remove(<quark:iron_ladder>);
 	recipes.remove(<qualitytools:reforging_station>);
 	recipes.remove(<chiselsandbits:bit_bag>);
 	recipes.remove(<minecraft:cobblestone>);
@@ -60,6 +58,8 @@
 	recipes.remove(<minecraft:jukebox>);
 	recipes.remove(<tfcthings:hiking_boots>);
 	recipes.remove(<paraglider:paraglider:1>.withTag({}));
+	recipes.remove(<futuremc:grindstone>);
+	recipes.remove(<futuremc:campfire>);
 
 
 //=======================================================================================================================================================================
@@ -105,16 +105,25 @@
 	recipes.addShapeless(<antiqueatlas:empty_antique_atlas>, [<minecraft:writable_book>, <minecraft:map>]);
 	recipes.addShapeless(<hotornot:mitts>, [<hotornot:mitts>.anyDamage(), <ore:string>, <ore:leather>]);
 	recipes.addShapeless(<hotornot:mitts>, [<hotornot:mitts>.anyDamage(), <ore:string>, <ore:leatherPineapple>]);
+	recipes.addShapeless(<firmalife:honeycomb> * 4, [<futuremc:honeycomb_block>]);
 
 	//Shaped
+	recipes.addShaped(<firmalife:honey_jar> * 4, [[<firmalife:jar>, <firmalife:jar>, <futuremc:honey_block>], [<firmalife:jar>, <firmalife:jar>, null]]);
+	recipes.addShaped(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}) * 4, [[<minecraft:glass_bottle>, <minecraft:glass_bottle>, <futuremc:honey_block>], [<minecraft:glass_bottle>, <minecraft:glass_bottle>, null]]);
+	recipes.addShaped(<futuremc:campfire>, [[null, <ore:stickWood>, null], [<ore:stickWood>, <ore:gemCoke>, <ore:stickWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+	recipes.addShaped(<futuremc:campfire>, [[null, <ore:stickWood>, null], [<ore:stickWood>, <ore:gemCoal>, <ore:stickWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+	recipes.addShaped(<futuremc:campfire>, [[null, <ore:stickWood>, null], [<ore:stickWood>, <ore:charcoal>, <ore:stickWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+	recipes.addShaped(<futuremc:bell>, [[<ore:lumber>, <ore:sheetDoubleGold>, <ore:lumber>], [<ore:wall>, null, <ore:wall>]]);
+	recipes.addShaped(<futuremc:grindstone>, [[<ore:lumber>, <ore:slabStonePolished>, <ore:lumber>], [<ore:logWood>, null, <ore:logWood>]]);
+	recipes.addShaped(<futuremc:honeycomb_block>, [[<ore:materialHoneycomb>, <ore:materialHoneycomb>], [<ore:materialHoneycomb>, <ore:materialHoneycomb>]]);
+	recipes.addShaped(<futuremc:honey_block>, [[<firmalife:honey_jar>.transformReplace(<firmalife:jar>), <firmalife:honey_jar>.transformReplace(<firmalife:jar>)], [<firmalife:honey_jar>.transformReplace(<firmalife:jar>), <firmalife:honey_jar>.transformReplace(<firmalife:jar>)]]);
+	recipes.addShaped(<futuremc:honey_block>, [[<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>), <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>)], [<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>), <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}).transformReplace(<minecraft:glass_bottle>)]]);
 	recipes.addShaped(<chiselsandbits:bit_bag>, [[<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <chiselsandbits:block_bit>, <ore:clothHighQuality>], [<ore:clothHighQuality>, <ore:clothHighQuality>, <ore:clothHighQuality>]]);
 	recipes.addShaped(<qualitytools:reforging_station>, [[<ore:slabStoneBrick>, <ore:anvil>, <ore:slabStoneBrick>], [<ore:obsidian>, <ore:workbench>, <ore:obsidian>]]);
 	recipes.addShaped(<minecraft:prismarine>, [[<ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>]]);
 	recipes.addShaped(<minecraft:prismarine:1>, [[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
 	recipes.addShaped(<minecraft:prismarine:1>, [[<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:dyeBlack>, <ore:gemPrismarine>], [<ore:gemPrismarine>, <ore:gemPrismarine>, <ore:gemPrismarine>]]);
 	recipes.addShaped(<minecraft:prismarine_crystals> * 2, [[null, <ore:gemPrismarine>, null], [<ore:gemPrismarine>, <ore:gem>, <ore:gemPrismarine>], [null, <ore:gemPrismarine>, null]]);
-	recipes.addShaped(<minecraft:ladder> * 3, [[<ore:stickWood>, <ore:string>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
-	recipes.addShaped(<quark:iron_ladder> * 8, [[<ore:rodIron>, <ore:string>, <ore:rodIron>], [<ore:rodIron>, <ore:rodIron>, <ore:rodIron>], [<ore:rodIron>, <ore:string>, <ore:rodIron>]]);
 	recipes.addShaped(<minecraft:nether_brick>, [[<ore:ingotBrickNether>, <ore:ingotBrickNether>], [<ore:ingotBrickNether>, <ore:ingotBrickNether>]]);
 	recipes.addShaped(<minecraft:speckled_melon>, [[<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:cropMelon>, <ore:nuggetGold>], [<ore:nuggetGold>, <ore:nuggetGold>, <ore:nuggetGold>]]);
 	recipes.addShaped(<minecraft:brewing_stand>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], [null, <ore:ingotBrass>, null], [<ore:stone>, <ore:stone>, <ore:stone>]]);

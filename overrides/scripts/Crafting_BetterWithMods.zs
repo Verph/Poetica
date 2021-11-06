@@ -323,7 +323,7 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/wild_rice>], [<minecraft:dye:2> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/wild_wheat>], [<minecraft:dye:2> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/rattan>], [<tfc:dye/brown> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<tfc:plants/hanging_vines>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/hanging_vine>], [<minecraft:dye:2> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/blue_skyflower>], [<minecraft:dye:12> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/jade_vine>], [<minecraft:dye:12> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/japanese_ivy>], [<minecraft:dye:2> * 2]);
@@ -366,6 +366,103 @@
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/summer_asphodel>], [<minecraft:dye:9> * 2]);
 	mods.betterwithmods.Mill.addRecipe([<tfc:plants/zimbabwe_aloe>], [<minecraft:dye:1> * 2]);
 
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/anthurium>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/arrowhead>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/arundo>], [<minecraft:dye:2> * 2]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:plants/azure_bluet>], [<tfc:dye/white> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/bluegrass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/blue_ginger>], [<tfc:dye/blue> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/bromegrass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/bur_reed>], [<tfc:dye/white> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/desert_flame>], [<minecraft:dye:11> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/heliconia>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/hibiscus>], [<tfc:dye/white> * 2]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:plants/hungarian_lilac>], [<minecraft:dye:9> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/kangaroo_paw>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/king_fern>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/lipstick_palm>], [<minecraft:dye:13> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/marigold>], [<minecraft:dye:11> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/monstera_epiphyte>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/monstera_ground>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/phragmite>], [<minecraft:dye:9> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/pickerelweed>], [<minecraft:dye:5> * 2]);
+
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/badderlocks>], [<tfc:dye/brown> * 2]);
+	//mods.betterwithmods.Mill.addRecipe([<tfc:plants/brown_algae>], [<tfc:dye/brown> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/coontail>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/eel_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/giant_kelp>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/gutweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/hornwort>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/laminaria>], [<tfc:dye/brown> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/leafy_kelp>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/manatee_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/milfoil>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/pondweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/sago>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/seagrass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/seaweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/star_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/turtle_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/winged_kelp>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/red_algae>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/red_sea_whip>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/sea_anemone>], [<minecraft:dye:9> * 2]);
+
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/bearded_moss>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/glow_vine>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/hanging_vine>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/jungle_vine>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/liana>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfc:plants/ivy>], [<minecraft:dye:2> * 2]);
+
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/badderlocks>], [<tfc:dye/brown> * 2]);
+	//mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/brown_algae>], [<tfc:dye/brown> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/coontail>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/eel_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/giant_kelp>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/gutweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/hornwort>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/laminaria>], [<tfc:dye/brown> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/leafy_kelp>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/manatee_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/milfoil>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/pondweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/sago>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/seagrass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/seaweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/star_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/turtle_grass>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/winged_kelp>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/red_algae>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/red_sea_whip>], [<minecraft:dye:1> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/sea_anemone>], [<minecraft:dye:9> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/glowing_sea_banana>], [<minecraft:glowstone_dust> * 2]);
+
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/bearded_moss>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/glow_vine>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/hanging_vine>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/jungle_vine>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/liana>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/bearded_moss_creeping>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/glow_vine_creeping>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/hanging_vine_creeping>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/jungle_vine_creeping>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/liana_creeping>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/ivy>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/tackweed>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/takakia>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/morning_glory>], [<minecraft:dye:13> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/moss>], [<minecraft:dye:2> * 2]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/reindeer_lichen>], [<minecraft:dye:2> * 2]);
+
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/blueshroom>], [<minecraft:dye:6> * 1]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/glowshroom>], [<minecraft:glowstone_dust> * 1]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/magma_shroom>], [<minecraft:magma_cream> * 1]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/poison_shroom>], [<minecraft:dye:13> * 1]);
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:plants/sulphur_shroom>], [<tfc:powder/sulfur> * 1]);
+
+	mods.betterwithmods.Mill.addRecipe([<tfcflorae:groundcover/lightstone>], [<minecraft:glowstone_dust> * 2]);
 
 //TFC Elementia:
 

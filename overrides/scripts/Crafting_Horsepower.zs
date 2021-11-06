@@ -251,7 +251,7 @@
 		mods.horsepower.Grindstone.add(<tfc:plants/wild_rice>, <minecraft:dye:2> * 2, 8);
 		mods.horsepower.Grindstone.add(<tfc:plants/wild_wheat>, <minecraft:dye:2> * 2, 8);
 		mods.horsepower.Grindstone.add(<tfc:plants/rattan>, <tfc:dye/brown> * 2, 8);
-		mods.horsepower.Grindstone.add(<tfc:plants/hanging_vines>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/hanging_vine>, <minecraft:dye:2> * 2, 8);
 		mods.horsepower.Grindstone.add(<tfc:plants/blue_skyflower>, <minecraft:dye:12> * 2, 8);
 		mods.horsepower.Grindstone.add(<tfc:plants/jade_vine>, <minecraft:dye:12> * 2, 8);
 		mods.horsepower.Grindstone.add(<tfc:plants/japanese_ivy>, <minecraft:dye:2> * 2, 8);
@@ -294,6 +294,103 @@
 		mods.horsepower.Grindstone.add(<tfc:plants/summer_asphodel>, <minecraft:dye:9> * 2, 8);
 		mods.horsepower.Grindstone.add(<tfc:plants/zimbabwe_aloe>, <minecraft:dye:1> * 2, 8);
 
+		mods.horsepower.Grindstone.add(<tfc:plants/anthurium>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/arrowhead>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/arundo>, <minecraft:dye:2> * 2, 8);
+		//mods.horsepower.Grindstone.add(<tfc:plants/azure_bluet>, <tfc:dye/white> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/bluegrass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/blue_ginger>, <tfc:dye/blue> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/bromegrass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/bur_reed>, <tfc:dye/white> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/desert_flame>, <minecraft:dye:11> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/heliconia>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/hibiscus>, <tfc:dye/white> * 2, 8);
+		//mods.horsepower.Grindstone.add(<tfc:plants/hungarian_lilac>, <minecraft:dye:9> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/kangaroo_paw>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/king_fern>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/lipstick_palm>, <minecraft:dye:13> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/marigold>, <minecraft:dye:11> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/monstera_epiphyte>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/monstera_ground>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/phragmite>, <minecraft:dye:9> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/pickerelweed>, <minecraft:dye:5> * 2, 8);
+
+		mods.horsepower.Grindstone.add(<tfc:plants/badderlocks>, <tfc:dye/brown> * 2, 8);
+		//mods.horsepower.Grindstone.add(<tfc:plants/brown_algae>, <tfc:dye/brown> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/coontail>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/eel_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/giant_kelp>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/gutweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/hornwort>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/laminaria>, <tfc:dye/brown> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/leafy_kelp>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/manatee_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/milfoil>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/pondweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/sago>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/seagrass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/seaweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/star_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/turtle_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/winged_kelp>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/red_algae>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/red_sea_whip>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/sea_anemone>, <minecraft:dye:9> * 2, 8);
+
+		mods.horsepower.Grindstone.add(<tfc:plants/bearded_moss>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/glow_vine>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/hanging_vine>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/jungle_vine>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/liana>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:plants/ivy>, <minecraft:dye:2> * 2, 8);
+
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/badderlocks>, <tfc:dye/brown> * 2, 8);
+		//mods.horsepower.Grindstone.add(<tfcflorae:plants/brown_algae>, <tfc:dye/brown> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/coontail>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/eel_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/giant_kelp>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/gutweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/hornwort>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/laminaria>, <tfc:dye/brown> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/leafy_kelp>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/manatee_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/milfoil>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/pondweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/sago>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/seagrass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/seaweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/star_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/turtle_grass>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/winged_kelp>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/red_algae>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/red_sea_whip>, <minecraft:dye:1> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/sea_anemone>, <minecraft:dye:9> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/glowing_sea_banana>, <minecraft:glowstone_dust> * 2, 8);
+		
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/bearded_moss>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/glow_vine>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/hanging_vine>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/jungle_vine>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/liana>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/bearded_moss_creeping>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/glow_vine_creeping>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/hanging_vine_creeping>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/jungle_vine_creeping>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/liana_creeping>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/ivy>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/tackweed>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/takakia>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/morning_glory>, <minecraft:dye:13> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/moss>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/reindeer_lichen>, <minecraft:dye:2> * 2, 8);
+
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/blueshroom>, <minecraft:dye:6> * 1, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/glowshroom>, <minecraft:glowstone_dust> * 1, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/magma_shroom>, <minecraft:magma_cream> * 1, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/poison_shroom>, <minecraft:dye:13> * 1, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:plants/sulphur_shroom>, <tfc:powder/sulfur> * 1, 8);
+
+		mods.horsepower.Grindstone.add(<tfcflorae:groundcover/lightstone>, <minecraft:glowstone_dust> * 2, 8);
 
 	//Chopping Block Recipes
 
