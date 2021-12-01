@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Poetica",
-  "version": "0.14.22",
+  "version": "0.14.23",
   "author": "Verph",
   "files": [
     {
@@ -341,7 +341,7 @@
     },
     {
       "projectID": 513857,
-      "fileID": 3456984,
+      "fileID": 3539591,
       "required": true
     },
     {
@@ -521,7 +521,7 @@
     },
     {
       "projectID": 389228,
-      "fileID": 3538688,
+      "fileID": 3544453,
       "required": true
     },
     {
