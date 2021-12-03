@@ -51,7 +51,7 @@
 		mods.horsepower.Grindstone.add(<ore:charcoal>, <tfc:powder/charcoal> * 4, 8);
 		mods.horsepower.Grindstone.add(<ore:rockRocksalt>, <tfc:powder/salt> * 4, 8);
         mods.horsepower.Grindstone.add(<minecraft:blaze_rod>, <minecraft:blaze_powder> * 2, 8);
-		mods.horsepower.Grindstone.add(<ore:gemLapis>, <tfc:powder/graphite> * 4, 8);
+		mods.horsepower.Grindstone.add(<ore:gemLapis>, <tfc:powder/lapis_lazuli> * 4, 8);
 		mods.horsepower.Grindstone.add(<ore:gemGraphite>, <tfc:powder/graphite> * 4, 8);
 		mods.horsepower.Grindstone.add(<ore:gemKaolinite>, <tfc:powder/kaolinite> * 4, 8);
 		mods.horsepower.Grindstone.add(<ore:gemKimberlite>, <tfc:gem/diamond:2>, 8);

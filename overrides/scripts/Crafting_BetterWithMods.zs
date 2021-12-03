@@ -161,7 +161,7 @@
 	mods.betterwithmods.Mill.addRecipe([<ore:charcoal>], [<tfc:powder/charcoal> * 4]);
 	mods.betterwithmods.Mill.addRecipe([<ore:rockRocksalt>], [<tfc:powder/salt> * 4]);
     mods.betterwithmods.Mill.addRecipe([<minecraft:blaze_rod>], [<minecraft:blaze_powder> * 2]);
-	mods.betterwithmods.Mill.addRecipe([<ore:gemLapis>], [<tfc:powder/graphite> * 4]);
+	mods.betterwithmods.Mill.addRecipe([<ore:gemLapis>], [<tfc:powder/lapis_lazuli> * 4]);
 	mods.betterwithmods.Mill.addRecipe([<ore:gemGraphite>], [<tfc:powder/graphite> * 4]);
 	mods.betterwithmods.Mill.addRecipe([<ore:gemKaolinite>], [<tfc:powder/kaolinite> * 4]);
 	mods.betterwithmods.Mill.addRecipe([<ore:gemKimberlite>], [<tfc:gem/diamond:2>]);
