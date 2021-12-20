@@ -332,7 +332,13 @@ var foodApple = <ore:foodApple>;
 
 var foodCheese = <ore:foodCheese>;
     foodCheese.addItems([
-	<tfc:food/cheese>
+	<tfc:food/cheese>,
+	<firmalife:cheddar>,
+	<firmalife:chevre>,
+	<firmalife:rajya_metok>,
+	<firmalife:gouda>,
+	<firmalife:feta>,
+	<firmalife:shosha>
 	]);
 
 var foodFriedegg = <ore:foodFriedegg>;

@@ -1,25 +1,23 @@
- 
- 
 //=======================================================================================================================================================================
 //TerraFirmaCraft Recipes:
 
 	//Grindstone Recipes
 
 		//Grain
-		mods.horsepower.Grindstone.add(<ore:cropBarley>, <tfc:food/barley_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:cropOat>, <tfc:food/oat_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:cropRice>, <tfc:food/rice_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:cropRye>, <tfc:food/rye_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:cropWheat>, <tfc:food/wheat_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:cropMaize>, <tfc:food/maize_grain>, 8, false, <tfc:straw>, 50);
+		mods.horsepower.Grindstone.add(<tfc:food/barley>, <tfc:food/barley_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/oat>, <tfc:food/oat_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/rice>, <tfc:food/rice_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/rye>, <tfc:food/rye_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/wheat>, <tfc:food/wheat_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/maize>, <tfc:food/maize_grain>, 8);
 
 		//Flour
-		mods.horsepower.Grindstone.add(<ore:grainBarley>, <tfc:food/barley_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainMaize>, <tfc:food/cornmeal_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainOat>, <tfc:food/oat_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainRice>, <tfc:food/rice_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainRye>, <tfc:food/rye_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainWheat>, <tfc:food/wheat_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/barley_grain>, <tfc:food/barley_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/maize_grain>, <tfc:food/cornmeal_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/oat_grain>, <tfc:food/oat_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/rice_grain>, <tfc:food/rice_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/rye_grain>, <tfc:food/rye_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfc:food/wheat_grain>, <tfc:food/wheat_flour>, 8);
 
 		//Miscellaneous Products
 		mods.horsepower.Grindstone.add(<ore:cropOlive>, <tfc:food/olive_paste>, 8);
@@ -166,20 +164,20 @@
 	//Grindstone Recipes
 
 		//Grain
-		mods.horsepower.Grindstone.add(<ore:amaranth>, <tfcflorae:food/amaranth_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:buckwheat>, <tfcflorae:food/buckwheat_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:fonio>, <tfcflorae:food/fonio_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:millet>, <tfcflorae:food/millet_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:quinoa>, <tfcflorae:food/quinoa_grain>, 8, false, <tfc:straw>, 50);
-		mods.horsepower.Grindstone.add(<ore:spelt>, <tfcflorae:food/spelt_grain>, 8, false, <tfc:straw>, 50);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/amaranth>, <tfcflorae:food/amaranth_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/buckwheat>, <tfcflorae:food/buckwheat_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/fonio>, <tfcflorae:food/fonio_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/millet>, <tfcflorae:food/millet_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/quinoa>, <tfcflorae:food/quinoa_grain>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/spelt>, <tfcflorae:food/spelt_grain>, 8);
 		
 		//Flour
-		mods.horsepower.Grindstone.add(<ore:grainAmaranth>, <tfcflorae:food/amaranth_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainBuckwheat>, <tfcflorae:food/buckwheat_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainFonio>, <tfcflorae:food/fonio_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainMillet>, <tfcflorae:food/millet_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainQuinoa>, <tfcflorae:food/quinoa_flour>, 8);
-		mods.horsepower.Grindstone.add(<ore:grainSpelt>, <tfcflorae:food/spelt_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/amaranth_grain>, <tfcflorae:food/amaranth_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/buckwheat_grain>, <tfcflorae:food/buckwheat_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/fonio_grain>, <tfcflorae:food/fonio_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/millet_grain>, <tfcflorae:food/millet_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/quinoa_grain>, <tfcflorae:food/quinoa_flour>, 8);
+		mods.horsepower.Grindstone.add(<tfcflorae:food/spelt_grain>, <tfcflorae:food/spelt_flour>, 8);
 
 		//Miscellanous Products
 		mods.horsepower.Grindstone.add(<ore:groundSoybeans>, <tfcflorae:food/soybean_paste>, 8);
@@ -190,6 +188,7 @@
 		mods.horsepower.Grindstone.add(<ore:rapeSeed>, <tfcflorae:food/rape_seed_paste>, 8);
 		mods.horsepower.Grindstone.add(<ore:sunflowerSeed>, <tfcflorae:food/sunflower_seed_paste>, 8);
 		mods.horsepower.Grindstone.add(<ore:opiumPoppySeed>, <tfcflorae:food/opium_poppy_seed_paste>, 8);
+		mods.horsepower.Grindstone.add(<ore:categoryFruit>, <tfcflorae:pomace>, 8);
 		//mods.horsepower.Grindstone.add(<ore:cassiaCinnamonBark>, <tfcflorae:food/ground_cassia_cinnamon> * 2, 8);
 		//mods.horsepower.Grindstone.add(<ore:ceylonCinnamonBark>, <tfcflorae:food/ground_ceylon_cinnamon> * 2, 8);
 		mods.horsepower.Grindstone.add(<ore:roastedCoffeeBeans>, <tfcflorae:food/coffee_powder> * 2, 8);
@@ -202,7 +201,7 @@
 		mods.horsepower.Grindstone.add(<ore:cropIndigo>, <tfc:dye/blue> * 2, 8);
 		mods.horsepower.Grindstone.add(<ore:cropWeld>, <minecraft:dye:11> * 2, 8);
 		mods.horsepower.Grindstone.add(<ore:cropRape>, <minecraft:dye:11> * 2, 8);
-		mods.horsepower.Grindstone.add(<ore:cropAgave>, <minecraft:dye:2> * 2, 8);
+		mods.horsepower.Grindstone.add(<ore:cropAgave>, <tfcflorae:crop/product/sisal_fiber>, 8);
 		mods.horsepower.Grindstone.add(<ore:cropMadder>, <minecraft:dye:1> * 2, 8);
 
 		mods.horsepower.Grindstone.add(<ore:resin>, <minecraft:dye:11> * 2, 8);
@@ -481,14 +480,14 @@
         mods.horsepower.Press.add(<ore:blockCactus>, <liquid:juice_barrel_cactus> * 200);
         mods.horsepower.Press.add(<ore:blockcactus>, <liquid:juice_barrel_cactus> * 200);
         mods.horsepower.Press.add(<ore:barrelCactusFruit>, <liquid:juice_barrel_cactus> * 50);
-        //mods.horsepower.Press.add(<ore:sugarBeet>, <tfcflorae:food/mashed_sugar_beet>, <liquid:sugar_beet_water> * 50);
-        //mods.horsepower.Press.add(<ore:sugarcane>, <tfcflorae:food/mashed_sugar_cane>, <liquid:sugar_water> * 50);
-        //mods.horsepower.Press.add(<ore:linseed>, <tfcflorae:food/linseed_paste>, <liquid:linseed_water> * 50);
-        //mods.horsepower.Press.add(<ore:rapeSeed>, <tfcflorae:food/rape_seed_paste>, <liquid:rape_seed_water> * 50);
-        //mods.horsepower.Press.add(<ore:sunflowerSeed>, <tfcflorae:food/sunflower_seed_paste>, <liquid:sunflower_seed_water> * 50);
-        //mods.horsepower.Press.add(<ore:opiumPoppySeed>, <tfcflorae:food/opium_poppy_seed_paste>, <liquid:opium_poppy_seed_water> * 50);
-        //mods.horsepower.Press.add(<ore:cropSoybean>, <tfcflorae:food/soybean_paste>, <liquid:soybean_water> * 50);
-        //mods.horsepower.Press.add(<ore:cropOlive>, <tfc:food/olive_paste>, <liquid:olive_oil_water> * 50);
+        mods.horsepower.Press.add(<ore:sugarBeet>, <liquid:sugar_beet_water> * 50);
+        mods.horsepower.Press.add(<ore:sugarcane>, <liquid:sugar_water> * 50);
+        mods.horsepower.Press.add(<ore:linseed>, <liquid:linseed_water> * 50);
+        mods.horsepower.Press.add(<ore:rapeSeed>, <liquid:rape_seed_water> * 50);
+        mods.horsepower.Press.add(<ore:sunflowerSeed>, <liquid:sunflower_seed_water> * 50);
+        mods.horsepower.Press.add(<ore:opiumPoppySeed>, <liquid:opium_poppy_seed_water> * 50);
+        mods.horsepower.Press.add(<ore:cropSoybean>, <liquid:soybean_water> * 50);
+        mods.horsepower.Press.add(<ore:cropOlive>, <liquid:olive_oil_water> * 50);
 
         mods.horsepower.Press.add(<tfcflorae:food/mashed_sugar_beet>, <liquid:sugar_beet_water> * 200);
         mods.horsepower.Press.add(<tfcflorae:food/mashed_sugar_cane>, <liquid:sugar_water> * 200);
@@ -499,32 +498,32 @@
         mods.horsepower.Press.add(<tfcflorae:food/soybean_paste>, <liquid:soybean_water> * 200);
         mods.horsepower.Press.add(<tfc:food/olive_paste>, <liquid:olive_oil_water> * 200);
 
-        //mods.horsepower.Press.add(<ore:cropAgave>, <tfcflorae:crop/product/sisal_fiber>, <liquid:juice_agave> * 125);
-        //mods.horsepower.Press.add(<ore:cropGreenGrape>, <tfcflorae:pomace>, <liquid:juice_green_grape> * 125);
-        //mods.horsepower.Press.add(<ore:cropPurpleGrape>, <tfcflorae:pomace>, <liquid:juice_purple_grape> * 125);
-        //mods.horsepower.Press.add(<ore:juniper>, <tfcflorae:pomace>, <liquid:juice_juniper> * 125);
-        //mods.horsepower.Press.add(<tfc:food/banana>, <tfcflorae:pomace>, <liquid:juice_banana> * 125);
-        //mods.horsepower.Press.add(<tfc:food/cherry>, <tfcflorae:pomace>, <liquid:juice_cherry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/lemon>, <tfcflorae:pomace>, <liquid:juice_lemon> * 125);
-        //mods.horsepower.Press.add(<tfc:food/orange>, <tfcflorae:pomace>, <liquid:juice_orange> * 125);
-        //mods.horsepower.Press.add(<tfc:food/peach>, <tfcflorae:pomace>, <liquid:juice_peach> * 125);
-        //mods.horsepower.Press.add(<tfc:food/plum>, <tfcflorae:pomace>, <liquid:juice_plum> * 125);
-        //mods.horsepower.Press.add(<tfc:food/blackberry>, <tfcflorae:pomace>, <liquid:juice_blackberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/blueberry>, <tfcflorae:pomace>, <liquid:juice_blueberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/bunch_berry>, <tfcflorae:pomace>, <liquid:juice_bunch_berry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/cloud_berry>, <tfcflorae:pomace>, <liquid:juice_cloud_berry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/cranberry>, <tfcflorae:pomace>, <liquid:juice_cranberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/elderberry>, <tfcflorae:pomace>, <liquid:juice_elderberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/gooseberry>, <tfcflorae:pomace>, <liquid:juice_gooseberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/raspberry>, <tfcflorae:pomace>, <liquid:juice_raspberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/snow_berry>, <tfcflorae:pomace>, <liquid:juice_snow_berry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/strawberry>, <tfcflorae:pomace>, <liquid:juice_strawberry> * 125);
-        //mods.horsepower.Press.add(<tfc:food/wintergreen_berry>, <tfcflorae:pomace>, <liquid:juice_wintergreen_berry> * 125);
-        //mods.horsepower.Press.add(<ore:cropGrape>, <tfcflorae:pomace>, <liquid:grapejuice> * 125);
-        //mods.horsepower.Press.add(<ore:cropIronberry>, <tfcflorae:pomace>, <liquid:ironberryjuice> * 125);
-        //mods.horsepower.Press.add(<ore:cropOlive>, <tfcflorae:pomace>, <liquid:olive_oil> * 125);
-        //mods.horsepower.Press.add(<minecraft:apple>, <tfcflorae:pomace>, <liquid:applejuice> * 125);
-        //mods.horsepower.Press.add(<ore:foodApple>, <tfcflorae:pomace>, <liquid:applejuice> * 125);
+        mods.horsepower.Press.add(<ore:cropAgave>, <liquid:juice_agave> * 125);
+        mods.horsepower.Press.add(<ore:cropGreenGrape>, <liquid:juice_green_grape> * 125);
+        mods.horsepower.Press.add(<ore:cropPurpleGrape>, <liquid:juice_purple_grape> * 125);
+        mods.horsepower.Press.add(<ore:juniper>, <liquid:juice_juniper> * 125);
+        mods.horsepower.Press.add(<tfc:food/banana>, <liquid:juice_banana> * 125);
+        mods.horsepower.Press.add(<tfc:food/cherry>, <liquid:juice_cherry> * 125);
+        mods.horsepower.Press.add(<tfc:food/lemon>, <liquid:juice_lemon> * 125);
+        mods.horsepower.Press.add(<tfc:food/orange>, <liquid:juice_orange> * 125);
+        mods.horsepower.Press.add(<tfc:food/peach>, <liquid:juice_peach> * 125);
+        mods.horsepower.Press.add(<tfc:food/plum>, <liquid:juice_plum> * 125);
+        mods.horsepower.Press.add(<tfc:food/blackberry>, <liquid:juice_blackberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/blueberry>, <liquid:juice_blueberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/bunch_berry>, <liquid:juice_bunch_berry> * 125);
+        mods.horsepower.Press.add(<tfc:food/cloud_berry>, <liquid:juice_cloud_berry> * 125);
+        mods.horsepower.Press.add(<tfc:food/cranberry>, <liquid:juice_cranberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/elderberry>, <liquid:juice_elderberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/gooseberry>, <liquid:juice_gooseberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/raspberry>, <liquid:juice_raspberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/snow_berry>, <liquid:juice_snow_berry> * 125);
+        mods.horsepower.Press.add(<tfc:food/strawberry>, <liquid:juice_strawberry> * 125);
+        mods.horsepower.Press.add(<tfc:food/wintergreen_berry>, <liquid:juice_wintergreen_berry> * 125);
+        mods.horsepower.Press.add(<ore:cropGrape>, <liquid:grapejuice> * 125);
+        mods.horsepower.Press.add(<ore:cropIronberry>, <liquid:ironberryjuice> * 125);
+        mods.horsepower.Press.add(<ore:cropOlive>, <liquid:olive_oil> * 125);
+        mods.horsepower.Press.add(<minecraft:apple>, <liquid:applejuice> * 125);
+        mods.horsepower.Press.add(<ore:foodApple>, <liquid:applejuice> * 125);
 
         mods.horsepower.Press.add(<ore:pulpPapyrus> * 3, <tfcflorae:crop/product/papyrus_fiber>);
         mods.horsepower.Press.add(<ore:fiberPapyrus> * 3, <tfcflorae:crop/product/papyrus_paper>);
@@ -652,6 +651,10 @@
 		mods.horsepower.Grindstone.add(<ore:oreZirconiumPoor>, <tfcelementia:powder/zircon> * 3, 8);
 		mods.horsepower.Grindstone.add(<ore:oreZirconiumNormal>, <tfcelementia:powder/zircon> * 5, 8);
 		mods.horsepower.Grindstone.add(<ore:oreZirconiumRich>, <tfcelementia:powder/zircon> * 7, 8);
+		mods.horsepower.Grindstone.add(<tfc:ore/small/pyrite>, <tfc:powder/sulfur> * 2, 8);
+		mods.horsepower.Grindstone.add(<tfc:ore/pyrite:1>, <tfc:powder/sulfur> * 3, 8);
+		mods.horsepower.Grindstone.add(<tfc:ore/pyrite:0>, <tfc:powder/sulfur> * 5, 8);
+		mods.horsepower.Grindstone.add(<tfc:ore/pyrite:2>, <tfc:powder/sulfur> * 7, 8);
 
 		//Gems
 		mods.horsepower.Grindstone.add(<tfcelementia:gem/apatite:0>, <tfcelementia:powder/gems/apatite> * 1, 8);

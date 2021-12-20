@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["PR Luminance 1.11.2.zip","PRJE Atmosphere 1.12.zip","TFC Classic Music Pack.zip","Vintage Story OST Music Pack.zip","TFC Florae Lite.zip"]
+resourcePacks:["PR Luminance 1.11.2.zip","PRJE Atmosphere 1.12.zip","TFC Classic Music Pack.zip","Vintage Story OST Music Pack.zip","TFC Florae Lite.zip","Minecraft Music Pack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
