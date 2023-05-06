@@ -62,4 +62,7 @@
 	#Value to change the storm spawn frequency of during December.
 	#Range: 0.001 ~ 10000.0
 	valueDecember = 0.1
+	#The rate at which barrels will fill up during rain events. Higher value --> slower updates.
+	#Range: > 0
+	barrelFillRate = 10
 

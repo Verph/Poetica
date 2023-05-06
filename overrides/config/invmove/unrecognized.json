@@ -73,7 +73,20 @@
     "com.daderpduck.hallucinocraft.client.screen.AlembicScreen": true,
     "tfcflorae.client.screen.TFCFBarrelScreen": true,
     "tfcflorae.client.screen.TFCFAnvilScreen": true,
-    "tfcflorae.client.screen.ceramics.LargeVesselScreen": true
+    "tfcflorae.client.screen.ceramics.LargeVesselScreen": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true,
+    "mcp.mobius.waila.gui.HomeConfigScreen": true,
+    "mcp.mobius.waila.gui.PluginsConfigScreen": true,
+    "de.maxhenkel.voicechat.gui.VoiceChatScreen": true,
+    "xaero.pac.client.gui.MainMenu": true,
+    "xaero.pac.client.gui.ConfigMenu": true,
+    "xaero.pac.client.gui.PlayerConfigScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
+    "fuzs.configmenusforge.client.gui.screens.SelectConfigScreen": true,
+    "fuzs.configmenusforge.client.gui.screens.ConfigScreen$Main": true,
+    "fuzs.configmenusforge.client.gui.screens.ConfigScreen$Sub": true,
+    "observable.client.ProfileScreen": true,
+    "observable.client.ResultsScreen": true
   },
   "hideBackground": {
     "net.dries007.tfc.client.screen.KnappingScreen": true,
@@ -129,6 +142,7 @@
     "com.daderpduck.hallucinocraft.client.screen.AlembicScreen": true,
     "tfcflorae.client.screen.TFCFBarrelScreen": true,
     "tfcflorae.client.screen.TFCFAnvilScreen": true,
-    "tfcflorae.client.screen.ceramics.LargeVesselScreen": true
+    "tfcflorae.client.screen.ceramics.LargeVesselScreen": true,
+    "dev.ftb.mods.ftblibrary.ui.ScreenWrapper": true
   }
 }

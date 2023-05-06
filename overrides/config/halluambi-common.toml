@@ -1,0 +1,37 @@
+#Cotton material change modifier.
+#Range: -100.0 ~ 100.0
+cottonChangeVal = -1.0
+#Cotton material potency modifier.
+#Range: -100.0 ~ 100.0
+cottonPotencyVal = -0.1
+#Hemp material change modifier.
+#Range: -100.0 ~ 100.0
+hempChangeVal = -0.5
+#Hemp material potency modifier.
+#Range: -100.0 ~ 100.0
+hempPotencyVal = -0.25
+#Linen material change modifier.
+#Range: -100.0 ~ 100.0
+linenChangeVal = 0.0
+#Linen material potency modifier.
+#Range: -100.0 ~ 100.0
+linenPotencyVal = -0.1
+#Sisal material change modifier.
+#Range: -100.0 ~ 100.0
+sisalChangeVal = -0.5
+#Sisal material potency modifier.
+#Range: -100.0 ~ 100.0
+sisalPotencyVal = -0.25
+#Cotton material durability.
+#Range: > 1
+cottonDurability = 3000
+#Hemp material durability.
+#Range: > 1
+hempDurability = 3000
+#Linen material durability.
+#Range: > 1
+linenDurability = 3000
+#Sisal material durability.
+#Range: > 1
+sisalDurability = 3000
+

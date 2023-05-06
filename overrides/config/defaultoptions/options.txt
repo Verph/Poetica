@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:["vanilla","mod_resources","file/Create Style Modded Compats v16.zip","file/BlazeMapAlternative","Supplementaries Generated Pack","builtin/firmalife_data","quark:emote_resources","file/Vexxed_Vanilla_TFCTNG_v1.0.3.zip","file/Rainy Day (1_18_1).zip","file/Create Camera.zip","file/EclecticTrove-noconfig-1.18-1.2.0.zip"]
+resourcePacks:["vanilla","mod_resources","file/Create Style Modded Compats v16.zip","file/BlazeMapAlternative","Supplementaries Generated Pack","builtin/firmalife_data","quark:emote_resources","file/Vexxed_Vanilla_TFCTNG_v1.0.3.zip","file/Rainy Day (1_18_1).zip","file/Create Camera.zip","file/EclecticTrove-noconfig-1.18-1.2.0.zip","builtin/tfcflorae_data"]
 incompatibleResourcePacks:["quark:emote_resources","file/Create Camera.zip"]
 lastServer:mc.poetica.tk
 lang:en_us

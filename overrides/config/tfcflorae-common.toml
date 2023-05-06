@@ -9,6 +9,9 @@
 	#Range: -256 ~ 512
 	minFortressHeight = -220
 	#How often minerals can generate near hot springs and lava.
-	#Range: 0 ~ 1000000
+	#Range: > 0
 	mineralGenFrequency = 5
+	#How often seasonal/fruiting leaves should check for updates. Higher values --> slower updates.
+	#Range: > 0
+	fruitingLeavesUpdateChance = 500
 

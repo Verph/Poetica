@@ -276,7 +276,7 @@ customization {
   orientation = mid-centered
   splash_color = #ffff00
   hidden = false
-  x = 176
+  x = 146
   width = 60
   splash_rotation = -20
   action = deep_customization_element:title_screen_splash
@@ -288,12 +288,12 @@ customization {
 customization {
   path = config/fancymenu/poetica.png
   orientation = mid-centered
-  x = -190
-  width = 380
+  x = -142
+  width = 285
   action = addtexture
   actionid = 31a8b45f-bfe6-4f76-b284-dcb095072b431653911087477
-  y = -110
-  height = 120
+  y = -80
+  height = 90
 }
 
 customization {
@@ -310,9 +310,9 @@ customization {
   width = 211
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = f529e87d-de22-4e0d-bad7-546939d3db4a1680722835360
-  y = -31
+  y = -33
   alignment = right
   base_color = 49B1F2
-  height = 19
+  height = 22
 }
 

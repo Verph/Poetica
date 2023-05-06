@@ -1,0 +1,9 @@
+#Enable/disable typing §in text fields
+Enabled = true
+#Enable/disable using extended syntax, such as §[blue][u]hello
+"Enable extended syntax" = true
+#Enable/disable using hex codes. If disabled, all custom hex codes will be hidden and ignored.
+"Enable hex codes" = true
+#Enable/disable markdown formatting, such as *italic* or **bold**.
+"Enable markdown" = true
+

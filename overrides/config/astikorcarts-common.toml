@@ -7,11 +7,7 @@
 #    "minecraft:mule",
 #    "minecraft:skeleton_horse",
 #    "minecraft:zombie_horse",
-#    "minecraft:player",
-#    "naturalist:zebra",
-#    "tfc:donkey",
-#    "tfc:mule",
-#    "tfc:horse"
+#    "minecraft:player"
 #  ]
 [carts]
 	#Max animal size that the animal cart can carry.

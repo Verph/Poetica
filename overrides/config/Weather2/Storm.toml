@@ -97,7 +97,7 @@
 	Player_Storm_Deadly_OddsTo1 = 30
 	# 
 	#Range: > -2147483648
-	Player_Storm_Deadly_TimeBetweenInTicks = 72000
+	Player_Storm_Deadly_TimeBetweenInTicks = 720000
 	# 
 	Server_Storm_Deadly_UseGlobalRate = false
 	#Used if Server_Storm_Deadly_UseGlobalRate is on, replaces use of Player_Storm_Deadly_OddsTo1
@@ -105,7 +105,7 @@
 	Server_Storm_Deadly_OddsTo1 = 30
 	#Used if Server_Storm_Deadly_UseGlobalRate is on, replaces use of Player_Storm_Deadly_TimeBetweenInTicks
 	#Range: > -2147483648
-	Server_Storm_Deadly_TimeBetweenInTicks = 72000
+	Server_Storm_Deadly_TimeBetweenInTicks = 720000
 	# 
 	preventServerThunderstorms = true
 	# 
@@ -146,11 +146,11 @@
 	Player_Storm_Deadly_OddsTo1_Land_Based = 300
 	#For areas without the right mix of hot and cold biomes
 	#Range: > -2147483648
-	Player_Storm_Deadly_TimeBetweenInTicks_Land_Based = 240000
+	Player_Storm_Deadly_TimeBetweenInTicks_Land_Based = 2400000
 	#For areas without the right mix of hot and cold biomes
 	#Range: > -2147483648
 	Server_Storm_Deadly_OddsTo1_Land_Based = 300
 	#For areas without the right mix of hot and cold biomes
 	#Range: > -2147483648
-	Server_Storm_Deadly_TimeBetweenInTicks_Land_Based = 240000
+	Server_Storm_Deadly_TimeBetweenInTicks_Land_Based = 2400000
 

@@ -1,6 +1,6 @@
 {
   "bootstrapThreads": 1,
-  "mainThreads": 8,
+  "mainThreads": 16,
   "gamePriority": 5,
   "integratedServerPriority": 5,
   "bootstrapPriority": 1,
