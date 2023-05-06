@@ -1,0 +1,16 @@
+
+#General mod settings
+[general]
+	useGroundDodge = false
+	useLedgeClimb = true
+	useCrawlAnywhere = true
+	#Range: > 0
+	doubleTapDodgeMaxTimeInMilliseconds = 300
+	#Range: 0.0 ~ 1.0
+	knockbackResistAmount = 0.0
+	dontGroundDodgeIfSneaking = true
+	#Range: 0.0 ~ 1.0
+	groundDodgeForceHorizontal = 1.0
+	#Range: 0.0 ~ 0.5
+	groundDodgeForceVertical = 0.4
+

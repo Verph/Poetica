@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "101",
+    " 1 "
+  ],
+  "key": {
+    "0": {
+      "item": "create:item_vault"
+    },
+    "1": {
+      "item": "tfc:metal/ingot/steel"
+    }
+  },
+  "result": {
+    "item": "supplementaries:safe"
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "safe"
+    }
+  ]
+}

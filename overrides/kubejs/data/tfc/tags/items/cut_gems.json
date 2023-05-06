@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:gem/amethyst",
+    "tfc:gem/diamond",
+    "tfc:gem/emerald",
+    "tfc:gem/opal",
+    "tfc:gem/pyrite",
+    "tfc:gem/ruby",
+    "tfc:gem/sapphire",
+    "tfc:gem/topaz"
+  ]
+}

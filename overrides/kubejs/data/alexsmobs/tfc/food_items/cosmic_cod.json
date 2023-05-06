@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "alexsmobs:cosmic_cod"
+  },
+  "hunger": 0.5,
+  "saturation": 5,
+  "water": 5,
+  "decay_modifier": 8,
+  "protein": 5
+}

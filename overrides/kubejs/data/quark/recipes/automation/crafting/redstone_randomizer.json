@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XBX",
+    "III"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "tag": "forge:smooth_stone"
+    },
+    "B": {
+      "item": "tfc:brass_mechanisms"
+    }
+  },
+  "result": {
+    "item": "quark:redstone_randomizer"
+  },
+  "conditions": [
+    {
+      "type": "quark:flag",
+      "flag": "redstone_randomizer"
+    }
+  ]
+}

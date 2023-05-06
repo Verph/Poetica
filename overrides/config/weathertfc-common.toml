@@ -1,0 +1,65 @@
+
+[general]
+	#Minimum limit rainfall value for sandstorms to spawn.
+	#Range: 0.0 ~ 500.0
+	sandstormMinRainfall = 0.0
+	#Maximum limit rainfall value for sandstorms to spawn.
+	#Range: 0.0 ~ 500.0
+	sandstormMaxRainfall = 100.0
+	#Minimum required temperature in celsius for snowstorms to spawn.
+	#Range: -20.0 ~ 30.0
+	snowstormMaxTemp = -2.0
+	#Should entities freeze during snowstorms?
+	snowstormFreezing = true
+	#Minimum required temperature in celsius for heatwaves to trigger.
+	#Range: -20.0 ~ 30.0
+	heatwaveTemp = 15.0
+	#Minimum temperature for a storm to increase in strength.
+	#Range: -20.0 ~ 30.0
+	minCurrentTempBuildup = 5.0
+	#Maximum temperature for a storm to increase in strength.
+	#Range: -20.0 ~ 30.0
+	maxCurrentTempBuildup = 30.0
+	#Minimum rainfall for a storm to increase in strength.
+	#Range: 0.0 ~ 500.0
+	minRainfallBuildup = 175.0
+	#Maximum rainfall for a storm to increase in strength.
+	#Range: 0.0 ~ 500.0
+	maxRainfallBuildup = 500.0
+	#Value to change the storm spawn frequency of during January.
+	#Range: 0.001 ~ 10000.0
+	valueJanuary = 0.02
+	#Value to change the storm spawn frequency of during February.
+	#Range: 0.001 ~ 10000.0
+	valueFebruary = 0.01
+	#Value to change the storm spawn frequency of during March.
+	#Range: 0.001 ~ 10000.0
+	valueMarch = 0.05
+	#Value to change the storm spawn frequency of during April.
+	#Range: 0.001 ~ 10000.0
+	valueApril = 0.09
+	#Value to change the storm spawn frequency of during May.
+	#Range: 0.001 ~ 10000.0
+	valueMay = 0.3
+	#Value to change the storm spawn frequency of during June.
+	#Range: 0.001 ~ 10000.0
+	valueJune = 0.9
+	#Value to change the storm spawn frequency of during July.
+	#Range: 0.001 ~ 10000.0
+	valueJuly = 1.7
+	#Value to change the storm spawn frequency of during August.
+	#Range: 0.001 ~ 10000.0
+	valueAugust = 2.3
+	#Value to change the storm spawn frequency of during September.
+	#Range: 0.001 ~ 10000.0
+	valueSeptember = 3.5
+	#Value to change the storm spawn frequency of during October.
+	#Range: 0.001 ~ 10000.0
+	valueOctober = 2.0
+	#Value to change the storm spawn frequency of during November.
+	#Range: 0.001 ~ 10000.0
+	valueNovember = 0.5
+	#Value to change the storm spawn frequency of during December.
+	#Range: 0.001 ~ 10000.0
+	valueDecember = 0.1
+

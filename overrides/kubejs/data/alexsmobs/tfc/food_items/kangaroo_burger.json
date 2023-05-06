@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "alexsmobs:kangaroo_burger"
+  },
+  "hunger": 8,
+  "saturation": 3,
+  "decay_modifier": 2,
+  "protein": 2.2,
+  "grain": 3.3
+}

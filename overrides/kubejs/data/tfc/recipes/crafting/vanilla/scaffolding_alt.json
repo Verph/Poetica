@@ -1,0 +1,21 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:bamboo"
+    },
+    "Y": {
+      "item": "tfc:jute_fiber"
+    }
+  },
+  "result": {
+    "item": "minecraft:scaffolding",
+    "count": 4
+  }
+}

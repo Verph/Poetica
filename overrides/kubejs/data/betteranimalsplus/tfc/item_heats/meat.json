@@ -1,0 +1,27 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "betteranimalsplus:venisonraw"
+    },
+    {
+      "item": "betteranimalsplus:pheasantraw"
+    },
+    {
+      "item": "betteranimalsplus:crab_meat_raw"
+    },
+    {
+      "item": "betteranimalsplus:turkey_leg_raw"
+    },
+    {
+      "item": "betteranimalsplus:eel_meat_raw"
+    },
+    {
+      "item": "betteranimalsplus:turkey_raw"
+    },
+    {
+      "item": "betteranimalsplus:calamari_raw"
+    }
+  ],
+  "heat_capacity": 1.0
+}

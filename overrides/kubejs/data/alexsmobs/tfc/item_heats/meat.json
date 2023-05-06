@@ -1,0 +1,33 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "alexsmobs:blobfish"
+    },
+    {
+      "item": "alexsmobs:emu_egg"
+    },
+    {
+      "item": "alexsmobs:cosmic_cod"
+    },
+    {
+      "item": "alexsmobs:flying_fish"
+    },
+    {
+      "item": "alexsmobs:kangaroo_meat"
+    },
+    {
+      "item": "alexsmobs:lobster_tail"
+    },
+    {
+      "item": "alexsmobs:maggot"
+    },
+    {
+      "item": "alexsmobs:moose_ribs"
+    },
+    {
+      "item": "alexsmobs:raw_catfish"
+    }
+  ],
+  "heat_capacity": 1.0
+}

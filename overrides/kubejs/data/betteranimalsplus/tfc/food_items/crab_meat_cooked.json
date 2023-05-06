@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "betteranimalsplus:crab_meat_cooked"
+  },
+  "hunger": 2,
+  "saturation": 2,
+  "decay_modifier": 2.25,
+  "protein": 1.5
+}

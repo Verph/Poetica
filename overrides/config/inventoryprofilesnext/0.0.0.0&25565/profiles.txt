@@ -1,0 +1,44 @@
+
+
+
+
+profile Saved activate HOT9
+	HOT1
+		"xercamusic:drum_kit"
+	HOT2
+		"xercamusic:music_box"
+	HOT3
+		"xercamusic:saxophone"
+	HOT4
+		"xercamusic:redstone_guitar"
+	HOT5
+		"xercamusic:god"
+	HOT6
+		"xercamusic:metronome"
+	HOT7
+		"tfcflorae:pebble_compact_dirt/sandy_loam/jaspillite"
+	HOT8
+		"minecraft:lever"
+	HOT9
+		"xercamusic:cymbal"
+
+profile Saved activate HOT9
+	HOT1
+		"xercamusic:drum_kit"
+	HOT2
+		"xercamusic:music_box"
+	HOT3
+		"xercamusic:saxophone"
+	HOT4
+		"xercamusic:redstone_guitar"
+	HOT5
+		"xercamusic:god"
+	HOT6
+		"xercamusic:metronome"
+	HOT7
+		"tfcflorae:pebble_compact_dirt/sandy_loam/jaspillite"
+	HOT8
+		"minecraft:lever"
+	HOT9
+		"xercamusic:cymbal"
+

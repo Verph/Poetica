@@ -1,0 +1,291 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:ocean"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:ocean_reef"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:deep_ocean"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:deep_ocean_trench"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:plains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:hills"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:lowlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:low_canyons"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:grasslands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:wetlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:marshes"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:swamps"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:mangroves"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:puy_mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:bryce_canyons"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:mesa_hills"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:badlands_plateau"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:canyon_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:alpine_mountain_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:alpine_mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:alpine_highlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:rolling_highlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:calderas"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:gravel_shore"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:thermal_canyons"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:mesa_plateau"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:peat_bog"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:riverbank"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:river_edge"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:chasms"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:steppes"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:shrublands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:moorlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:rolling_hills"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:badlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:inverted_badlands"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:plateau"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:canyons"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:old_mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:oceanic_mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:volcanic_mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:volcanic_oceanic_mountains"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:shore"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:lake"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:mountain_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:old_mountain_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:oceanic_mountain_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:volcanic_mountain_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:volcanic_oceanic_mountain_river"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:mountain_lake"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:old_mountain_lake"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:oceanic_mountain_lake"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:volcanic_mountain_lake"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:volcanic_oceanic_mountain_lake"
+      },
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "tfc:plateau_lake"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#",
+        "/",
+        "&"
+    ],
+    "key": {
+        "#": {
+            "item": "tfc:metal/ingot/wrought_iron"
+        },
+        "/": {
+            "item": "minecraft:string"
+        },
+        "&": {
+            "item": "tfc:gem/amethyst"
+        }
+    },
+    "result": {
+		"item": "chimes:amethyst_chimes"
+	}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "sewingkit:leather_sheet"
+      },
+      "count": 1
+    }
+  ],
+  "tool": {
+    "tag": "forge:shears"
+  },
+  "result": {
+    "item": "waterflasks:leather_side"
+  }
+}

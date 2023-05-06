@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:loot_table",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/acacia"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/ash"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/aspen"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/birch"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/blackwood"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/chestnut"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/douglas_fir"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/hickory"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/kapok"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/maple"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/oak"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/palm"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/pine"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/rosewood"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/sequoia"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/spruce"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/sycamore"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/white_cedar"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "tfc:wood/log/willow"
+        }
+      ]
+    }
+  ]
+}

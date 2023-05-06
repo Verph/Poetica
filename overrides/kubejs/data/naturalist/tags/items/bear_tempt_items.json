@@ -1,0 +1,17 @@
+{
+  "values": [
+    "firmalife:raw_honey",
+    "firmalife:honey_jar",
+    "tfc:food/bluegill",
+    "tfc:food/shellfish",
+    "tfc:food/cod",
+    "tfc:food/salmon",
+    "tfc:food/tropical_fish",
+    "tfc:food/cooked_shellfish",
+    "tfc:food/cooked_cod",
+    "tfc:food/cooked_tropical_fish",
+    "tfc:food/cooked_salmon",
+    "tfc:food/cooked_bluegill",
+    "#tfc:foods/fruits"
+  ]
+}

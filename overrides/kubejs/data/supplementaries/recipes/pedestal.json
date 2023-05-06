@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "111",
+    " 2 ",
+    "111"
+  ],
+  "key": {
+    "1": {
+      "tag": "forge:smooth_stone_slab"
+    },
+    "2": 
+      {
+        "tag": "forge:stone_bricks"
+      }
+  },
+  "result": {
+    "item": "supplementaries:pedestal",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "pedestal"
+    }
+  ]
+}

@@ -1,0 +1,1763 @@
+
+[entities]
+
+	[entities.lammergeier]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.lammergeier.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:savanna_plateau", "minecraft:windswept_forest", "minecraft:grove", "minecraft:snowy_slopes", "minecraft:windswept_savanna", "minecraft:meadow", "minecraft:stony_peaks", "minecraft:windswept_hills", "minecraft:wooded_badlands", "minecraft:jagged_peaks", "minecraft:frozen_peaks", "minecraft:windswept_gravelly_hills",
+			  "tfc:plains",
+			  "tfc:hills",
+			  "tfc:lowlands",
+			  "tfc:low_canyons",
+			  "tfc:grasslands",
+			  "tfc:wetlands",
+			  "tfc:marshes",
+			  "tfc:swamps",
+			  "tfc:puy_mountains",
+			  "tfc:bryce_canyons",
+			  "tfc:mesa_hills",
+			  "tfc:badlands_plateau",
+			  "tfc:alpine_highlands",
+			  "tfc:rolling_highlands",
+			  "tfc:calderas",
+			  "tfc:thermal_canyons",
+			  "tfc:mesa_plateau",
+			  "tfc:peat_bog",
+			  "tfc:riverbank",
+			  "tfc:river_edge",
+			  "tfc:chasms",
+			  "tfc:steppes",
+			  "tfc:shrublands",
+			  "tfc:moorlands",
+			  "tfc:rolling_hills",
+			  "tfc:badlands",
+			  "tfc:inverted_badlands",
+			  "tfc:plateau",
+			  "tfc:canyons",
+			  "tfc:mountains",
+			  "tfc:old_mountains",
+			  "tfc:oceanic_mountains",
+			  "tfc:volcanic_mountains",
+			  "tfc:volcanic_oceanic_mountains",
+			  "tfc:misty_peaks"]
+
+			[entities.lammergeier.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.tarantula]
+
+		[entities.tarantula.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 40
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:desert", "minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:wooded_badlands", "minecraft:sparse_jungle", "minecraft:badlands",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_mountains",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:shore",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake",
+		  "tfc:misty_peaks"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.tarantula.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.pheasant]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.pheasant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 12
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:old_growth_pine_taiga", "minecraft:savanna", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:snowy_taiga", "minecraft:plains", "minecraft:old_growth_spruce_taiga", "minecraft:savanna_plateau", "minecraft:windswept_forest", "minecraft:grove", "minecraft:taiga", "minecraft:windswept_savanna", "minecraft:meadow", "minecraft:birch_forest", "minecraft:flower_forest",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_mountains",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake",
+		  "tfc:misty_peaks"]
+			[entities.pheasant.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squirrel]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.squirrel.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:grove", "minecraft:dark_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest", "minecraft:snowy_taiga",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:misty_peaks"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.squirrel.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.songbird]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.songbird.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 11
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:old_growth_pine_taiga", "minecraft:savanna", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:snowy_taiga", "minecraft:plains", "minecraft:old_growth_spruce_taiga", "minecraft:savanna_plateau", "minecraft:windswept_forest", "minecraft:grove", "minecraft:taiga", "minecraft:meadow", "minecraft:birch_forest", "minecraft:flower_forest",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_mountains",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake",
+		  "tfc:misty_peaks"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.songbird.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.badger]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.badger.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:old_growth_pine_taiga", "minecraft:savanna", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:snowy_taiga", "minecraft:plains", "minecraft:old_growth_spruce_taiga", "minecraft:savanna_plateau", "minecraft:windswept_forest", "minecraft:grove", "minecraft:taiga", "minecraft:windswept_savanna", "minecraft:meadow", "minecraft:birch_forest", "minecraft:flower_forest",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:misty_peaks"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.badger.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.crab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.crab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:snowy_beach", "minecraft:beach", "minecraft:stony_shore", "minecraft:swamp",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:shore",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+			[entities.crab.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.horseshoecrab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.horseshoecrab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:snowy_beach", "minecraft:beach", "minecraft:stony_shore",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:shore",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+
+			[entities.horseshoecrab.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.shark]
+
+		[entities.shark.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.shark.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.turkey]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.turkey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 11
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:dark_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:misty_peaks"]
+
+			[entities.turkey.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.bobbit_worm]
+
+		[entities.bobbit_worm.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+
+			[entities.bobbit_worm.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.goose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of blacklisted item IDs that cannot be picked up. Accepts tags by prefixing them with '#'.
+		pickup_blacklist = ["betteranimalsplus:goose_egg", "betteranimalsplus:golden_goose_egg"]
+
+		[entities.goose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 15
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 2
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:river", "minecraft:birch_forest", "minecraft:frozen_river", "minecraft:forest", "minecraft:flower_forest",
+		  "tfc:rolling_hills",
+		  "tfc:plains",
+		  "tfc:steppes",
+		  "tfc:grasslands",
+		  "tfc:shrublands",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:canyon_river",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake"]
+
+			[entities.goose.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.whale]
+
+		[entities.whale.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_lukewarm_ocean",
+			"tfc:ocean",
+			"tfc:ocean_reef",
+			"tfc:deep_ocean",
+			"tfc:deep_ocean_trench"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.whale.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.walrus]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.walrus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:snowy_beach", "minecraft:stony_shore", "minecraft:frozen_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:shore",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+
+			[entities.walrus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squid_colossal]
+
+		[entities.squid_colossal.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:ocean_reef",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench"]
+
+			[entities.squid_colossal.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squid_giant]
+
+		[entities.squid_giant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_frozen_ocean", "minecraft:deep_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:ocean_reef",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench"]
+
+			[entities.squid_giant.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.octopus]
+
+		[entities.octopus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:lukewarm_ocean", "minecraft:warm_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:shore",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+
+			[entities.octopus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.brownbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.brownbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = false
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:grove", "minecraft:dark_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest", "minecraft:snowy_taiga"]
+
+			[entities.brownbear.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.blackbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.blackbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = false
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:grove", "minecraft:dark_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest", "minecraft:snowy_taiga"]
+
+			[entities.blackbear.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.deer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.deer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 16
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:grove", "minecraft:dark_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest", "minecraft:snowy_taiga",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:misty_peaks"]
+
+			[entities.deer.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.feralwolf]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.feralwolf.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = false
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 6
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:grove", "minecraft:dark_forest", "minecraft:taiga", "minecraft:old_growth_pine_taiga", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest", "minecraft:snowy_taiga"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.feralwolf.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.coyote]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#Makes coyote always hostile (removes ability to tame!)
+		hostile_during_daytime = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:rabbit", "minecraft:chicken", "betteranimalsplus:pheasantraw", "minecraft:cooked_rabbit", "minecraft:cooked_chicken", "betteranimalsplus:pheasantcooked"]
+
+		[entities.coyote.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = false
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 6
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:plains", "minecraft:savanna_plateau", "minecraft:desert", "minecraft:sunflower_plains", "minecraft:meadow", "minecraft:savanna", "minecraft:wooded_badlands", "minecraft:badlands"]
+
+			[entities.coyote.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.jellyfish]
+
+		[entities.jellyfish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef"]
+
+			[entities.jellyfish.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.reindeer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.reindeer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:snowy_beach", "minecraft:grove", "minecraft:snowy_slopes", "minecraft:frozen_river", "minecraft:snowy_plains", "minecraft:jagged_peaks", "minecraft:ice_spikes", "minecraft:frozen_peaks", "minecraft:snowy_taiga",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:misty_peaks"]
+
+			[entities.reindeer.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.boar]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.boar.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 9
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:sunflower_plains", "minecraft:dark_forest", "minecraft:jungle", "minecraft:old_growth_pine_taiga", "minecraft:bamboo_jungle", "minecraft:savanna", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:snowy_taiga", "minecraft:plains", "minecraft:old_growth_spruce_taiga", "minecraft:savanna_plateau", "minecraft:windswept_forest", "minecraft:grove", "minecraft:taiga", "minecraft:windswept_savanna", "minecraft:meadow", "minecraft:birch_forest", "minecraft:flower_forest",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:misty_peaks"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.boar.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+		[entities.boar.nerf_options]
+			#Sets boars in breeding mode if they kill something
+			breed_from_kill = false
+			#Sets boars in breeding mode if they eat crops or berries
+			breed_from_crops = false
+			#Makes boars eat crops
+			eat_crops = false
+			#Chance out of 100 the boar will execute targeting AI: lower number = less common attacks
+			#Range: 0 ~ 100
+			target_chance = 0
+
+	[entities.lamprey]
+
+		[entities.lamprey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:river", "minecraft:frozen_river", "minecraft:swamp",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:canyon_river",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake"]
+
+			[entities.lamprey.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.nautilus]
+
+		[entities.nautilus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:warm_ocean", "minecraft:deep_cold_ocean", "minecraft:frozen_ocean", "minecraft:deep_frozen_ocean", "minecraft:cold_ocean", "minecraft:deep_lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef"]
+
+			[entities.nautilus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.moose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.moose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:old_growth_pine_taiga", "minecraft:swamp",
+		  "tfc:plains",
+		  "tfc:hills",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:grasslands",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:puy_mountains",
+		  "tfc:bryce_canyons",
+		  "tfc:mesa_hills",
+		  "tfc:badlands_plateau",
+		  "tfc:alpine_highlands",
+		  "tfc:rolling_highlands",
+		  "tfc:calderas",
+		  "tfc:thermal_canyons",
+		  "tfc:mesa_plateau",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:chasms",
+		  "tfc:steppes",
+		  "tfc:shrublands",
+		  "tfc:moorlands",
+		  "tfc:rolling_hills",
+		  "tfc:badlands",
+		  "tfc:inverted_badlands",
+		  "tfc:plateau",
+		  "tfc:canyons",
+		  "tfc:mountains",
+		  "tfc:old_mountains",
+		  "tfc:oceanic_mountains",
+		  "tfc:volcanic_mountains",
+		  "tfc:volcanic_oceanic_mountains",
+		  "tfc:misty_peaks"]
+
+			[entities.moose.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.eel_freshwater]
+
+		[entities.eel_freshwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:river", "minecraft:frozen_river", "minecraft:swamp",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:canyon_river",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake"]
+
+			[entities.eel_freshwater.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.eel_saltwater]
+
+		[entities.eel_saltwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "minecraft:warm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+
+			[entities.eel_saltwater.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.butterfly]
+
+		[entities.butterfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:old_growth_spruce_taiga", "minecraft:windswept_forest", "minecraft:dark_forest", "minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:birch_forest", "minecraft:sparse_jungle", "minecraft:forest", "minecraft:old_growth_birch_forest", "minecraft:flower_forest",
+		  "tfc:plains",
+		  "tfc:steppes",
+		  "tfc:grasslands",
+		  "tfc:shrublands",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:canyon_river",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake"]
+
+			[entities.butterfly.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.dragonfly]
+
+		[entities.dragonfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:river", "minecraft:frozen_river", "minecraft:swamp",
+		  "tfc:plains",
+		  "tfc:steppes",
+		  "tfc:grasslands",
+		  "tfc:shrublands",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:canyon_river",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake"]
+
+			[entities.dragonfly.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.barracuda]
+
+		[entities.barracuda.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 3
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:warm_ocean", "minecraft:lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef"]
+
+			[entities.barracuda.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.flying_fish]
+
+		[entities.flying_fish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:warm_ocean", "minecraft:lukewarm_ocean",
+		  "tfc:deep_ocean",
+		  "tfc:deep_ocean_trench",
+		  "tfc:ocean",
+		  "tfc:ocean_reef",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:gravel_shore",
+		  "tfc:mangroves"]
+
+			[entities.flying_fish.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.piranha]
+
+		[entities.piranha.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:jungle", "minecraft:bamboo_jungle", "minecraft:sparse_jungle",
+		  "tfc:lowlands",
+		  "tfc:low_canyons",
+		  "tfc:wetlands",
+		  "tfc:marshes",
+		  "tfc:swamps",
+		  "tfc:canyon_river",
+		  "tfc:peat_bog",
+		  "tfc:riverbank",
+		  "tfc:river_edge",
+		  "tfc:mangroves",
+		  "tfc:lake",
+		  "tfc:river",
+		  "tfc:mountain_river",
+		  "tfc:old_mountain_river",
+		  "tfc:oceanic_mountain_river",
+		  "tfc:volcanic_mountain_river",
+		  "tfc:volcanic_oceanic_mountain_river",
+		  "tfc:mountain_lake",
+		  "tfc:old_mountain_lake",
+		  "tfc:oceanic_mountain_lake",
+		  "tfc:volcanic_mountain_lake",
+		  "tfc:volcanic_oceanic_mountain_lake",
+		  "tfc:plateau_lake"]
+
+			[entities.piranha.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+

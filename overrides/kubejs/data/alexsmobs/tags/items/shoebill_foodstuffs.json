@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/bluegill",
+    "tfc:food/shellfish",
+    "tfc:food/cod",
+    "tfc:food/salmon",
+    "tfc:food/tropical_fish",
+    "tfc:food/calamari",
+    "tfc:food/turtle",
+    "tfc:food/cooked_shellfish",
+    "tfc:food/cooked_cod",
+    "tfc:food/cooked_tropical_fish",
+    "tfc:food/cooked_salmon",
+    "tfc:food/cooked_bluegill",
+    "tfc:food/cooked_calamari",
+    "tfc:food/cooked_horse_meat",
+    "tfc:food/cooked_turtle"
+  ]
+}

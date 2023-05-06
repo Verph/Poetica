@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_bars"
+    }
+  },
+  "result": {
+    "item": "supplementaries:iron_gate",
+    "count": 4
+  },
+  "conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "iron_gate"
+    }
+  ]
+}

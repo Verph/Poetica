@@ -1,0 +1,19 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:heating",
+  "ingredient": {
+    "type": "tfc:not_rotten",
+    "ingredient": {
+      "item": "betteranimalsplus:eel_meat_raw"
+    }
+  },
+  "result_item": {
+    "stack": {
+      "item": "betteranimalsplus:eel_meat_cooked"
+    },
+    "modifiers": [
+      "tfc:copy_food"
+    ]
+  },
+  "temperature": 200
+}

@@ -1,0 +1,31 @@
+
+[general]
+	#When enabled, prints debug values to console
+	enableDebug = false
+	#When enabled, all entities create paths (performance intensive)
+	allEntities = false
+	#When enabled, vegetation like tall grass or loose rocks gets destroyed
+	destroyVegetation = true
+	#When enabled, jumping on dirt will convert it into mud when it's raining
+	enableMud = true
+	#When toggled, paths will be created as the final stage after compact soil instead of rocky soils
+	togglePaths = false
+	#Chance per mille for grass to turn into dirt, set to 0.0 to disable (Players)
+	#Range: 0.0 ~ 1000.0
+	grassToDirtPlayer = 30.0
+	#Chance per mille for dirt to turn into a compact dirt, set to 0.0 to disable (Players)
+	#Range: 0.0 ~ 1000.0
+	dirtToCompactDirtPlayer = 10.0
+	#Chance per mille for compact dirt to turn into gravel, set to 0.0 to disable (Players)
+	#Range: 0.0 ~ 1000.0
+	compactDirtToGravelPlayer = 2.0
+	#Chance per mille for grass to turn into dirt, set to 0.0 to disable (Mobs)
+	#Range: 0.0 ~ 1000.0
+	grassToDirtMob = 15.0
+	#Chance per mille for dirt to turn into a compact dirt, set to 0.0 to disable (Mobs)
+	#Range: 0.0 ~ 1000.0
+	dirtToCompactDirtMob = 5.0
+	#Chance per mille for compact dirt to turn into gravel, set to 0.0 to disable (Mobs)
+	#Range: 0.0 ~ 1000.0
+	compactDirtToGravelMob = 1.0
+

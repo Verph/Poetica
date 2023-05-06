@@ -1,0 +1,13 @@
+
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern": [
+        "www",
+        "wew",
+        "wrw"
+    ],
+    "key": {"e": {"item": "tfc:metal/ingot/gold"}, "r": {"item": "minecraft:redstone"}, "w": {"tag": "minecraft:planks"}},
+    "result": {"item": "xercamusic:music_box"}
+}
+        

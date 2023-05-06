@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "custom:ruins_1",
+    "size": 7
+  },
+  "biomes": [
+    "tfc:plains",
+    "tfc:hills",
+    "tfc:plateau",
+    "tfc:rolling_hills",
+    "tfc:low_canyons",
+    "tfc:lowlands"
+  ],
+  "terrain_adaptation": "beard_thin",
+  "adapt_noise": true,
+  "spawn_overrides": {},
+  "start_height": 1,
+  "project_start_to_heightmap": "WORLD_SURFACE_WG"
+}

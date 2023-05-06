@@ -1,0 +1,37 @@
+{
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": -1
+            }
+        }
+    },
+    "dev.itsmeow.snailmail.client.screen.SnailBoxScreen": {
+        "buttonHints": {
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 87
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 86
+            }
+        }
+    },
+    "net.dries007.tfc.common.container.BarrelContainer": {
+        "ignore": true
+    },
+    "net.dries007.tfc.common.container.FirepitContainer": {
+        "ignore": true
+    },
+    "net.dries007.tfc.common.container.AnvilContainer": {
+        "ignore": true
+    },
+    "net.dries007.tfc.common.container.CharcoalForgeContainer": {
+        "ignore": true
+    },
+    "net.dries007.tfc.common.container.BlastFurnaceContainer": {
+        "ignore": true
+    },
+    "net.dries007.tfc.common.container.CrucibleContainer": {
+        "ignore": true
+    }
+}

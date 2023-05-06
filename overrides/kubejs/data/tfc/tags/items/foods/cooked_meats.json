@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "alexsmobs:cooked_catfish",
+    "alexsmobs:cooked_kangaroo_meat",
+    "alexsmobs:cooked_lobster_tail",
+    "alexsmobs:cooked_moose_ribs",
+    "betteranimalsplus:venisoncooked",
+    "betteranimalsplus:pheasantcooked",
+    "betteranimalsplus:crab_meat_cooked",
+    "betteranimalsplus:turkey_leg_cooked",
+    "betteranimalsplus:eel_meat_cooked",
+    "betteranimalsplus:calamari_cooked",
+    "betteranimalsplus:turkey_cooked",
+    "naturalist:cooked_venison"
+  ]
+}

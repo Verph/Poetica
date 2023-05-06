@@ -1,0 +1,5 @@
+
+["Debug config"]
+	#if you want to make transforms to de gun parts or hands active this
+	"do debug stuff" = false
+

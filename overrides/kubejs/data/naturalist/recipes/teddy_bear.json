@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "FWF",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "tag": "naturalist:bear_fur"
+    },
+    "W": {
+      "item": "hallucinocraft:cotton"
+    }
+  },
+  "result": {
+    "item": "naturalist:teddy_bear"
+  }
+}

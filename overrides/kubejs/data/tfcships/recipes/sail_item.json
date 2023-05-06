@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xIx",
+    "sIs"
+  ],
+  "key": {
+    "x": {
+      "tag": "tfc:high_quality_cloth"
+    },
+    "s": {
+      "item": "minecraft:lead"
+    },
+    "I": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "smallships:sail_item"
+  }
+}

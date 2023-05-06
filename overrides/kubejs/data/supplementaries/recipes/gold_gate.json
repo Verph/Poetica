@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "flag": "iron_gate",
+      "type": "supplementaries:flag"
+    },
+    {
+      "modid": "quark",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "000",
+    "000"
+  ],
+  "key": {
+    "0": {
+      "item": "quark:gold_bars"
+    }
+  },
+  "result": {
+    "item": "supplementaries:gold_gate",
+    "count": 4
+  }
+}

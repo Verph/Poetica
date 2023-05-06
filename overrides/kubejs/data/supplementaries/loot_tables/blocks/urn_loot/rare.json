@@ -1,0 +1,158 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3.0,
+                "max": 8.0
+              },
+              "add": false
+            }
+          ],
+          "name": "tfc:ore/small_malachite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:zombie_head"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "tfc:ore/kaolinite"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2.0,
+                "max": 5.0
+              },
+              "add": false
+            }
+          ],
+          "name": "tfc:ore/graphite"
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:guitar"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:lyre"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:banjo"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:drum"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:cymbal"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:drum_kit"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:xylophone"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:tubular_bell"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:sansula"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:violin"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:cello"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:flute"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:saxophone"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:piano"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:oboe"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:redstone_guitar"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:french_horn"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "xercamusic:bass_guitar"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

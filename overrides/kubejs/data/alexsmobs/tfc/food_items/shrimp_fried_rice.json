@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "alexsmobs:shrimp_fried_rice"
+  },
+  "hunger": 6,
+  "saturation": 5,
+  "decay_modifier": 2.25,
+  "protein": 2.5,
+  "vegetables": 3
+}

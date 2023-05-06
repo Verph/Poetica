@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {"id":"tfc:penguin","required":false},
+    {"id":"tfc:fox","required":false},
+    {"id":"tfc:rabbit","required":false},
+    {"id":"tfc:chicken","required":false},
+    {"id":"tfc:duck","required":false},
+    {"id":"tfc:quail","required":false}
+  ]
+}
+

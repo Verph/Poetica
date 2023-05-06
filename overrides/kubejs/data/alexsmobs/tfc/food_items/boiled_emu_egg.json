@@ -1,0 +1,11 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": {
+    "item": "alexsmobs:boiled_emu_egg"
+  },
+  "hunger": 4,
+  "saturation": 2,
+  "water": 10,
+  "decay_modifier": 4,
+  "protein": 1.75
+}

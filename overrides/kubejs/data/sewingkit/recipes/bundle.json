@@ -1,0 +1,24 @@
+{
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "ingredient": {
+        "item": "tfc:jute_fiber"
+      },
+      "count": 2
+    },
+    {
+      "ingredient": {
+        "tag": "forge:tfc_cloth"
+      },
+      "count": 4
+    }
+  ],
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  },
+  "result": {
+    "item": "minecraft:bundle"
+  }
+}

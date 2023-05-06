@@ -1,0 +1,4 @@
+#The average distance between graveyard positions where players respawn. Effectively, its the maximum distance to the death point that the player can respawn in.
+#Range: > 1
+graveyardDistance = 300
+

@@ -1,0 +1,18 @@
+
+#Settings for shaders
+[shader]
+	#Enables use of shaders
+	use_shaders = true
+	#Enables use of level shaders (affects block vertices)
+	use_level_shaders = true
+	#Enables use of post shaders
+	use_post_shaders = true
+
+#Settings for sound processor
+[sound]
+	#Enables use of sound processing (restart required)
+	use_sound_processor = true
+	#Configures number of max auxiliary send channels (lower values may result in performance boost but limits number of effects) (set to -1 for default value) (restart required)
+	#Range: -1 ~ 4
+	max_aux_sends = 4
+

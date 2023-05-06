@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:food/rice",
+    "tfc:food/cooked_rice"
+  ]
+}
